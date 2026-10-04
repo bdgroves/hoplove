@@ -1,5 +1,13 @@
 source: Untappd, via https://brooksgroves.com/beers.json (tools/ingest/untappd.py) -- do not edit by hand
 checkins:
+  - id: 1606126876
+    date: '2026-10-04'
+    beer: Fresh Hop Fiend Italian Pils – Strata (2026 – Coleman Agriculture)
+    brewery: Stoup Brewing
+    venue: Western State Hospital
+    comment: This one ok, a bit rubbery tasting, and not as fresh hop vibe as I was thinking. 🔥🍺🤙
+    photo: https://images.untp.beer/crop?width=200&height=200&stripmeta=true&url=https://untappd.s3.amazonaws.com/photos/2026_10_04/cbb51ecc62ca79b2a9da625f6f88aecd_c_1606126876_raw.jpg
+    link: https://untappd.com/user/bdgroves/checkin/1606126876
   - id: 1605678487
     date: '2026-10-03'
     beer: Fresh Hop Centennial IPA 2026
