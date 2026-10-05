@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://singlehillbrewing.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-01'
+retrieved: '2026-10-05'
 beers:
   - slug: dankmaster-flash
     name: Dankmaster Flash
@@ -16,6 +16,16 @@ beers:
       - { hop: mosaic, name: Mosaic, as_written: Mosaic }
       - { hop: columbus, name: Columbus, as_written: Columbus }
       - { hop: riwaka, name: Riwaka, as_written: Riwaka }
+  - slug: e-t-cone-home
+    name: E.T. Cone Home
+    url: https://singlehillbrewing.com/menu/
+    abv: 6.8
+    hops_as_written: Shrine built upon the Round 3 base of fresh, wet Tributary Farms Mosaic and Segal Ranches Tangier with a tessellation of Black Star Simcoe, Roy Farms Chinook, Perrault Farms Krush, and even more Segal Tangier.
+    hops:
+      - { hop: mosaic, name: Mosaic, fresh: true, farm: Tributary Farms, as_written: Mosaic }
+      - { hop: simcoe, name: Simcoe, farm: Black Star Ranch, as_written: Simcoe }
+      - { hop: chinook, name: Chinook, farm: Roy Farms, as_written: Chinook }
+      - { hop: krush, name: Krush, farm: Perrault Farms, as_written: Krush }
   - slug: energy-cone
     name: Energy Cone
     url: https://singlehillbrewing.com/menu/
@@ -48,6 +58,15 @@ beers:
       - { hop: krush, name: Krush, as_written: Krush }
       - { hop: mosaic, name: Mosaic, as_written: Mosaic }
       - { hop: dolcita, name: Dolcita, as_written: Dolcita }
+  - slug: gigundo
+    name: Gigundo
+    url: https://singlehillbrewing.com/menu/
+    abv: 6.8
+    hops_as_written: Jake & Friends took the Round 3 base of fresh, wet Tributary Farms Mosaic and Segal Ranches Tangier and added a Gigundo dry hop of YCH Simcoe Cryo Fresh, Indie Farms Chinook, and even more Tributary Mosaic and Segal Tangier.
+    hops:
+      - { hop: mosaic, name: Mosaic, fresh: true, farm: Tributary Farms, as_written: Mosaic }
+      - { hop: simcoe, name: Simcoe, form: Cryo, fresh: true, as_written: Simcoe }
+      - { hop: chinook, name: Chinook, fresh: true, farm: Indie Farms, as_written: Chinook }
   - slug: last-light
     name: Last Light
     url: https://singlehillbrewing.com/menu/
@@ -91,6 +110,16 @@ beers:
       - { hop: citra, name: Citra, fresh: true, farm: Van Horn Farms, as_written: Citra }
       - { hop: krush, name: Krush, as_written: Krush }
       - { hop: talus, name: Talus, farm: Carpenter Ranches, as_written: Talus }
+  - slug: pulling-levers
+    name: Pulling Levers
+    url: https://singlehillbrewing.com/menu/
+    abv: 6.8
+    hops_as_written: Everywhere put everything, all at once, in the Round 3 base of fresh, wet Tributary Farms Mosaic and Segal Ranches Tangier - punching it up with Roy Chinook, Black Star Mosaic & Simcoe, and even more Tributary Mosaic.
+    hops:
+      - { hop: mosaic, name: Mosaic, fresh: true, farm: Tributary Farms, as_written: Mosaic }
+      - { hop: chinook, name: Chinook, farm: Roy Farms, as_written: Chinook }
+      - { hop: mosaic, name: Mosaic, farm: Black Star Ranch, as_written: Mosaic }
+      - { hop: simcoe, name: Simcoe, as_written: Simcoe }
   - slug: sightglass
     name: Sightglass
     url: https://singlehillbrewing.com/menu/

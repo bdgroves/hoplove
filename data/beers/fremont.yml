@@ -5,8 +5,15 @@ brewery:
   state: WA
   url: https://www.fremontbrewing.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-01'
+retrieved: '2026-10-05'
 beers:
+  - slug: cowiche-canyon
+    name: Cowiche Canyon
+    url: https://www.fremontbrewing.com/
+    hops_as_written: Fresh organic Simcoe, Citra
+    hops:
+      - { hop: null, name: organic Simcoe, fresh: true, as_written: Fresh organic Simcoe }
+      - { hop: citra, name: Citra, as_written: Citra }
   - slug: field-to-ferment
     name: Field to Ferment
     url: https://www.fremontbrewing.com/

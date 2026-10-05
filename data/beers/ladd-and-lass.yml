@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://www.laddandlassbrewing.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-01'
+retrieved: '2026-10-05'
 beers:
   - slug: ish-fresh-hop-el-dorado-hazy-ipa
     name: (ish) Fresh Hop El Dorado Hazy IPA
@@ -122,6 +122,14 @@ beers:
       - { hop: mosaic, name: Mosaic, as_written: Mosaic }
       - { hop: chinook, name: Chinook, as_written: Chinook }
       - { hop: citra, name: Citra, form: Cryo, as_written: Cryo Citra }
+  - slug: trampled-by-koalas
+    name: Trampled by Koalas
+    url: https://www.laddandlassbrewing.com/
+    abv: 5.1
+    hops_as_written: Nelson Sauvin, Citra
+    hops:
+      - { hop: nelson-sauvin, name: Nelson Sauvin, as_written: Nelson Sauvin }
+      - { hop: citra, name: Citra, as_written: Citra }
   - slug: your-shout-bruv
     name: Your Shout, Bruv
     url: https://www.laddandlassbrewing.com/

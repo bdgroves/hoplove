@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://cloudburstbrew.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-01'
+retrieved: '2026-10-05'
 beers:
   - slug: the-white-lotus-theme-song
     name: (The White Lotus Theme Song)
@@ -483,6 +483,13 @@ beers:
     hops:
       - { hop: strata, name: Strata, as_written: Strata }
       - { hop: mosaic, name: Mosaic, as_written: Mosaic }
+  - slug: citra-slicker-ipa
+    name: Citra Slicker IPA
+    url: https://www.cloudburstbrew.com/beer/citra-slicker-ipa/
+    abv: 6.2
+    hops_as_written: ' Citra Slicker IPA Wet Hop IPA | 6.2% ABV | 58 IBU '
+    hops:
+      - { hop: citra, name: Citra, as_written: Citra }
   - slug: classic-mistake-for-the-young-player
     name: Classic Mistake For The Young Player
     url: https://www.cloudburstbrew.com/beer/classic-mistake-for-the-young-player/

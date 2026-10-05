@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://reubensbrews.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-01'
+retrieved: '2026-10-05'
 beers:
   - slug: 2-x-2-x
     name: 2 x 2 x 2
@@ -1312,6 +1312,16 @@ beers:
     hops:
       - { hop: loral, name: Loral, as_written: Loral }
       - { hop: citra, name: Citra, as_written: Citra® }
+  - slug: loud-neighbours-ipa
+    name: Loud Neighbours IPA
+    url: https://www.reubensbrews.com/beer/loud-neighbours-ipa/
+    abv: 8.5
+    hops_as_written: Mosaic, Simcoe, Citra, Krush
+    hops:
+      - { hop: mosaic, name: Mosaic, as_written: Mosaic }
+      - { hop: simcoe, name: Simcoe, as_written: Simcoe }
+      - { hop: citra, name: Citra, as_written: Citra }
+      - { hop: krush, name: Krush, as_written: Krush }
   - slug: lucky-fish
     name: Lucky Fish
     url: https://www.reubensbrews.com/beer/lucky-fish/

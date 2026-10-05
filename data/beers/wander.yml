@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://wanderbrewing.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-01'
+retrieved: '2026-10-05'
 beers:
   - slug: aussie-steve-pale-lager
     name: Aussie Steve Pale Lager
@@ -14,6 +14,14 @@ beers:
     hops_as_written: ' A pale lager with Australian Galaxy hops that’s extra pale and extra crispy.'
     hops:
       - { hop: galaxy, name: Galaxy, as_written: Galaxy }
+  - slug: fresh-cassette-citra-hazy-fresh-hop-ipa
+    name: Fresh Cassette Citra Hazy Fresh Hop IPA
+    url: https://wanderbrewing.com/
+    abv: 6.0
+    hops_as_written: Fresh Cassette Citra Hazy Fresh Hop IPA Cornerstone Ranches, Toppenish, WA 2020 Yakima Fresh Hop Festival – IPA, 1st Place 2019 Yakima Fresh Hop Festival – Best in Show 6. 0% ABV // 35 IBU // 4 SRM This is the year’s most sought-after mixtape with 300 pounds of freshly picked Citra wet hops from Cornerstone Ranches popping off dense layers of candied tangerine, sweet grapefruit, and straight Ta...
+    hops:
+      - { hop: citra, name: Citra, fresh: true, as_written: Citra }
+      - { hop: most, name: Most, as_written: most }
   - slug: fresh-press-west-coast-fresh-hop-ipa
     name: Fresh Press West Coast Fresh Hop IPA
     url: https://wanderbrewing.com/
