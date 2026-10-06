@@ -30,6 +30,7 @@ export const siteHeader = (base) => `<div class="topline"></div>
     <a href="${SITE}/" class="site-name">Brooks Groves</a>
     <nav class="sitebar-nav" aria-label="brooksgroves.com">
       <a href="${base}">HopLove</a>
+      <a href="${SITE}/blog/hoplove-post.html">The story</a>
       <a href="${SITE}/#work">Projects</a>
       <a href="${SITE}/">Home</a>
       <button id="theme-toggle" class="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#9681;</button>
