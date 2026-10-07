@@ -1,4 +1,4 @@
-import { hopAcreageBlock } from './acreage.js';
+import { hopAcreageBlock, STATES } from './acreage.js';
 import { FONTS, THEME_INIT, THEME_TOGGLE, SITE_FOOTER, siteHeader } from './chrome.js';
 import { hopBeersBlock, bitterWord } from './beers.js';
 
@@ -388,13 +388,68 @@ ${footer(base, meta)}`;
     return meta.names[slug] ? `<a href="${base}hops/${slug}/">${name}</a>` : name;
   }
 
+  const snippet = hopSnippet(hop, taxonomy, country);
   return shell({
-    title: `${hop.name} hop — brewing values, oils and substitutes | HopLove`,
+    title: snippet.title,
     active: 'hops',
-    description: hop.aroma?.summary?.slice(0, 180) ?? `${hop.name}: a ${hop.purpose} hop from ${country}.`,
+    description: snippet.description,
     body,
     base,
   });
+}
+
+/** The title and description Google shows for a hop page.
+ *
+ *  Search Console (Oct 2026) showed what people type to find these pages:
+ *  "where are citra hops grown", "nelson sauvin hops origin", "nelson hops
+ *  taste", "... substitute". So the title promises origin, flavor and
+ *  substitutes, and the description answers those from the record itself:
+ *  where it's grown (USDA acreage when we have it), what it smells like, the
+ *  alpha range, and how many beers here use it. Built from whole phrases and
+ *  trimmed by dropping phrases, never mid-word, to stay inside ~160 chars. */
+export function hopSnippet(hop, taxonomy, country) {
+  const MAX = 160;
+  const title = `${hop.name} hops: origin, flavor and substitutes | HopLove`;
+
+  const list = (xs) => (xs.length < 3 ? xs.join(' and ') : `${xs.slice(0, -1).join(', ')} and ${xs[xs.length - 1]}`);
+
+  // Where it grows: the US states with real acreage in the latest year,
+  // biggest first; otherwise just the country of origin.
+  const THE = new Set(['United States', 'United Kingdom', 'Czech Republic', 'Netherlands']);
+  let where = `from ${THE.has(country) ? 'the ' : ''}${country}`;
+  const ac = hop.acreage;
+  if (ac?.acres && ac.latest) {
+    const states = STATES.map((st) => ({ label: st.label, n: ac.acres[st.key]?.[ac.latest] }))
+      .filter((x) => typeof x.n === 'number' && x.n > 0)
+      .sort((x, y) => y.n - x.n)
+      .map((x) => x.label);
+    if (states.length) where = hop.country === 'US' ? `grown in ${list(states)}` : `${where}, also grown in ${list(states)}`;
+  }
+  const purpose = { aroma: 'aroma hop', bittering: 'bittering hop', dual: 'dual-purpose hop' }[hop.purpose] ?? 'hop';
+  const head = `${hop.name} is ${/^[aeiou]/i.test(purpose) ? 'an' : 'a'} ${purpose} ${where}.`;
+
+  const tags = (hop.aroma?.tags ?? []).slice(0, 3).map((t) => (taxonomy.aromaTags[t]?.label ?? t).toLowerCase());
+  const smell = tags.length ? `Aroma: ${list(tags)}.` : '';
+
+  const a = hop.analytics?.alpha_acid;
+  const alpha = a?.low != null && a?.high != null
+    ? (a.low === a.high ? `${fmt(a.low)}% alpha.` : `${fmt(a.low)}–${fmt(a.high)}% alpha.`)
+    : '';
+
+  const n = (hop.beers ?? []).length;
+  const tails = [
+    n ? `Substitutes, oils and ${n.toLocaleString('en-US')} beer${n === 1 ? '' : 's'} that use it.` : 'Substitutes and oil breakdown.',
+    'Substitutes and oils.',
+  ];
+
+  // Most important first; drop from the end until it fits.
+  for (const tail of tails) {
+    const parts = [head, smell, alpha, tail].filter(Boolean);
+    while (parts.length > 1 && parts.join(' ').length > MAX) parts.splice(parts.length - 2, 1);
+    const text = parts.join(' ');
+    if (text.length <= MAX) return { title, description: text };
+  }
+  return { title, description: head.length <= MAX ? head : `${hop.name} hops: origin, flavor and substitutes.` };
 }
 
 function analyticsBlock(hop, sources) {
