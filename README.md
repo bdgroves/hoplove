@@ -1,5 +1,9 @@
 # HopLove 🍺❤️
 
+<p align="center">
+  <img src="assets/hoplove-banner.jpg" alt="HopLove: look at a can, know the hops" width="520"/>
+</p>
+
 **Look at a can. Know the hops.**
 
 ### → [brooksgroves.com/hoplove](https://brooksgroves.com/hoplove/)
