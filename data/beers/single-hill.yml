@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://singlehillbrewing.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-05'
+retrieved: '2026-10-08'
 beers:
   - slug: dankmaster-flash
     name: Dankmaster Flash
@@ -89,17 +89,6 @@ beers:
       - { hop: simcoe, name: Simcoe, farm: Black Star Ranch, as_written: Simcoe }
       - { hop: mosaic, name: Mosaic, farm: Perrault Farms, as_written: Mosaic }
       - { hop: citra, name: Citra, farm: Van Horn Farms, as_written: Citra }
-  - slug: no-palm-trees
-    name: No Palm Trees
-    url: https://singlehillbrewing.com/menu/
-    abv: 6.5
-    hops_as_written: Radiant illuminated the Round 2 base of fresh, wet Sauve & Son Mosaic and Van Horn Farms Citra with glowing rays of Black Star Ranch Simcoe, Van Horn Farms Citra, and Haas Krush.
-    hops:
-      - { hop: mosaic, name: Mosaic, fresh: true, farm: Sauve & Son Farm, as_written: Mosaic }
-      - { hop: citra, name: Citra, fresh: true, farm: Van Horn Farms, as_written: Citra }
-      - { hop: simcoe, name: Simcoe, farm: Black Star Ranch, as_written: Simcoe }
-      - { hop: citra, name: Citra, farm: Van Horn Farms, as_written: Citra }
-      - { hop: krush, name: Krush, as_written: Krush }
   - slug: no-simcoe
     name: No Simcoe
     url: https://singlehillbrewing.com/menu/
@@ -128,15 +117,4 @@ beers:
     hops:
       - { hop: citra, name: Citra, as_written: Citra }
       - { hop: strata, name: Strata, as_written: Strata }
-      - { hop: krush, name: Krush, as_written: Krush }
-  - slug: skyfinder
-    name: Skyfinder
-    url: https://singlehillbrewing.com/menu/
-    abv: 6.8
-    hops_as_written: A sky-high fresh hop adventure featuring fresh, wet Roy Farms Strata and Haas Krush, with freshly dried Roy Strata, Black Star Ranch Simcoe, & Haas Krush.
-    hops:
-      - { hop: strata, name: Strata, fresh: true, farm: Roy Farms, as_written: Strata }
-      - { hop: krush, name: Krush, fresh: true, as_written: Krush }
-      - { hop: strata, name: Strata, farm: Roy Farms, as_written: Strata }
-      - { hop: simcoe, name: Simcoe, farm: Black Star Ranch, as_written: Simcoe }
       - { hop: krush, name: Krush, as_written: Krush }

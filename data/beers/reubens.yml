@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://reubensbrews.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-05'
+retrieved: '2026-10-08'
 beers:
   - slug: 2-x-2-x
     name: 2 x 2 x 2
@@ -230,6 +230,13 @@ beers:
     hops_as_written: Hallertau, Magnum
     hops:
       - { hop: hallertau-mittelfrueh, name: Hallertau, as_written: Hallertau }
+      - { hop: magnum, name: Magnum, as_written: Magnum }
+  - slug: bbis-2026
+    name: Bbis 2026
+    url: https://www.reubensbrews.com/beer/bbis-2026/
+    abv: 14.0
+    hops_as_written: Magnum
+    hops:
       - { hop: magnum, name: Magnum, as_written: Magnum }
   - slug: bbis-amburana
     name: BBIS Amburana

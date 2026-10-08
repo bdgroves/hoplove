@@ -5,7 +5,7 @@ brewery:
   state: OR
   url: https://www.pfriembeer.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-05'
+retrieved: '2026-10-08'
 beers:
   - slug: 14th-anniversary-to-thee-lager
     name: 14th Anniversary To Thee Lager
@@ -1200,6 +1200,16 @@ beers:
     hops_as_written: Chinook
     hops:
       - { hop: chinook, name: Chinook, as_written: Chinook }
+  - slug: pfriem-fort-george-vacation-destination-west-coast-ipa
+    name: pFriem + Fort George Vacation Destination West Coast IPA
+    url: https://www.pfriembeer.com/beer/pfriem-fort-george-vacation-destination-west-coast-ipa/
+    abv: 7.0
+    hops_as_written: Eclipse, Krush, Citra Cryo, Simcoe
+    hops:
+      - { hop: eclipse, name: Eclipse, as_written: Eclipse }
+      - { hop: krush, name: Krush, as_written: Krush }
+      - { hop: citra, name: Citra, form: Cryo, as_written: Citra Cryo }
+      - { hop: simcoe, name: Simcoe, as_written: Simcoe }
   - slug: pfriem-georgetown-the-tao-of-josh-west-coast-ipa
     name: pFriem + Georgetown The Tao of Josh West Coast IPA
     url: https://www.pfriembeer.com/beer/pfriem-georgetown-the-tao-of-josh-west-coast-ipa/

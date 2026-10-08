@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://cloudburstbrew.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-05'
+retrieved: '2026-10-08'
 beers:
   - slug: the-white-lotus-theme-song
     name: (The White Lotus Theme Song)
@@ -731,6 +731,13 @@ beers:
     hops:
       - { hop: el-dorado, name: El Dorado, as_written: El Dorado }
       - { hop: amarillo, name: Amarillo, as_written: Amarillo }
+  - slug: ego-death-at-a-yakima-party
+    name: Ego Death at a Yakima Party
+    url: https://www.cloudburstbrew.com/beer/ego-death-at-a-yakima-party/
+    abv: 6.6
+    hops_as_written: ' Ego Death at a Yakima Party Wet Hop IPA | 6.6% ABV | 50 IBU Citra is biggest star, at this late night karaoke bar No use brewing for the moon No use chasing other hops ~~~ Can only go up from here Can only go wet from here Can only go fresh from here Can only go wet, Can only go fresh ~~~ Got too big on the brewday Too many cones jammed everywhere Your mouth will fill with intensity Harvest tr...'
+    hops:
+      - { hop: citra, name: Citra, as_written: Citra }
   - slug: elder-hearted
     name: Elder Hearted
     url: https://www.cloudburstbrew.com/beer/elder-hearted/
@@ -1127,6 +1134,13 @@ beers:
     hops:
       - { hop: cascade, name: Cascade, fresh: true, as_written: Cascade }
       - { hop: simcoe, name: Simcoe, as_written: Simcoe }
+  - slug: greening-out
+    name: Greening Out
+    url: https://www.cloudburstbrew.com/beer/greening-out/
+    abv: 6.2
+    hops_as_written: ' Greening Out DDH West Coast Wet Hop IPA | 6.2% ABV | 60 IBU This was our second to last wet hop brew of the season, and it’s been a blur of greens. The stoke only builds, each turn getting more sticky with excitement, and anticipation, as we shepherd in these wet babies through nearly 4 weeks of production. The Citra from Loftus was throwing fresh squeezed tangerine juice, so we doubled down o...'
+    hops:
+      - { hop: citra, name: Citra, as_written: Citra }
   - slug: happy-little-clouds
     name: Happy Little Clouds
     url: https://www.cloudburstbrew.com/beer/happy-little-clouds/

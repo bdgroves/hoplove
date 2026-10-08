@@ -5,7 +5,7 @@ brewery:
   state: OR
   url: https://breakside.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-05'
+retrieved: '2026-10-08'
 beers:
   - slug: distantfriends
     name: '#Distantfriends'
@@ -494,6 +494,13 @@ beers:
       - { hop: mosaic, name: MOSAIC, as_written: MOSAIC }
       - { hop: citra, name: CITRA, as_written: CITRA }
       - { hop: simcoe, name: SIMCOE, as_written: SIMCOE }
+  - slug: spooky-time
+    name: Spooky Time
+    url: https://breakside.com/our/beer/spooky-time/
+    abv: 4.5
+    hops_as_written: Cascade
+    hops:
+      - { hop: cascade, name: Cascade, as_written: Cascade }
   - slug: stars-on-ice
     name: Stars on Ice!
     url: https://breakside.com/our/beer/stars-on-ice/
