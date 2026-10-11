@@ -1,5 +1,13 @@
 source: Untappd, via https://brooksgroves.com/beers.json (tools/ingest/untappd.py) -- do not edit by hand
 checkins:
+  - id: 1607739913
+    date: '2026-10-11'
+    beer: Thrashin’ Caddy
+    brewery: Vancouver Island Brewing
+    venue: Best Western Plus Revelstoke
+    comment: Oh it’s different lots of orange and pine needles going on here! 🔥🍺🤙
+    photo: https://images.untp.beer/crop?width=200&height=200&stripmeta=true&url=https://untappd.s3.amazonaws.com/photos/2026_10_11/9e183cc4c9474a920876acba34c20397_c_1607739913_raw.jpg
+    link: https://untappd.com/user/bdgroves/checkin/1607739913
   - id: 1606126876
     date: '2026-10-04'
     beer: Fresh Hop Fiend Italian Pils – Strata (2026 – Coleman Agriculture)
