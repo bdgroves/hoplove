@@ -1,5 +1,12 @@
 source: Untappd, via https://brooksgroves.com/beers.json (tools/ingest/untappd.py) -- do not edit by hand
 checkins:
+  - id: 1607972562
+    date: '2026-10-11'
+    beer: Kitsilano Juicy IPA
+    brewery: Granville Island Brewing
+    venue: Cabeza Grande Tacos & Tequila
+    comment: Big juicy IPA 🔥🍺🤙
+    link: https://untappd.com/user/bdgroves/checkin/1607972562
   - id: 1607739913
     date: '2026-10-11'
     beer: Thrashin’ Caddy
