@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://singlehillbrewing.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-08'
+retrieved: '2026-10-12'
 beers:
   - slug: dankmaster-flash
     name: Dankmaster Flash
@@ -16,27 +16,6 @@ beers:
       - { hop: mosaic, name: Mosaic, as_written: Mosaic }
       - { hop: columbus, name: Columbus, as_written: Columbus }
       - { hop: riwaka, name: Riwaka, as_written: Riwaka }
-  - slug: e-t-cone-home
-    name: E.T. Cone Home
-    url: https://singlehillbrewing.com/menu/
-    abv: 6.8
-    hops_as_written: Shrine built upon the Round 3 base of fresh, wet Tributary Farms Mosaic and Segal Ranches Tangier with a tessellation of Black Star Simcoe, Roy Farms Chinook, Perrault Farms Krush, and even more Segal Tangier.
-    hops:
-      - { hop: mosaic, name: Mosaic, fresh: true, farm: Tributary Farms, as_written: Mosaic }
-      - { hop: simcoe, name: Simcoe, farm: Black Star Ranch, as_written: Simcoe }
-      - { hop: chinook, name: Chinook, farm: Roy Farms, as_written: Chinook }
-      - { hop: krush, name: Krush, farm: Perrault Farms, as_written: Krush }
-  - slug: energy-cone
-    name: Energy Cone
-    url: https://singlehillbrewing.com/menu/
-    abv: 6.6
-    hops_as_written: 'Q: Are we not fresh hops? A: We are Energy Cone! Featuring fresh, wet Citra from Newhouse Farms, Carpenter Ranches, and Sauve & Son Farms. Whipped up with freshly kilned Van Horn Farms Cascade, Marc Desmarais Farms Columbus, Newhouse Ranches Comet, and CLS Farms Zappa.'
-    hops:
-      - { hop: citra, name: Citra, fresh: true, farm: 'Newhouse Farms, Carpenter Ranches, Sauve & Son Farm', as_written: Citra }
-      - { hop: cascade, name: Cascade, farm: Van Horn Farms, as_written: Cascade }
-      - { hop: columbus, name: Columbus, farm: Marc Desmarais Farms, as_written: Columbus }
-      - { hop: comet, name: Comet, farm: Newhouse Ranches, as_written: Comet }
-      - { hop: zappa, name: Zappa, farm: CLS Farms, as_written: Zappa }
   - slug: five-sisters
     name: Five Sisters
     url: https://singlehillbrewing.com/menu/
@@ -48,16 +27,6 @@ beers:
       - { hop: zappa, name: Zappa, as_written: Zappa }
       - { hop: citra, name: Citra, farm: Van Horn Farms, as_written: Citra }
       - { hop: loral, name: Loral, as_written: Loral }
-  - slug: fresh-hop-lateral-a
-    name: Fresh Hop Lateral A
-    url: https://singlehillbrewing.com/menu/
-    abv: 7.2
-    hops_as_written: We took a drive down Lateral A in the lower Yakima Valley to Perrault Farms where we sourced the fresh, wet, Krush and freshly kilned Krush, Mosaic, and Dolcita for this brew.
-    hops:
-      - { hop: krush, name: Krush, fresh: true, as_written: Krush }
-      - { hop: krush, name: Krush, as_written: Krush }
-      - { hop: mosaic, name: Mosaic, as_written: Mosaic }
-      - { hop: dolcita, name: Dolcita, as_written: Dolcita }
   - slug: gigundo
     name: Gigundo
     url: https://singlehillbrewing.com/menu/
@@ -67,16 +36,6 @@ beers:
       - { hop: mosaic, name: Mosaic, fresh: true, farm: Tributary Farms, as_written: Mosaic }
       - { hop: simcoe, name: Simcoe, form: Cryo, fresh: true, as_written: Simcoe }
       - { hop: chinook, name: Chinook, fresh: true, farm: Indie Farms, as_written: Chinook }
-  - slug: last-light
-    name: Last Light
-    url: https://singlehillbrewing.com/menu/
-    abv: 6.0
-    hops_as_written: Brewed with fresh, wet Sauve & Son Simcoe and freshly dried Loza Farms Amarillo, Black Star Ranch Simcoe, & Van Horn Farms Cascade - Last Light brings a little darkness to harvest.
-    hops:
-      - { hop: simcoe, name: Simcoe, fresh: true, farm: Sauve & Son Farm, as_written: Simcoe }
-      - { hop: amarillo, name: Amarillo, farm: Loza Farms, as_written: Amarillo }
-      - { hop: simcoe, name: Simcoe, farm: Black Star Ranch, as_written: Simcoe }
-      - { hop: cascade, name: Cascade, farm: Van Horn Farms, as_written: Cascade }
   - slug: no-opinions
     name: No Opinions
     url: https://singlehillbrewing.com/menu/

@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://www.laddandlassbrewing.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-08'
+retrieved: '2026-10-12'
 beers:
   - slug: ish-fresh-hop-el-dorado-hazy-ipa
     name: (ish) Fresh Hop El Dorado Hazy IPA
@@ -14,13 +14,6 @@ beers:
     hops_as_written: Fresh El Dorado from CLS Farms
     hops:
       - { hop: el-dorado, name: El Dorado, fresh: true, farm: CLS Farms, as_written: Fresh El Dorado from CLS Farms }
-  - slug: ish-fresh-hop-pale-ale
-    name: (ish) Fresh Hop Pale Ale
-    url: https://www.laddandlassbrewing.com/
-    abv: 5.5
-    hops_as_written: Fresh Chinook from Roy Farms
-    hops:
-      - { hop: chinook, name: Chinook, fresh: true, farm: Roy Farms, as_written: Fresh Chinook from Roy Farms }
   - slug: crunchy-boi
     name: Crunchy Boi
     url: https://www.laddandlassbrewing.com/
@@ -39,6 +32,15 @@ beers:
       - { hop: citra, name: Citra, as_written: Citra }
       - { hop: mosaic, name: Mosaic, form: Cryo, as_written: Cryo Mosaic }
       - { hop: simcoe, name: Simcoe, form: Cryo, as_written: Cryo Simcoe }
+  - slug: fresh-hop-chinook
+    name: Fresh Hop Chinook
+    url: https://www.laddandlassbrewing.com/
+    abv: 5.5
+    hops_as_written: Fresh Chinook, Cryo Citra &Cryo Columbus
+    hops:
+      - { hop: chinook, name: Chinook, fresh: true, as_written: Fresh Chinook }
+      - { hop: citra, name: Citra, form: Cryo, as_written: Cryo Citra }
+      - { hop: columbus, name: Columbus, form: Cryo, as_written: Cryo Columbus }
   - slug: fresh-hop-cloud-sipper
     name: Fresh Hop Cloud Sipper
     url: https://www.laddandlassbrewing.com/
@@ -77,6 +79,13 @@ beers:
     hops_as_written: Fresh Krush from Perrault Farms
     hops:
       - { hop: krush, name: Krush, fresh: true, farm: Perrault Farms, as_written: Fresh Krush from Perrault Farms }
+  - slug: fresh-hop-pale-ale
+    name: Fresh Hop Pale Ale
+    url: https://www.laddandlassbrewing.com/
+    abv: 5.5
+    hops_as_written: Fresh Chinook from Roy Farms
+    hops:
+      - { hop: chinook, name: Chinook, fresh: true, farm: Roy Farms, as_written: Fresh Chinook from Roy Farms }
   - slug: fresh-hop-west-coast-pilsner
     name: Fresh Hop West Coast Pilsner
     url: https://www.laddandlassbrewing.com/
@@ -122,14 +131,6 @@ beers:
       - { hop: mosaic, name: Mosaic, as_written: Mosaic }
       - { hop: chinook, name: Chinook, as_written: Chinook }
       - { hop: citra, name: Citra, form: Cryo, as_written: Cryo Citra }
-  - slug: trampled-by-koalas
-    name: Trampled by Koalas
-    url: https://www.laddandlassbrewing.com/
-    abv: 5.1
-    hops_as_written: Nelson Sauvin, Citra
-    hops:
-      - { hop: nelson-sauvin, name: Nelson Sauvin, as_written: Nelson Sauvin }
-      - { hop: citra, name: Citra, as_written: Citra }
   - slug: your-shout-bruv
     name: Your Shout, Bruv
     url: https://www.laddandlassbrewing.com/
