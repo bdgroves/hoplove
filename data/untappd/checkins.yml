@@ -1,5 +1,21 @@
 source: Untappd, via https://brooksgroves.com/beers.json (tools/ingest/untappd.py) -- do not edit by hand
 checkins:
+  - id: 1608117393
+    date: '2026-10-12'
+    beer: Head Smashed IPA
+    brewery: Banff Ave Brewing Co.
+    venue: Bear Street Tavern
+    comment: Love Banff!! 🔥🍺🤙
+    photo: https://images.untp.beer/crop?width=200&height=200&stripmeta=true&url=https://untappd.s3.amazonaws.com/photos/2026_10_12/0910b39bc01b771061462480af8a8356_c_1608117393_raw.jpg
+    link: https://untappd.com/user/bdgroves/checkin/1608117393
+  - id: 1608093801
+    date: '2026-10-12'
+    beer: Hi-Fi
+    brewery: Eighty-Eight Brewing Co.
+    venue: Bear Street Tavern
+    comment: Love it!  One of my favorite breweries!! 🔥🍺🤙
+    photo: https://images.untp.beer/crop?width=200&height=200&stripmeta=true&url=https://untappd.s3.amazonaws.com/photos/2026_10_12/4412a7944161bf6d3fc74a52863f9e36_c_1608093801_raw.jpg
+    link: https://untappd.com/user/bdgroves/checkin/1608093801
   - id: 1607972562
     date: '2026-10-11'
     beer: Kitsilano Juicy IPA
