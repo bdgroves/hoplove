@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://georgetownbeer.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-12'
+retrieved: '2026-10-15'
 beers:
   - slug: 0-69
     name: 0-69
@@ -907,6 +907,14 @@ beers:
       - { hop: simcoe, name: Simcoe, as_written: Simcoe }
       - { hop: mosaic, name: Mosaic, as_written: Mosaic }
       - { hop: amarillo, name: Amarillo, as_written: Amarillo }
+  - slug: gelassenheit
+    name: Gelassenheit
+    url: https://georgetownbeer.com/products/gelassenheit
+    abv: 5.2
+    hops_as_written: Magnum, Hersbrucker
+    hops:
+      - { hop: magnum, name: Magnum, as_written: Magnum }
+      - { hop: hersbrucker, name: Hersbrucker, as_written: Hersbrucker }
   - slug: gusto-crema
     name: Gusto Crema
     url: https://georgetownbeer.com/products/gusto-crema
@@ -977,6 +985,13 @@ beers:
     hops:
       - { hop: columbus, name: Columbus, as_written: Columbus }
       - { hop: cascade, name: Cascade, as_written: Cascade }
+  - slug: oh-my-gourd-becky-look-at-her-squash
+    name: Oh My Gourd, Becky, Look At Her Squash
+    url: https://georgetownbeer.com/products/oh-my-gourd-becky-look-at-her-squash
+    abv: 6.0
+    hops_as_written: Sterling
+    hops:
+      - { hop: sterling, name: Sterling, as_written: Sterling }
   - slug: rogers
     name: Roger's
     url: https://georgetownbeer.com/products/rogers
@@ -984,6 +999,14 @@ beers:
     hops_as_written: Sterling
     hops:
       - { hop: sterling, name: Sterling, as_written: Sterling }
+  - slug: summers-end
+    name: Summer's End
+    url: https://georgetownbeer.com/products/summers-end
+    abv: 5.0
+    hops_as_written: East Kent Golding, Mandarina Bavaria
+    hops:
+      - { hop: east-kent-golding, name: East Kent Golding, as_written: East Kent Golding }
+      - { hop: mandarina-bavaria, name: Mandarina Bavaria, as_written: Mandarina Bavaria }
   - slug: super-lucy
     name: Super Lucy
     url: https://georgetownbeer.com/products/super-lucy

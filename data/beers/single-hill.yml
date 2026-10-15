@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://singlehillbrewing.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-12'
+retrieved: '2026-10-15'
 beers:
   - slug: dankmaster-flash
     name: Dankmaster Flash
@@ -16,6 +16,16 @@ beers:
       - { hop: mosaic, name: Mosaic, as_written: Mosaic }
       - { hop: columbus, name: Columbus, as_written: Columbus }
       - { hop: riwaka, name: Riwaka, as_written: Riwaka }
+  - slug: e-t-cone-home
+    name: E.T. Cone Home
+    url: https://singlehillbrewing.com/menu/
+    abv: 6.8
+    hops_as_written: Shrine built upon the Round 3 base of fresh, wet Tributary Farms Mosaic and Segal Ranches Tangier with a tessellation of Black Star Simcoe, Roy Farms Chinook, Perrault Farms Krush, and even more Segal Tangier.
+    hops:
+      - { hop: mosaic, name: Mosaic, fresh: true, farm: Tributary Farms, as_written: Mosaic }
+      - { hop: simcoe, name: Simcoe, farm: Black Star Ranch, as_written: Simcoe }
+      - { hop: chinook, name: Chinook, farm: Roy Farms, as_written: Chinook }
+      - { hop: krush, name: Krush, farm: Perrault Farms, as_written: Krush }
   - slug: five-sisters
     name: Five Sisters
     url: https://singlehillbrewing.com/menu/

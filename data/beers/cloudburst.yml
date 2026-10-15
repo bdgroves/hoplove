@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://cloudburstbrew.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-12'
+retrieved: '2026-10-15'
 beers:
   - slug: the-white-lotus-theme-song
     name: (The White Lotus Theme Song)
@@ -3236,6 +3236,13 @@ beers:
       - { hop: simcoe, name: Simcoe, as_written: Simcoe }
       - { hop: cascade, name: Cascade, as_written: Cascade }
       - { hop: most, name: Most, as_written: most }
+  - slug: wet-wired
+    name: Wet Wired
+    url: https://www.cloudburstbrew.com/beer/wet-wired/
+    abv: 6.66
+    hops_as_written: ' Wet Wired Wet Hop IPA | 6.66% ABV | 67 IBU SURPRISE! Did we just save the best for last? That’s for you to decide, you alien loving wet hop weirdos. This year’s batch utilizes a simple malt bill – 2 Row and Pils – before we loaded it up with 28#/bbl of FRESH WET GREEN MOSAIC from Perrault Farm. So yeah, we just have one question for you: ARE YOU AFRAID OF THE WET? '
+    hops:
+      - { hop: mosaic, name: Mosaic, farm: Perrault Farm, as_written: MOSAIC }
   - slug: wetabout-us
     name: Wetabout Us?
     url: https://www.cloudburstbrew.com/beer/wetabout-us/

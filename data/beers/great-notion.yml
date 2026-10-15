@@ -5,7 +5,7 @@ brewery:
   state: OR
   url: https://greatnotion.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-12'
+retrieved: '2026-10-15'
 beers:
   - slug: alpha
     name: Alpha
@@ -16,6 +16,13 @@ beers:
       - { hop: strata, name: Strata, as_written: Strata }
       - { hop: krush, name: Krush, as_written: Krush }
       - { hop: citra, name: Citra, as_written: Citra }
+  - slug: beetlejuice-jr
+    name: Beetlejuice Jr.
+    url: https://greatnotion.com/products/beetlejuice-jr
+    abv: 6.0
+    hops_as_written: Quantity Decrease quantity for Beetlejuice Jr.  – Great Notion Skip to content Our hop waters and sodas ship nationwide! Shop by Location Shipping Anchorage, Alaska California Kentucky Nebraska New Hampshire North Dakota Ohio Oregon Pennsylvania Washington Washington DC Vermont Virginia Nationwide Oregon Alberta Northwest Beaverton Washington Ballard Georgetown California Sacramento Fulfillment...
+    hops:
+      - { hop: mosaic, name: Mosaic, as_written: Mosaic }
   - slug: black-magic-dreams
     name: Black Magic Dreams
     url: https://greatnotion.com/products/black-magic-dreams
@@ -99,6 +106,14 @@ beers:
       - { hop: citra, name: Citra, as_written: Citra }
       - { hop: motueka, name: Motueka, as_written: Motueka }
       - { hop: azacca, name: Azacca, as_written: Azacca }
+  - slug: puffery
+    name: Puffery
+    url: https://greatnotion.com/products/puffery
+    abv: 5.0
+    hops_as_written: Quantity Decrease quantity for Puffery  Puffery – Great Notion Skip to content Our hop waters and sodas ship nationwide! Shop by Location Shipping Anchorage, Alaska California Kentucky Nebraska New Hampshire North Dakota Ohio Oregon Pennsylvania Washington Washington DC Vermont Virginia Nationwide Oregon Alberta Northwest Beaverton Washington Ballard Georgetown California Sacramento Fulfillment...
+    hops:
+      - { hop: hersbrucker, name: Hersbrucker, as_written: Hersbrucker }
+      - { hop: tettnang, name: Tettnanger, as_written: Tettnanger }
   - slug: ridin-low-1
     name: Ridin' Low
     url: https://greatnotion.com/products/ridin-low-1
