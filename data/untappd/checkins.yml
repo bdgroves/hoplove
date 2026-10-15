@@ -1,5 +1,12 @@
 source: Untappd, via https://brooksgroves.com/beers.json (tools/ingest/untappd.py) -- do not edit by hand
 checkins:
+  - id: 1608406593
+    date: '2026-10-14'
+    beer: Way of Life
+    brewery: Neighbourhood Brewing
+    venue: River City Pub - Regent Inn
+    comment: After a long drive across large AF Canadian Provinces… we here and this is amazing! 🔥🍺🤙
+    link: https://untappd.com/user/bdgroves/checkin/1608406593
   - id: 1608117393
     date: '2026-10-12'
     beer: Head Smashed IPA
