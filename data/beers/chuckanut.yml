@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://www.chuckanutbrewery.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-15'
+retrieved: '2026-10-19'
 beers:
   - slug: bakers-beer
     name: Baker's Beer
@@ -100,6 +100,13 @@ beers:
       - { hop: strata, name: Strata, as_written: Strata }
       - { hop: mosaic, name: Mosaic, as_written: Mosaic }
       - { hop: galaxy, name: Galaxy, as_written: Galaxy }
+  - slug: thai-lager
+    name: Thai Lager
+    url: https://www.chuckanutbrewery.com/pages/thai-lager
+    abv: 5.0
+    hops_as_written: ' Brewed with Saaz hops for a delicate floral aroma and a clean, snappy finish.'
+    hops:
+      - { hop: saaz-cz, name: Saaz, as_written: Saaz }
   - slug: tulip-ale
     name: Tulip Ale
     url: https://www.chuckanutbrewery.com/pages/tulip-ale

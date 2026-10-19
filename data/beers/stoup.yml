@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://www.stoupbrewing.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-15'
+retrieved: '2026-10-19'
 beers:
   - slug: you-should-smile-more-ipa
     name: (You Should) Smile More IPA
@@ -1499,6 +1499,14 @@ beers:
     hops:
       - { hop: nelson-sauvin, name: Nelson Sauvin, as_written: Nelson Sauvin }
       - { hop: citra, name: Citra, as_written: Citra }
+  - slug: moonlight-swim-ipa
+    name: Moonlight Swim IPA
+    url: https://www.stoupbrewing.com/beer/moonlight-swim-ipa-8033.html
+    abv: 6.1
+    hops_as_written: "Moonlight Swim IPA Highland Park Collab ABV: 6.10 IBU: 65.00 SRM: 4.00 Categories: IPA, Northwest, Hop Driven Our summer highlights included finding our Highland Park friends on beautiful Orcas Island. Campfire tales inspired collaboration and this delicious WC IPA. It's loaded with lots of Mosaic for berry, citrus and sweet fruit, plus Krush for more citrus and sweet mango. Mostly, it's loaded..."
+    hops:
+      - { hop: mosaic, name: Mosaic, as_written: Mosaic }
+      - { hop: krush, name: Krush, as_written: Krush }
   - slug: moonrock-mambo-hazy-ipa
     name: Moonrock Mambo Hazy IPA
     url: https://www.stoupbrewing.com/beer/moonrock-mambo-hazy-ipa-1194.html

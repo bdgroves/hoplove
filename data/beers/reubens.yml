@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://reubensbrews.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-15'
+retrieved: '2026-10-19'
 beers:
   - slug: 2-x-2-x
     name: 2 x 2 x 2
@@ -897,6 +897,17 @@ beers:
     hops_as_written: Magnum
     hops:
       - { hop: magnum, name: Magnum, as_written: Magnum }
+  - slug: gobsmacked-2026
+    name: Gobsmacked
+    url: https://www.reubensbrews.com/beer/gobsmacked-2026/
+    abv: 10.0
+    hops_as_written: Citra, Mosaic, Galaxy, Krush, Nugget
+    hops:
+      - { hop: citra, name: Citra, as_written: Citra }
+      - { hop: mosaic, name: Mosaic, as_written: Mosaic }
+      - { hop: galaxy, name: Galaxy, as_written: Galaxy }
+      - { hop: krush, name: Krush, as_written: Krush }
+      - { hop: nugget, name: Nugget, as_written: Nugget }
   - slug: gobsmacked
     name: Gobsmacked!
     url: https://www.reubensbrews.com/beer/gobsmacked/

@@ -5,7 +5,7 @@ brewery:
   state: OR
   url: https://greatnotion.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-15'
+retrieved: '2026-10-19'
 beers:
   - slug: alpha
     name: Alpha
@@ -16,6 +16,15 @@ beers:
       - { hop: strata, name: Strata, as_written: Strata }
       - { hop: krush, name: Krush, as_written: Krush }
       - { hop: citra, name: Citra, as_written: Citra }
+  - slug: army-of-dankness
+    name: Army of Dankness
+    url: https://greatnotion.com/products/army-of-dankness
+    abv: 6.6
+    hops_as_written: Quantity Decrease quantity for Army of Dankness  Army of Dankness – Great Notion Skip to content Our hop waters and sodas ship nationwide! Shop by Location Shipping Anchorage, Alaska California Kentucky Nebraska New Hampshire North Dakota Ohio Oregon Pennsylvania Washington Washington DC Vermont Virginia Nationwide Oregon Alberta Northwest Beaverton Washington Ballard Georgetown California Sacr...
+    hops:
+      - { hop: mosaic, name: Mosaic, as_written: Mosaic }
+      - { hop: nectaron, name: Nectaron, as_written: Nectaron }
+      - { hop: chinook, name: Chinook, as_written: Chinook }
   - slug: beetlejuice-jr
     name: Beetlejuice Jr.
     url: https://greatnotion.com/products/beetlejuice-jr
@@ -31,6 +40,16 @@ beers:
     hops:
       - { hop: strata, name: Strata, as_written: Strata }
       - { hop: vic-secret, name: Vic Secret, as_written: Vic Secret }
+  - slug: dead-end
+    name: Dead End
+    url: https://greatnotion.com/products/dead-end
+    abv: 7.0
+    hops_as_written: Quantity Decrease quantity for Dead End  Dead End – Great Notion Skip to content Our hop waters and sodas ship nationwide! Shop by Location Shipping Anchorage, Alaska California Kentucky Nebraska New Hampshire North Dakota Ohio Oregon Pennsylvania Washington Washington DC Vermont Virginia Nationwide Oregon Alberta Northwest Beaverton Washington Ballard Georgetown California Sacramento Fulfillme...
+    hops:
+      - { hop: nelson-sauvin, name: Nelson Sauvin, as_written: Nelson }
+      - { hop: galaxy, name: Galaxy, as_written: Galaxy }
+      - { hop: idaho-7, name: Idaho 7, as_written: Idaho 7 }
+      - { hop: mosaic, name: Mosaic, as_written: Mosaic }
   - slug: devils-night
     name: Devil's Night
     url: https://greatnotion.com/products/devils-night

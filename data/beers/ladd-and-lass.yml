@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://www.laddandlassbrewing.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-15'
+retrieved: '2026-10-19'
 beers:
   - slug: ish-fresh-hop-el-dorado-hazy-ipa
     name: (ish) Fresh Hop El Dorado Hazy IPA
@@ -55,13 +55,10 @@ beers:
     name: Fresh Hop Howdy, Friend
     url: https://www.laddandlassbrewing.com/
     abv: 6.5
-    hops_as_written: Fresh Citra, Simcoe Cryo Fresh, Mosaic Dynaboost, El Dorado, Riwaka
+    hops_as_written: Fresh Citra from Westwood Farms, Simcoe Cryo Fresh
     hops:
-      - { hop: citra, name: Citra, fresh: true, as_written: Fresh Citra }
+      - { hop: citra, name: Citra, fresh: true, farm: Westwood Farms, as_written: Fresh Citra from Westwood Farms }
       - { hop: simcoe, name: Simcoe, product: Cryo Fresh, fresh: true, as_written: Simcoe Cryo Fresh }
-      - { hop: mosaic, name: Mosaic, form: DynaBoost, as_written: Mosaic Dynaboost }
-      - { hop: el-dorado, name: El Dorado, as_written: El Dorado }
-      - { hop: riwaka, name: Riwaka, as_written: Riwaka }
   - slug: fresh-hop-krush
     name: Fresh Hop Krush
     url: https://www.laddandlassbrewing.com/
@@ -131,13 +128,6 @@ beers:
       - { hop: mosaic, name: Mosaic, as_written: Mosaic }
       - { hop: chinook, name: Chinook, as_written: Chinook }
       - { hop: citra, name: Citra, form: Cryo, as_written: Cryo Citra }
-  - slug: your-shout-bruv
-    name: Your Shout, Bruv
-    url: https://www.laddandlassbrewing.com/
-    abv: 4.2
-    hops_as_written: Sterling
-    hops:
-      - { hop: sterling, name: Sterling, as_written: Sterling }
   - slug: zoospaloos
     name: Zoospaloos
     url: https://www.laddandlassbrewing.com/
