@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://cloudburstbrew.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-19'
+retrieved: '2026-10-22'
 beers:
   - slug: the-white-lotus-theme-song
     name: (The White Lotus Theme Song)
@@ -2778,6 +2778,15 @@ beers:
       - { hop: krush, name: Krush, fresh: true, farm: Perrault Farms, as_written: Krush }
       - { hop: comet, name: Comet, farm: Loza Farms, as_written: Comet }
       - { hop: most, name: Most, as_written: most }
+  - slug: the-neez-beez
+    name: The Neez Beez
+    url: https://www.cloudburstbrew.com/beer/the-neez-beez/
+    abv: 6.8
+    hops_as_written: ' The Neez Beez IPA | 6.8% ABV | 57 IBU The first IPA brew after harvest is always a breath of fresh air. Or more like, an exhale of hot air? It’s a welcome relief, is what we’re saying. We LOVE brewing freshies and wetties but the brew days are almost 2 hrs longer and a lot more intensive. The “hop out” is messy and sticky. We have to jerry rig lots of process piping with hoses, etc etc. So YAY...'
+    hops:
+      - { hop: nelson-sauvin, name: Nelson Sauvin, as_written: Nelson }
+      - { hop: nectaron, name: Nectaron, as_written: Nectaron }
+      - { hop: riwaka, name: Riwaka, as_written: Riwaka }
   - slug: the-neez-beez-ipa
     name: The NEEZ BEEZ IPA
     url: https://www.cloudburstbrew.com/beer/the-neez-beez-ipa/

@@ -5,15 +5,8 @@ brewery:
   state: WA
   url: https://www.laddandlassbrewing.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-19'
+retrieved: '2026-10-22'
 beers:
-  - slug: ish-fresh-hop-el-dorado-hazy-ipa
-    name: (ish) Fresh Hop El Dorado Hazy IPA
-    url: https://www.laddandlassbrewing.com/
-    abv: 6.8
-    hops_as_written: Fresh El Dorado from CLS Farms
-    hops:
-      - { hop: el-dorado, name: El Dorado, fresh: true, farm: CLS Farms, as_written: Fresh El Dorado from CLS Farms }
   - slug: crunchy-boi
     name: Crunchy Boi
     url: https://www.laddandlassbrewing.com/
@@ -51,6 +44,13 @@ beers:
       - { hop: mosaic, name: Mosaic, form: Cryo, as_written: Cryo Mosaic }
       - { hop: riwaka, name: Riwaka, as_written: Riwaka }
       - { hop: simcoe, name: Simcoe, product: Cryo Fresh, fresh: true, as_written: Simcoe Cryo Fresh }
+  - slug: fresh-hop-el-dorado-hazy-ipa
+    name: Fresh Hop El Dorado Hazy IPA
+    url: https://www.laddandlassbrewing.com/
+    abv: 6.8
+    hops_as_written: Fresh El Dorado from CLS Farms
+    hops:
+      - { hop: el-dorado, name: El Dorado, fresh: true, farm: CLS Farms, as_written: Fresh El Dorado from CLS Farms }
   - slug: fresh-hop-howdy-friend
     name: Fresh Hop Howdy, Friend
     url: https://www.laddandlassbrewing.com/

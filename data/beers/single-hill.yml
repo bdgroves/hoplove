@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://singlehillbrewing.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-19'
+retrieved: '2026-10-22'
 beers:
   - slug: dankmaster-flash
     name: Dankmaster Flash
@@ -16,16 +16,6 @@ beers:
       - { hop: mosaic, name: Mosaic, as_written: Mosaic }
       - { hop: columbus, name: Columbus, as_written: Columbus }
       - { hop: riwaka, name: Riwaka, as_written: Riwaka }
-  - slug: e-t-cone-home
-    name: E.T. Cone Home
-    url: https://singlehillbrewing.com/menu/
-    abv: 6.8
-    hops_as_written: Shrine built upon the Round 3 base of fresh, wet Tributary Farms Mosaic and Segal Ranches Tangier with a tessellation of Black Star Simcoe, Roy Farms Chinook, Perrault Farms Krush, and even more Segal Tangier.
-    hops:
-      - { hop: mosaic, name: Mosaic, fresh: true, farm: Tributary Farms, as_written: Mosaic }
-      - { hop: simcoe, name: Simcoe, farm: Black Star Ranch, as_written: Simcoe }
-      - { hop: chinook, name: Chinook, farm: Roy Farms, as_written: Chinook }
-      - { hop: krush, name: Krush, farm: Perrault Farms, as_written: Krush }
   - slug: five-sisters
     name: Five Sisters
     url: https://singlehillbrewing.com/menu/
@@ -46,28 +36,6 @@ beers:
       - { hop: mosaic, name: Mosaic, fresh: true, farm: Tributary Farms, as_written: Mosaic }
       - { hop: simcoe, name: Simcoe, form: Cryo, fresh: true, as_written: Simcoe }
       - { hop: chinook, name: Chinook, fresh: true, farm: Indie Farms, as_written: Chinook }
-  - slug: no-opinions
-    name: No Opinions
-    url: https://singlehillbrewing.com/menu/
-    abv: 6.5
-    hops_as_written: Our friends at Lumberbeard stacked it up high on the Round 2 base of fresh, wet Sauve & Son Mosaic and Van Horn Farms Citra with a scaffolding of Loftus Ranches & Haas Dolcita, Black Star Ranch Simcoe, Perrault Farms Mosaic, and even more Van Horn Citra.
-    hops:
-      - { hop: mosaic, name: Mosaic, fresh: true, farm: Sauve & Son Farm, as_written: Mosaic }
-      - { hop: citra, name: Citra, fresh: true, farm: Van Horn Farms, as_written: Citra }
-      - { hop: dolcita, name: Dolcita, as_written: Dolcita }
-      - { hop: simcoe, name: Simcoe, farm: Black Star Ranch, as_written: Simcoe }
-      - { hop: mosaic, name: Mosaic, farm: Perrault Farms, as_written: Mosaic }
-      - { hop: citra, name: Citra, farm: Van Horn Farms, as_written: Citra }
-  - slug: no-simcoe
-    name: No Simcoe
-    url: https://singlehillbrewing.com/menu/
-    abv: 6.5
-    hops_as_written: The team from Haas innovated on the Round 2 base of fresh, wet Sauve & Son Mosaic and Van Horn Farms Citra with a ton of Haas Krush and a touch of Carpenter Ranches Talus.
-    hops:
-      - { hop: mosaic, name: Mosaic, fresh: true, farm: Sauve & Son Farm, as_written: Mosaic }
-      - { hop: citra, name: Citra, fresh: true, farm: Van Horn Farms, as_written: Citra }
-      - { hop: krush, name: Krush, as_written: Krush }
-      - { hop: talus, name: Talus, farm: Carpenter Ranches, as_written: Talus }
   - slug: pulling-levers
     name: Pulling Levers
     url: https://singlehillbrewing.com/menu/
