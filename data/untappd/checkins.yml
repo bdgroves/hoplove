@@ -1,5 +1,26 @@
 source: Untappd, via https://brooksgroves.com/beers.json (tools/ingest/untappd.py) -- do not edit by hand
 checkins:
+  - id: 1611243271
+    date: '2026-10-25'
+    beer: Fresh Hop Strata (2026)
+    brewery: Old Stove Brewing Co.
+    venue: Peaks and Pints Bottleshop, Taproom and Eatery
+    comment: Solid FH!! 🔥🍺🤙
+    link: https://untappd.com/user/bdgroves/checkin/1611243271
+  - id: 1611242256
+    date: '2026-10-25'
+    beer: Fresh Hop Strata Hazy IPA (2026)
+    brewery: Lucky Envelope Brewing
+    venue: Peaks and Pints Bottleshop, Taproom and Eatery
+    comment: Love this FH so good!! 🔥🍺🤙
+    link: https://untappd.com/user/bdgroves/checkin/1611242256
+  - id: 1611241449
+    date: '2026-10-25'
+    beer: Fresh Hop Linoleum (2026)
+    brewery: Vice Beer
+    venue: Peaks and Pints Bottleshop, Taproom and Eatery
+    comment: This is really nice!! 🔥🍺🤙
+    link: https://untappd.com/user/bdgroves/checkin/1611241449
   - id: 1608406593
     date: '2026-10-14'
     beer: Way of Life
