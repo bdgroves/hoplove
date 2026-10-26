@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://www.aslanbrewing.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-22'
+retrieved: '2026-10-26'
 beers:
   - slug: beers-7-deep
     name: 7 Deep
@@ -222,6 +222,15 @@ beers:
     hops_as_written: Perle
     hops:
       - { hop: perle, name: Perle, as_written: Perle }
+  - slug: beers-dog-years
+    name: Dog Years
+    url: https://www.aslanbrewing.com/beers/dog-years/
+    abv: 6.4
+    hops_as_written: Callista, Cascade, Simcoe Cryo
+    hops:
+      - { hop: callista, name: Callista, as_written: Callista }
+      - { hop: cascade, name: Cascade, as_written: Cascade }
+      - { hop: simcoe, name: Simcoe, form: Cryo, as_written: Simcoe Cryo }
   - slug: beers-dunkel
     name: Dunkel
     url: https://www.aslanbrewing.com/beers/dunkel/

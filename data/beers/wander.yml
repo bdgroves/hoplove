@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://wanderbrewing.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-22'
+retrieved: '2026-10-26'
 beers:
   - slug: aussie-steve-pale-lager
     name: Aussie Steve Pale Lager
@@ -22,15 +22,14 @@ beers:
     hops:
       - { hop: citra, name: Citra, fresh: true, as_written: Citra }
       - { hop: most, name: Most, as_written: most }
-  - slug: fresh-press-west-coast-fresh-hop-ipa
-    name: Fresh Press West Coast Fresh Hop IPA
+  - slug: midnight-picnic-schwarzbier
+    name: Midnight Picnic Schwarzbier
     url: https://wanderbrewing.com/
-    abv: 6.5
-    hops_as_written: Fresh Press West Coast Fresh Hop IPA Roy Farms, Moxee, WA 6. 5% ABV // 60 IBU // 6 SRM A showcase of Citra, Amarillo, and Cascade hops.  Transportational aroma that might as well be a cool breeze right off the hop fields themselves.  Vivid hop character without being punishing.  of whole cone fresh hops from Roy Farms of Yakima Washington.
+    abv: 5.5
+    hops_as_written: ' Saaz and Tettnanger hops provide a serene European coda to this complex but nimble lager.'
     hops:
-      - { hop: citra, name: Citra, as_written: Citra }
-      - { hop: amarillo, name: Amarillo, as_written: Amarillo }
-      - { hop: cascade, name: Cascade, as_written: Cascade }
+      - { hop: saaz-cz, name: Saaz, as_written: Saaz }
+      - { hop: tettnang, name: Tettnanger, as_written: Tettnanger }
   - slug: nectaron-single-eyepa
     name: Nectaron Single EyePA
     url: https://wanderbrewing.com/

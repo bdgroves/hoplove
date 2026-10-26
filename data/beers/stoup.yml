@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://www.stoupbrewing.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-22'
+retrieved: '2026-10-26'
 beers:
   - slug: you-should-smile-more-ipa
     name: (You Should) Smile More IPA
@@ -1084,6 +1084,16 @@ beers:
     hops:
       - { hop: azacca, name: Azacca, as_written: Azacca }
       - { hop: idaho-7, name: Idaho 7, as_written: Idaho 7 }
+  - slug: hit-me-with-your-e-bike-hazy-ipa
+    name: Hit Me (With Your E-Bike) Hazy IPA
+    url: https://www.stoupbrewing.com/beer/hit-me-with-your-e-bike-hazy-ipa-8144.html
+    abv: 6.9
+    hops_as_written: "Hit Me (With Your E-Bike) Hazy IPA ABV: 6.90 IBU: 45.00 SRM: 4.00 Categories: Hazy, IPA, Hop Driven This hazy IPA with its passion fruit and citrus aromas will come at you fast and furious, like an E-bike on the Burke-Gilman Trail. This is no pedal bike of a beer. It's got Citra, Nectaron, Nelson and Strata hops and it's not slowing down for anything. Now on tap at Capitol Hill"
+    hops:
+      - { hop: citra, name: Citra, as_written: Citra }
+      - { hop: nectaron, name: Nectaron, as_written: Nectaron }
+      - { hop: nelson-sauvin, name: Nelson Sauvin, as_written: Nelson }
+      - { hop: strata, name: Strata, as_written: Strata }
   - slug: hoppy-farmhouse
     name: Hoppy Farmhouse
     url: https://www.stoupbrewing.com/beer/hoppy-farmhouse-187.html
@@ -1706,6 +1716,16 @@ beers:
       - { hop: chinook, name: Chinook, as_written: Chinook }
       - { hop: amarillo, name: Amarillo, as_written: Amarillo }
       - { hop: ekuanot, name: Ekuanot, as_written: Ekuanot }
+  - slug: our-land-extra-pale-ale
+    name: Our Land Extra Pale Ale
+    url: https://www.stoupbrewing.com/beer/our-land-extra-pale-ale-8143.html
+    abv: 5.1
+    hops_as_written: 'Our Land Extra Pale Ale Collab w/Washington Wild ABV: 5.10 IBU: 50.00 SRM: 2.00 Categories: Hop Driven This beer brings together 82 breweries + beer industry businesses across Washington State around the idea that public lands are OUR Lands as the American public. It was brewed with Thora, Citra and Mosaic Cryo with a touch of Krush for complex tropical fruit and citrus.'
+    hops:
+      - { hop: thora, name: Thora, as_written: Thora }
+      - { hop: citra, name: Citra, as_written: Citra }
+      - { hop: mosaic, name: Mosaic, form: Cryo, as_written: Mosaic }
+      - { hop: krush, name: Krush, as_written: Krush }
   - slug: over-pils-west-coast-pils-collab-w-ghosttown-brewing-oakland-ca
     name: Over Pils-West Coast Pils collab w/ Ghosttown Brewing, Oakland, CA
     url: https://www.stoupbrewing.com/beer/over-pils-west-coast-pils-collab-w-ghosttown-brewing-oakland-ca-4451.html
@@ -2159,6 +2179,14 @@ beers:
       - { hop: citra, name: Citra, form: Cryo, as_written: Citra }
       - { hop: comet, name: Comet, as_written: Comet }
       - { hop: sabro, name: Sabro, as_written: Sabro }
+  - slug: songspire-fh-mosaic
+    name: Songspire FH Mosaic [Ruse]
+    url: https://www.stoupbrewing.com/beer/songspire-fh-mosaic-8142.html
+    abv: 6.9
+    hops_as_written: 'Songspire FH Mosaic [Ruse] ABV: 6.90 IBU: 0.00 SRM: 0.00 Categories: IPA, Northwest, Fresh Hop 6.9% - End of Fall Fresh Hop Mosaic IPA from Ruse Brewing out of Portland Oregon Now on tap at Kenmore'
+    hops:
+      - { hop: mosaic, name: Mosaic, as_written: Mosaic }
+      - { hop: mosaic, name: Mosaic, fresh: true, as_written: Mosaic }
   - slug: sound-barrier-ipa
     name: Sound Barrier IPA
     url: https://www.stoupbrewing.com/beer/sound-barrier-ipa-6575.html

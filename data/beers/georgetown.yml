@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://georgetownbeer.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-22'
+retrieved: '2026-10-26'
 beers:
   - slug: 0-69
     name: 0-69
@@ -592,6 +592,16 @@ beers:
       - { hop: strata, name: Strata, as_written: Strata }
       - { hop: citra, name: Citra, as_written: Citra }
       - { hop: chinook, name: Chinook, as_written: Chinook }
+  - slug: celler-spider
+    name: Celler Spider
+    url: https://georgetownbeer.com/products/celler-spider
+    abv: 6.3
+    hops_as_written: Citra, Lupomax Citra, Krush, Rakau, Columbus
+    hops:
+      - { hop: citra, name: Citra, as_written: Citra }
+      - { hop: krush, name: Krush, as_written: Krush }
+      - { hop: rakau, name: Rakau, as_written: Rakau }
+      - { hop: columbus, name: Columbus, as_written: Columbus }
   - slug: chairman-chucks
     name: Chairman Chuck's
     url: https://georgetownbeer.com/products/chairman-chucks
