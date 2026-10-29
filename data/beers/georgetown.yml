@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://georgetownbeer.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-26'
+retrieved: '2026-10-29'
 beers:
   - slug: 0-69
     name: 0-69
@@ -949,6 +949,17 @@ beers:
       - { hop: citra, name: Citra, as_written: Citra }
       - { hop: mosaic, name: Mosaic, as_written: Mosaic }
       - { hop: chinook, name: Chinook, as_written: Chinook }
+  - slug: letty
+    name: Letty
+    url: https://georgetownbeer.com/products/letty
+    abv: 6.4
+    hops_as_written: Simcoe, Chinook, Krush, Citra and Citra Cryo
+    hops:
+      - { hop: simcoe, name: Simcoe, as_written: Simcoe }
+      - { hop: chinook, name: Chinook, as_written: Chinook }
+      - { hop: krush, name: Krush, as_written: Krush }
+      - { hop: citra, name: Citra, as_written: Citra }
+      - { hop: citra, name: Citra, form: Cryo, as_written: Citra }
   - slug: lucille
     name: Lucille
     url: https://georgetownbeer.com/products/lucille

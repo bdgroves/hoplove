@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://cloudburstbrew.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-26'
+retrieved: '2026-10-29'
 beers:
   - slug: the-white-lotus-theme-song
     name: (The White Lotus Theme Song)
@@ -621,6 +621,26 @@ beers:
       - { hop: motueka, name: Motueka, as_written: Motueka }
       - { hop: triumph, name: Triumph, as_written: Triumph }
       - { hop: cascade, name: Cascade, form: Cryo, as_written: Cascade }
+  - slug: cumbia-de-muertas
+    name: Cumbia De Muertas
+    url: https://www.cloudburstbrew.com/beer/cumbia-de-muertas/
+    abv: 6.7
+    hops_as_written: ' Cumbia De Muertas IPA | 6.7% ABV | 50 IBU Hey, guess what?! We’re gonna have some live music at Shilshole this week – Friday, October 30th to be exact. There are also sets at our neighbors Conor Byrne, the Tractor, and Percy’s – all in celebration of the music and culture of Latin America. Check out their instagram – @cumbiademuertes – and tickets on sale at ticket web (Shilshole is free! The ...'
+    hops:
+      - { hop: mosaic, name: Mosaic, as_written: Mosaic }
+      - { hop: pacific-sunrise, name: Pacific Sunrise, as_written: Pacific Sunrise }
+      - { hop: comet, name: Comet, as_written: Comet }
+      - { hop: dolcita, name: Dolcita, as_written: Dolcita }
+  - slug: cumbia-de-muertos
+    name: Cumbia De Muertos
+    url: https://www.cloudburstbrew.com/beer/cumbia-de-muertos/
+    abv: 6.7
+    hops_as_written: ' Cumbia De Muertos IPA | 6.7% ABV | 50 IBU Hey, guess what?! We’re gonna have some live music at Shilshole this week – Friday, October 30th to be exact. There are also sets at our neighbors Conor Byrne, the Tractor, and Percy’s – all in celebration of the music and culture of Latin America. Check out their instagram – @cumbiademuertos – and tickets on sale at ticket web (Shilshole is free! The ...'
+    hops:
+      - { hop: mosaic, name: Mosaic, as_written: Mosaic }
+      - { hop: pacific-sunrise, name: Pacific Sunrise, as_written: Pacific Sunrise }
+      - { hop: comet, name: Comet, as_written: Comet }
+      - { hop: dolcita, name: Dolcita, as_written: Dolcita }
   - slug: death-by-wetness-ipa
     name: Death By Wetness IPA
     url: https://www.cloudburstbrew.com/beer/death-by-wetness-ipa/
@@ -1187,6 +1207,16 @@ beers:
       - { hop: idaho-7, name: Idaho 7, as_written: Idaho 7 }
       - { hop: chinook, name: Chinook, as_written: Chinook }
       - { hop: citra, name: Citra, as_written: Citra }
+  - slug: here-and-there-but-mostly-here
+    name: Here And There But Mostly Here
+    url: https://www.cloudburstbrew.com/beer/here-and-there-but-mostly-here/
+    abv: 5.7
+    hops_as_written: ' Here And There But Mostly Here Modern Pale Ale | 5.7% ABV | 40 IBU Yeah so, um, we brewed this modern (fruity, hazy, dry) pale ale with hops from here. Like Citra. And also there. Like Peacharine from New Zealand. But mostly here, like Mosaic Cryo. It’s a packaged deal that shares a hop bill. It’s pretty much in charge of everything in regards to a pale ale, because this beer sort of has a gra...'
+    hops:
+      - { hop: citra, name: Citra, as_written: Citra }
+      - { hop: peacharine, name: Peacharine, as_written: Peacharine }
+      - { hop: mosaic, name: Mosaic, form: Cryo, as_written: Mosaic }
+      - { hop: most, name: Most, as_written: most }
   - slug: here-we-go-again
     name: Here We Go Again
     url: https://www.cloudburstbrew.com/beer/here-we-go-again/

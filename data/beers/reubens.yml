@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://reubensbrews.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-26'
+retrieved: '2026-10-29'
 beers:
   - slug: 2-x-2-x
     name: 2 x 2 x 2
@@ -1161,6 +1161,16 @@ beers:
       - { hop: columbus, name: Columbus, as_written: Columbus }
       - { hop: simcoe, name: Simcoe, as_written: Simcoe }
       - { hop: amarillo, name: Amarillo, as_written: Amarillo }
+  - slug: ink-imperial-cascadian-dark-ale
+    name: Ink Imperial CDA
+    url: https://www.reubensbrews.com/beer/ink-imperial-cascadian-dark-ale/
+    abv: 8.1
+    hops_as_written: Simcoe, Columbus, Amarillo, Citra
+    hops:
+      - { hop: simcoe, name: Simcoe, as_written: Simcoe }
+      - { hop: columbus, name: Columbus, as_written: Columbus }
+      - { hop: amarillo, name: Amarillo, as_written: Amarillo }
+      - { hop: citra, name: Citra, as_written: Citra }
   - slug: instant-vintage
     name: Instant Vintage
     url: https://www.reubensbrews.com/beer/instant-vintage/
@@ -2020,6 +2030,16 @@ beers:
       - { hop: citra, name: Citra, as_written: Citra® }
       - { hop: mosaic, name: Mosaic, as_written: Mosaic® }
       - { hop: galaxy, name: Galaxy, as_written: Galaxy® }
+  - slug: roasted-rye-ipa
+    name: Roasted Rye IPA
+    url: https://www.reubensbrews.com/beer/roasted-rye-ipa/
+    abv: 7.0
+    hops_as_written: ESB,Pale, Marris Otter, C-60, Crystal Rye, Pale Chocolate
+    hops:
+      - { hop: null, name: Pale, as_written: Pale }
+      - { hop: null, name: C-60, as_written: C-60 }
+      - { hop: null, name: Crystal Rye, as_written: Crystal Rye }
+      - { hop: null, name: Pale Chocolate, as_written: Pale Chocolate }
   - slug: roasted-rye
     name: Roasted Rye IPA
     url: https://www.reubensbrews.com/beer/roasted-rye/
