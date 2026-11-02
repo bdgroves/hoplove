@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://reubensbrews.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-29'
+retrieved: '2026-11-02'
 beers:
   - slug: 2-x-2-x
     name: 2 x 2 x 2
@@ -121,6 +121,17 @@ beers:
   - slug: alpha-comeback
     name: Alpha Comeback
     url: https://www.reubensbrews.com/beer/alpha-comeback/
+    abv: 6.9
+    hops_as_written: Chinook, Cascade, Centennial, Columbus, Citra
+    hops:
+      - { hop: chinook, name: Chinook, as_written: Chinook }
+      - { hop: cascade, name: Cascade, as_written: Cascade }
+      - { hop: centennial, name: Centennial, as_written: Centennial }
+      - { hop: columbus, name: Columbus, as_written: Columbus }
+      - { hop: citra, name: Citra, as_written: Citra }
+  - slug: alpha-comeback-ipa-2026
+    name: Alpha Comeback IPA 2026
+    url: https://www.reubensbrews.com/beer/alpha-comeback-ipa-2026/
     abv: 6.9
     hops_as_written: Chinook, Cascade, Centennial, Columbus, Citra
     hops:

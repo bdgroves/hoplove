@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://balebreaker.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-10-29'
+retrieved: '2026-11-02'
 beers:
   - slug: pilsner
     name: Bale Breaker Pilsner
@@ -116,6 +116,15 @@ beers:
       - { hop: citra, name: Citra, as_written: Citra }
       - { hop: krush, name: Krush, as_written: Krush }
       - { hop: dolcita, name: Dolcita, as_written: Dolcita }
+  - slug: high-camp-winter-ipa
+    name: High Camp Winter IPA
+    url: https://balebreaker.com/beer/high-camp-winter-ipa/
+    abv: 7.3
+    hops_as_written: Mosaic®, Simcoe®, HBC 630
+    hops:
+      - { hop: mosaic, name: Mosaic, as_written: Mosaic }
+      - { hop: simcoe, name: Simcoe, as_written: Simcoe }
+      - { hop: hbc-630, name: HBC 630, as_written: HBC 630 }
   - slug: la-mas-buena-mexican-lager-with-lime
     name: La Mas Buena Mexican Lager with Lime
     url: https://balebreaker.com/beer/la-mas-buena-mexican-lager-with-lime/
