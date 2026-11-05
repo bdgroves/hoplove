@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://reubensbrews.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-11-02'
+retrieved: '2026-11-05'
 beers:
   - slug: 2-x-2-x
     name: 2 x 2 x 2
@@ -702,7 +702,7 @@ beers:
       - { hop: saaz-cz, name: Saaz, as_written: Saaz }
   - slug: festive-crikey
     name: Festive Crikey
-    url: https://www.reubensbrews.com/beer/festive-crikey/
+    url: https://www.reubensbrews.com/beer/festive-crikey-2/
     abv: 6.8
     hops_as_written: Citra, Amarillo, Simcoe, Centennial, Mosaic, Azacca, ADHA-1631
     hops:
@@ -1044,15 +1044,16 @@ beers:
       - { hop: mount-hood, name: Mt Hood, as_written: Mt Hood }
   - slug: holiday-haze
     name: Holiday Haze
-    url: https://www.reubensbrews.com/beer/holiday-haze/
+    url: https://www.reubensbrews.com/beer/holiday-haze-2/
     abv: 6.0
-    hops_as_written: Azacca, Citra, Comet, Simcoe, Strata
+    hops_as_written: Simcoe, Citra, Strata, Dolcita (& cinnamon, vanilla)
     hops:
-      - { hop: azacca, name: Azacca, as_written: Azacca }
-      - { hop: citra, name: Citra, as_written: Citra }
-      - { hop: comet, name: Comet, as_written: Comet }
       - { hop: simcoe, name: Simcoe, as_written: Simcoe }
+      - { hop: citra, name: Citra, as_written: Citra }
       - { hop: strata, name: Strata, as_written: Strata }
+      - { hop: dolcita, name: Dolcita (, as_written: Dolcita ( }
+      - { hop: null, name: cinnamon, as_written: cinnamon }
+      - { hop: null, name: vanilla), as_written: vanilla) }
   - slug: hop-idol
     name: Hop Idol (2019)
     url: https://www.reubensbrews.com/beer/hop-idol/
@@ -1175,6 +1176,16 @@ beers:
   - slug: ink-imperial-cascadian-dark-ale
     name: Ink Imperial CDA
     url: https://www.reubensbrews.com/beer/ink-imperial-cascadian-dark-ale/
+    abv: 8.1
+    hops_as_written: Simcoe, Columbus, Amarillo, Citra
+    hops:
+      - { hop: simcoe, name: Simcoe, as_written: Simcoe }
+      - { hop: columbus, name: Columbus, as_written: Columbus }
+      - { hop: amarillo, name: Amarillo, as_written: Amarillo }
+      - { hop: citra, name: Citra, as_written: Citra }
+  - slug: ink-imperial-cda
+    name: Ink Imperial CDA
+    url: https://www.reubensbrews.com/beer/ink-imperial-cda/
     abv: 8.1
     hops_as_written: Simcoe, Columbus, Amarillo, Citra
     hops:

@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://cloudburstbrew.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-11-02'
+retrieved: '2026-11-05'
 beers:
   - slug: the-white-lotus-theme-song
     name: (The White Lotus Theme Song)
@@ -3377,6 +3377,14 @@ beers:
     hops_as_written: ' Wishy Washy Wet Hop IPA | 6.6% ABV | 53 IBU STOP. 👏 YOUR. 👏 HEMMING. 👏 AND.👏HAWING. 👏OVER. 👏AMARILLO. 👏 HOPS! The story of Amarillo hops reads like a Shakesperian play…minus the murder, and incest, and romance. Ok, it’s more like a regular story arc from your Creative Writing 201 class. Amarillo came out of the gates on fire in the mid-00s and everybody wanted to put it in their IPA. It tried ...'
     hops:
       - { hop: amarillo, name: Amarillo, as_written: AMARILLO }
+  - slug: with-bated-breath
+    name: With Bated Breath
+    url: https://www.cloudburstbrew.com/beer/with-bated-breath/
+    abv: 6.6
+    hops_as_written: ' With Bated Breath IPA | 6.6% ABV | 52 IBU Ok, so this description is being written the weekend before Election Day and WE HAVE NO IDEA HOW TO FEEL RN. The polls have been trending in the right direction for a month…but will all these people show up to vote? Or will they be turned away for a plethora of bullshit reasons – from intimidation at the polls, to registration confusion and restriction...'
+    hops:
+      - { hop: strata, name: Strata, as_written: Strata }
+      - { hop: azacca, name: Azacca, as_written: Azacca }
   - slug: world-wide-wet
     name: World Wide Wet
     url: https://www.cloudburstbrew.com/beer/world-wide-wet/
