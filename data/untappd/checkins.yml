@@ -1,5 +1,13 @@
 source: Untappd, via https://brooksgroves.com/beers.json (tools/ingest/untappd.py) -- do not edit by hand
 checkins:
+  - id: 1613300704
+    date: '2026-11-06'
+    beer: Amarillo Slim (2026 Fresh Hop}
+    brewery: Brothers Cascadia Brewing
+    venue: Western State Hospital
+    comment: Hoppy fresh hop,  with that Amarillo!!  Backside of fresh hop season! 🔥🍺🤙
+    photo: https://images.untp.beer/crop?width=200&height=200&stripmeta=true&url=https://untappd.s3.amazonaws.com/photos/2026_11_06/8771c7350e91e65b6c22fb82c35794c6_c_1613300704_raw.jpg
+    link: https://untappd.com/user/bdgroves/checkin/1613300704
   - id: 1611243271
     date: '2026-10-25'
     beer: Fresh Hop Strata (2026)
