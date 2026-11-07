@@ -1,5 +1,13 @@
 source: Untappd, via https://brooksgroves.com/beers.json (tools/ingest/untappd.py) -- do not edit by hand
 checkins:
+  - id: 1613604739
+    date: '2026-11-07'
+    beer: Fresh Betty
+    brewery: Old Schoolhouse Brewery
+    venue: Western State Hospital
+    comment: This is real nice,  would have another whenever I could. 🔥🍺🤙
+    photo: https://images.untp.beer/crop?width=200&height=200&stripmeta=true&url=https://untappd.s3.amazonaws.com/photos/2026_11_07/a1e3c46d86d4f4859899a03f67861ab2_c_1613604739_raw.jpg
+    link: https://untappd.com/user/bdgroves/checkin/1613604739
   - id: 1613300704
     date: '2026-11-06'
     beer: Amarillo Slim (2026 Fresh Hop}
