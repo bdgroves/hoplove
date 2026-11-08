@@ -1,5 +1,13 @@
 source: Untappd, via https://brooksgroves.com/beers.json (tools/ingest/untappd.py) -- do not edit by hand
 checkins:
+  - id: 1614013373
+    date: '2026-11-08'
+    beer: Newly Sharpened Pencils
+    brewery: Kings & Daughters Brewery
+    venue: Western State Hospital
+    comment: "This beer makes me feel smart,  when I read the label.  Also I need that AOL sound for\nMy phone!! 📫🍺🤙"
+    photo: https://images.untp.beer/crop?width=200&height=200&stripmeta=true&url=https://untappd.s3.amazonaws.com/photos/2026_11_08/667f7b21e3a40e8967583f830cd85778_c_1614013373_raw.jpg
+    link: https://untappd.com/user/bdgroves/checkin/1614013373
   - id: 1613604739
     date: '2026-11-07'
     beer: Fresh Betty
