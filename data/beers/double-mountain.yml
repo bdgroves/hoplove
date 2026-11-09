@@ -5,7 +5,7 @@ brewery:
   state: OR
   url: https://doublemountainbrewery.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-11-05'
+retrieved: '2026-11-09'
 beers:
   - slug: centennial
     name: Centennial IPA
@@ -32,6 +32,23 @@ beers:
     hops_as_written: Sterling
     hops:
       - { hop: sterling, name: Sterling, as_written: Sterling }
+  - slug: drawknife
+    name: Drawknife
+    url: https://doublemountainbrewery.com/beer/drawknife/
+    abv: 6.8
+    hops_as_written: Simcoe, Zappa, and HBC 638 in the kettle
+    hops:
+      - { hop: simcoe, name: Simcoe, as_written: Simcoe }
+      - { hop: zappa, name: Zappa, as_written: Zappa }
+      - { hop: hbc-638, name: HBC 638, as_written: HBC 638 }
+  - slug: fa-la-la-la-la
+    name: Fa La La La La Returns!
+    url: https://doublemountainbrewery.com/beer/fa-la-la-la-la/
+    abv: 7.5
+    hops_as_written: Warrior and Centennial in the kettle, Centennial hop back, Centennial dry hop
+    hops:
+      - { hop: warrior, name: Warrior, as_written: Warrior }
+      - { hop: centennial, name: Centennial, as_written: Centennial }
   - slug: fresh-hop-iowa-bar-fight
     name: Fresh Hop Iowa IPA
     url: https://doublemountainbrewery.com/beer/fresh-hop-iowa-bar-fight/

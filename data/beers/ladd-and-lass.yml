@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://www.laddandlassbrewing.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-11-05'
+retrieved: '2026-11-09'
 beers:
   - slug: crunchy-boi
     name: Crunchy Boi
@@ -25,15 +25,6 @@ beers:
       - { hop: citra, name: Citra, as_written: Citra }
       - { hop: mosaic, name: Mosaic, form: Cryo, as_written: Cryo Mosaic }
       - { hop: simcoe, name: Simcoe, form: Cryo, as_written: Cryo Simcoe }
-  - slug: fresh-hop-chinook
-    name: Fresh Hop Chinook
-    url: https://www.laddandlassbrewing.com/
-    abv: 5.5
-    hops_as_written: Fresh Chinook, Cryo Citra &Cryo Columbus
-    hops:
-      - { hop: chinook, name: Chinook, fresh: true, as_written: Fresh Chinook }
-      - { hop: citra, name: Citra, form: Cryo, as_written: Cryo Citra }
-      - { hop: columbus, name: Columbus, form: Cryo, as_written: Cryo Columbus }
   - slug: fresh-hop-cloud-sipper
     name: Fresh Hop Cloud Sipper
     url: https://www.laddandlassbrewing.com/

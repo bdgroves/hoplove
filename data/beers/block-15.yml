@@ -5,14 +5,8 @@ brewery:
   state: OR
   url: https://www.block15.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-11-05'
+retrieved: '2026-11-09'
 beers:
-  - slug: animal-cookies-fresh-hop
-    name: Animal Cookies - Fresh Hop
-    url: https://www.block15.com/
-    hops_as_written: For the first time, our Hazy IPA gets the Fresh Hop treatment with fresh Centennial CGX NUVO hops from Crosby Hop Farm in Woodburn, Oregon.
-    hops:
-      - { hop: centennial, name: Centennial, fresh: true, farm: Crosby Hop Farm, as_written: Centennial }
   - slug: deep-seek-west-coast-ipa
     name: Deep Seek
     url: https://block15.com/deep-seek-west-coast-ipa
@@ -106,12 +100,6 @@ beers:
       - { hop: cascade, name: Cascade, as_written: Cascade }
       - { hop: chinook, name: Chinook, as_written: Chinook }
       - { hop: centennial, name: Centennial, as_written: Centennial }
-  - slug: static-shatter
-    name: Static Shatter
-    url: https://www.block15.com/
-    hops_as_written: Our annual Fresh Hop American IPA uses fresh Strata hops from Coleman’s Alluvial Farm in Independence, Oregon.
-    hops:
-      - { hop: strata, name: Strata, fresh: true, as_written: Strata }
   - slug: sticky-hands-imperial-ipa
     name: Sticky Hands
     url: https://block15.com/sticky-hands-imperial-ipa
@@ -125,9 +113,3 @@ beers:
       - { hop: strata, name: Strata, as_written: Strata }
       - { hop: columbus, name: Columbus, as_written: Columbus }
       - { hop: amarillo, name: Amarillo, as_written: Amarillo }
-  - slug: sticky-hands-fresh-hop-edition
-    name: Sticky Hands - Fresh Hop Edition
-    url: https://www.block15.com/
-    hops_as_written: A Fresh Hop version of our flagship Imperial IPA is back for 2026, using fresh Citra hops from Westwood Farms in Gervais, Oregon. *Release dates may be subject to change depending on hop harvest windows.
-    hops:
-      - { hop: citra, name: Citra, fresh: true, farm: Westwood Farms, as_written: Citra }

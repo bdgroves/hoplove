@@ -17,8 +17,8 @@
 
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
-<head><script data-source-attribution="shopify.exit_interstitial">(()=>{var s=Function.prototype.bind.bind(Function.prototype.call),Wt=(i,c)=>{for(let d=i;d;d=Object.getPrototypeOf(d)){let h=Object.getOwnPropertyDescriptor(d,c);if(h)return h}throw new TypeError(`${c} is not defined`)},a=(i,c)=>s(Wt(i,c).get),H=(i,c)=>s(Wt(i,c).set);var It=s(String.prototype.endsWith),cn=s(String.prototype.slice),S=s(RegExp.prototype.exec),an=/^_(self|top|parent)$/i,ln=/(^|\s)noreferrer(\s|$)/i,Ct=/^(no-referrer(-when-downgrade)?|same-origin|(strict-)?origin(-when-cross-origin)?|unsafe-url)$/i,un=/^(never|default|always|origin-when-crossorigin)$/i,Ft=/^(no-referrer|same-origin|never)$/i,pn=/\s(musical_ly|trill)_|\sBytedanceWebview\//,Tt=i=>It(i,".")?cn(i,0,-1):i,Mt=i=>{let c=Tt(i),d=`.${c}`;return h=>{let _=Tt(h);return _===c||It(_,d)}},Dt=(i,c,d)=>i!==void 0&&(i.protocol==="https:"||i.protocol==="http:")&&i.origin!==c&&!d(i.hostname),nt=(i,c,d)=>i!==null&&S(ln,i)!==null?!0:c!==null&&S(Ct,c)!==null?S(Ft,c)!==null:d,Ht=(i,c)=>S(Ct,i)!==null||S(un,i)!==null?S(Ft,i)!==null:c,W=(i,{metaKey:c,ctrlKey:d,shiftKey:h,button:_})=>i&&S(an,i)===null?i:c||d||h||_===1?"_blank":"",Ut=i=>S(pn,i)!==null;var fn="http://www.w3.org/2000/svg",dn="http://www.w3.org/1999/xlink",ot=["rel","referrerpolicy","download","ping","hreflang","type"],gn=Object.freeze({__proto__:null,metaKey:!1,ctrlKey:!1,shiftKey:!1,button:0});function Kt(i){let c=window;if(c.top!==c)return;let d=document,h=c.navigation,_=location.origin,b=URL,U=a(b.prototype,"href"),$t=a(b.prototype,"origin"),Bt=a(b.prototype,"protocol"),qt=a(b.prototype,"hostname"),Gt=H(b.prototype,"search"),rt=FormData,Yt=URLSearchParams,jt=s(URLSearchParams.prototype.toString),Vt=s(URLSearchParams.prototype.append),st=s(Event.prototype.preventDefault),zt=s(Event.prototype.stopPropagation),ct=s(Event.prototype.stopImmediatePropagation),K=s(Event.prototype.composedPath),Xt=a(Event.prototype,"type"),Jt=a(Event.prototype,"target"),it=typeof SubmitEvent=="function"?a(SubmitEvent.prototype,"submitter"):void 0,Qt=typeof File=="function"?a(File.prototype,"name"):void 0,Zt=a(HTMLButtonElement.prototype,"form"),te=a(HTMLInputElement.prototype,"form"),ee=a(Event.prototype,"cancelable"),at=a(Event.prototype,"defaultPrevented"),ne=a(Event.prototype,"bubbles"),oe=a(Event.prototype,"currentTarget"),re=a(Event.prototype,"eventPhase"),{CAPTURING_PHASE:se}=Event,lt=a(Event.prototype,"cancelBubble"),ce=H(Event.prototype,"cancelBubble"),ie=a(MouseEvent.prototype,"button"),ae=a(MouseEvent.prototype,"metaKey"),le=a(MouseEvent.prototype,"ctrlKey"),ue=a(MouseEvent.prototype,"shiftKey"),pe=h&&a(NavigateEvent.prototype,"destination"),fe=h&&a(NavigationDestination.prototype,"url"),ut=h&&a(NavigateEvent.prototype,"navigationType"),de=h&&a(NavigateEvent.prototype,"formData"),pt=h&&"sourceElement"in NavigateEvent.prototype?a(NavigateEvent.prototype,"sourceElement"):void 0,w=s(Element.prototype.getAttribute),ge=s(Element.prototype.getAttributeNS),$=s(Element.prototype.setAttribute),ye=a(Element.prototype,"localName"),he=a(Element.prototype,"namespaceURI"),me=s(Document.prototype.querySelector),we=s(Document.prototype.querySelectorAll),Ee=a(NodeList.prototype,"length"),_e=s(NodeList.prototype.item),T=a(Node.prototype,"baseURI"),I=a(Node.prototype,"isConnected"),be=s(Document.prototype.createElement),ve=s(HTMLElement.prototype.click),Se=s(c.open),ke=s(location.assign),Ne=s(location.replace),Re=encodeURIComponent,Oe=s(String.prototype.startsWith),ft=s(String.prototype.charCodeAt),dt=s(String.prototype.slice),Le=s(String.prototype.toLowerCase),B=s(c.setTimeout),Pe=s(c.queueMicrotask),Ae=s(c.addEventListener),xe=s(c.removeEventListener),gt=s(EventTarget.prototype.addEventListener),yt=s(EventTarget.prototype.removeEventListener),ht=Object.defineProperties,q=t=>{let e=[],n=[HTMLElement.prototype,SVGElement.prototype,Document.prototype,c];for(let o=0;o<n.length;o+=1)try{e[e.length]={get:a(n[o],t),set:H(n[o],t)}}catch{}return e},We={click:q("onclick"),auxclick:q("onauxclick"),submit:q("onsubmit")},C=WeakMap,Te=WeakSet,G=s(WeakMap.prototype.get),mt=s(WeakMap.prototype.set),wt=s(WeakMap.prototype.delete),Ie=s(WeakSet.prototype.add),Ce=s(WeakSet.prototype.has),Fe=Mt(i.site),Et=Ut(navigator.userAgent),_t=U(new b(i.exitPath,_)),Me=`${_t}?`,R=(t,e)=>{try{let n=new b(t,e);return{href:U(n),origin:$t(n),protocol:Bt(n),hostname:qt(n)}}catch{return}},De=(t,e,n)=>{let o=n?"&noreferrer=1":"";return`${_t}?q=${Re(t.href)}&trigger=${e}${o}`},Y=()=>{let t=we(d,'meta[name="referrer" i][content]'),e=!1;for(let n=0;n<Ee(t);n+=1)e=Ht(w(_e(t,n),"content"),e);return e},j=(t,e,{target:n,noReferrer:o,replaces:r})=>{let u=De(t,e,o);if(n){Se(c,u,n,"noopener");return}(r?Ne:ke)(location,u)},F=t=>Dt(t,_,Fe),M=0,V,z=!1,He=t=>{if(M>0){V=t;return}t()},Ue=t=>{if(M-=1,t&&(z=!0),M>0)return;let e=z?void 0:V;V=void 0,z=!1,e&&e()},Ke=t=>t!==void 0&&Oe(t.href,Me),P=t=>{try{return ye(t)}catch{return}},bt=t=>nt(w(t,"rel"),w(t,"referrerpolicy"),Y()),$e=t=>{let e=pt?pt(t):null,n=e===null?void 0:P(e);return n==="a"||n==="area"?bt(e):Y()},Be=t=>{let e=R(fe(pe(t)));if(Ke(e)){ct(t);return}if(!ee(t)||ut(t)==="traverse"||!F(e)||de(t)!==null)return;st(t);let n={target:"",noReferrer:$e(t),replaces:ut(t)==="replace"};He(()=>j(e,"navigate",n))},A=t=>{let e=w(t,"href");return e===null&&he(t)===fn?ge(t,dn,"href"):e},qe=t=>{let e=K(t);for(let n=0;n<e.length;n+=1){let o=e[n],r=P(o);if(r==="a"||r==="area"){let u=A(o);if(u!==null)return{node:o,href:u}}}},vt=()=>{let t=me(d,"base[target]");return t?w(t,"target"):""},X=t=>w(t,"target")??vt(),Ge=t=>{try{return{metaKey:ae(t),ctrlKey:le(t),shiftKey:ue(t),button:ie(t)}}catch{return}},St=new Te,Ye=t=>{let e=!1,n=()=>{e=!0},o=()=>e||Ce(St,t);return ht(t,{__proto__:null,preventDefault:{__proto__:null,configurable:!0,value:n},defaultPrevented:{__proto__:null,configurable:!0,get:o},returnValue:{__proto__:null,configurable:!0,get:()=>!o(),set:r=>{r||n()}}}),o},je={click:new C,auxclick:new C,submit:new C},Ve=(t,e)=>{let n=We[t],o=je[t],r=[],u=f=>{for(let p=0;p<r.length;p+=1)if(r[p]===f)return!0;return!1},g=(f,p,E)=>{let m=s(E);function D(N){let O=m(this,N);return O===!1&&typeof N=="object"&&N!==null&&Ie(St,N),O}return{target:f,accessor:p,handler:E,wrapper:D,inFlight:0}},v=()=>{for(let f=0;f<e.length;f+=1)for(let p=0;p<n.length;p+=1){let E;try{E=n[p].get(e[f])}catch{continue}if(typeof E=="function"){let m=G(o,e[f]);(!m||m.wrapper!==E)&&(m=g(e[f],n[p],E),n[p].set(e[f],m.wrapper),mt(o,e[f],m)),u(m)||(m.inFlight+=1,r[r.length]=m)}break}};return v(),{wrap:v,unwrap:()=>{for(let f=0;f<r.length;f+=1){let p=r[f];p.inFlight-=1,!(p.inFlight>0)&&(G(o,p.target)===p&&wt(o,p.target),p.accessor.get(p.target)===p.wrapper&&p.accessor.set(p.target,p.handler))}}}},ze=(t,e,n)=>{let o=A(t),r=o===null?void 0:R(o,T(d));if(!F(r))return;let u={target:Et?"":W(X(t),n),noReferrer:bt(t),replaces:!1};return{__proto__:null,inWindow:u.target==="",go:()=>j(r,e,u)}},kt=t=>{let e=A(t);if(e===null||w(t,"download")===null)return!1;let n=R(e,T(d));return n!==void 0&&(n.origin===_||n.protocol==="blob:"||n.protocol==="data:")},Xe=(t,e)=>A(t)!==null&&!kt(t)&&W(X(t),e)==="",Je=(t,e)=>{let n=A(t);if(n===null)return!1;let o=be(d,"a"),r=W(X(t),e);$(o,"href",n),$(o,"target",r||"_self");for(let u=0;u<ot.length;u+=1){let g=w(t,ot[u]);g!==null&&$(o,ot[u],g)}return ve(o),r===""&&!kt(t)},Qe=(t,e,n)=>({__proto__:null,plan:()=>ze(t,e,n),navigatesWindow:()=>Xe(t,n),follow:()=>Je(t,n)}),Nt=(t,e,n)=>{M+=1;let o=K(t),r=o.length-1,u=0,g=!1,v=!1,k=l=>{v||(v=!0,Ue(l))},f=l=>{if(g)return;g=!0;let L=at(t),y=L?void 0:n.plan(),xt=l&&n.follow!==void 0,x;!L&&(y||xt)&&(st(t),x=Ye(t)),y?.readFields!==void 0&&(l?x&&Pe(c,()=>{x()||y.handlerReturned()}):y.readFields()),B(c,()=>{if(!x){k(!at(t)&&n.navigatesWindow());return}if(x()){k(!1);return}if(xt&&(y=n.plan(),!y)){k(n.follow());return}if(y.dropped!==void 0&&y.dropped()){k(!1);return}y.go(),k(y.inWindow)},0)},p=(l,L)=>{for(let y=0;y<o.length;y+=1)if(o[y]===l)return L===se?r-y:o.length+y;return-1},E=()=>{p(oe(t),re(t))<=u&&f(!0)},m=l=>{l===t&&f(!1)},D=Ve(e,o),N=l=>L=>{if(L===t){if(u=l,lt(t)){f(!1);return}D.wrap()}},O=[],tt=[],et=ne(t);if(et){for(let l=0;l<r;l+=1)O[l]=N(r-l),tt[l]=N(o.length+l),gt(o[l],e,O[l],!0),gt(o[l],e,tt[l],!1);Ae(c,e,m,!1)}if(B(c,()=>{if(g||k(!1),g=!0,D.unwrap(),!!et){for(let l=0;l<r;l+=1)yt(o[l],e,O[l],!0),yt(o[l],e,tt[l],!1);xe(c,e,m,!1)}},0),!et){f(!0);return}ht(t,{__proto__:null,stopPropagation:{__proto__:null,configurable:!0,value:()=>{E(),zt(t)}},stopImmediatePropagation:{__proto__:null,configurable:!0,value:()=>{f(!0),ct(t)}},cancelBubble:{__proto__:null,configurable:!0,get:()=>lt(t),set:l=>{l&&E(),ce(t,l)}}})},J=new C,Ze=(t,e)=>{let n=K(t);for(let o=0;o<n.length;o+=1){let r=n[o],u=P(r);if(u==="button"||u==="input"){mt(J,r,e),B(c,()=>wt(J,r),0);return}}},Rt=t=>{let e=Xt(t),n=Ge(t);if(!n||e==="auxclick"&&n.button!==1)return;e==="click"&&Ze(t,n);let o=qe(t);!o||!F(R(o.href,T(d)))||Nt(t,e,Qe(o.node,e,n))},Q=(t,e,n,o)=>(e?w(e,n):null)??w(t,o),Ot=(t,e)=>Le(Q(t,e,"formmethod","method")??""),Lt=(t,e,n)=>W(Q(t,e,"formtarget","target")??vt(),n),Pt=(t,e)=>{let n=Ot(t,e);if(n==="post"||n==="dialog")return;let o=Q(t,e,"formaction","action");if(o===null||o==="")return;let r=R(o,T(d));return F(r)?r:void 0},tn=(t,e)=>{if((e&&(P(e)==="button"?Zt:te)(e))===t)try{return new rt(t,e)}catch{}return new rt(t)},Z=t=>{let e="",n=0;for(let o=0;o<t.length;o+=1){let r=ft(t,o);(r===13||r===10)&&(e+=`${dt(t,n,o)}\r
-`,r===13&&ft(t,o+1)===10&&(o+=1),n=o+1)}return n===0?t:e+dt(t,n)},en=t=>{try{return Z(Qt(t))}catch{return""}},At=(t,e,n)=>{try{let o=new b(n.href),r=new Yt;for(let u of tn(t,e)){let g=u[1];Vt(r,Z(u[0]),typeof g=="string"?Z(g):en(g))}return Gt(o,`?${jt(r)}`),R(U(o))??n}catch{return n}},nn=(t,e,n)=>{if(!I(t))return;let o=Pt(t,e);if(!o)return;let r,u=!1,g=()=>{r=At(t,e,o),I(t)||(u=!0)},v={target:Et?"":Lt(t,e,n),noReferrer:nt(w(t,"rel"),null,Y()),replaces:!1};return{__proto__:null,inWindow:v.target==="",go:()=>j(r??At(t,e,o),"submit",v),readFields:g,handlerReturned:()=>{I(t)?g():u=!0},dropped:()=>u}},on=(t,e,n)=>I(t)&&Ot(t,e)!=="dialog"&&Lt(t,e,n)==="",rn=(t,e,n)=>({__proto__:null,plan:()=>nn(t,e,n),navigatesWindow:()=>on(t,e,n)}),sn=t=>{if(!t.isTrusted)return;let e=Jt(t);if(P(e)!=="form")return;let n=it?it(t):null;if(!Pt(e,n))return;let o=(n&&G(J,n))??gn;Nt(t,"submit",rn(e,n,o))};h?.addEventListener("navigate",Be,!0),c.addEventListener("click",Rt,!0),c.addEventListener("auxclick",Rt,!0),c.addEventListener("submit",sn,!0)}Kt({"site":"yakimavalleyhops.com","exitPath":"\/url"});})();
+<head><script data-source-attribution="shopify.exit_interstitial">(()=>{var i=Function.prototype.bind.bind(Function.prototype.call),nn=(y,d)=>{for(let m=y;m;m=Object.getPrototypeOf(m)){let T=Object.getOwnPropertyDescriptor(m,d);if(T)return T}throw new TypeError(`${d} is not defined`)},a=(y,d)=>i(nn(y,d).get),J=(y,d)=>i(nn(y,d).set);var rn=i(String.prototype.endsWith),xr=i(String.prototype.slice),I=i(RegExp.prototype.exec),Or=/^_(self|top|parent)$/i,kr=/(^|\s)noreferrer(\s|$)/i,sn=/^(no-referrer(-when-downgrade)?|same-origin|(strict-)?origin(-when-cross-origin)?|unsafe-url)$/i,Cr=/^(never|default|always|origin-when-crossorigin)$/i,cn=/^(no-referrer|same-origin|never)$/i,Ir=/\s(musical_ly|trill)_|\sBytedanceWebview\//,on=y=>rn(y,".")?xr(y,0,-1):y,ln=y=>{let d=on(y),m=`.${d}`;return T=>{let N=on(T);return N===d||rn(N,m)}},an=(y,d,m)=>y!==void 0&&(y.protocol==="https:"||y.protocol==="http:")&&y.origin!==d&&!m(y.hostname),Bt=(y,d,m)=>y!==null&&I(kr,y)!==null?!0:d!==null&&I(sn,d)!==null?I(cn,d)!==null:m,pn=(y,d)=>I(sn,y)!==null||I(Cr,y)!==null?I(cn,y)!==null:d,Q=(y,{metaKey:d,ctrlKey:m,shiftKey:T,button:N})=>y&&I(Or,y)===null?y:d||m||T||N===1?"_blank":"",un=y=>I(Ir,y)!==null;var fn="http://www.w3.org/1999/xhtml",Mr="http://www.w3.org/2000/svg",Dr="http://www.w3.org/1999/xlink",zt=["rel","referrerpolicy","download","ping","hreflang","type"],it=Object.freeze({__proto__:null,metaKey:!1,ctrlKey:!1,shiftKey:!1,button:0}),Lr=Object.freeze({__proto__:null,composed:!0}),vr=/(?:^|[\s,])noreferrer(?=[\s,=]|$)\s*(?:=[\s=]*([^\s,=]*))?(?![\s\S]*[\s,]noreferrer(?:[\s,=]|$))/i,Ar=/^(|yes|true|[+-]?0*[1-9].*)$/i,qt=/<(?:(!--)|([!?]|\/(?![a-z]))|(\/?)([a-z][^\t\n\f\r />]*))/gi,Yt=/--!?>/g,Gt=/>/g,P=/([\t\n\f\r /]*)(?:(>)|([^\t\n\f\r />][^\t\n\f\r />=]*)[\t\n\f\r ]*(?:=[\t\n\f\r ]*(?:"([^"]*)"?|'([^']*)'?|([^\t\n\f\r >]*)))?)/y,Xt=/<\/([a-z]+)[\t\n\f\r />]/gi,at=/<(\/?)script[\t\n\f\r />]|<!--|-->/gi,pt=/&#(?:x([0-9a-f]+)|([0-9]+));?/gi,Z=/<template[\t\n\f\r />]/gi,ut=/[=][\t\n\f\r ]*["']?/g,dn={__proto__:null,iframe:!0,noembed:!0,noframes:!0,plaintext:!0,script:!0,style:!0,textarea:!0,title:!0,xmp:!0},Pr={__proto__:null,math:!0,select:!0,svg:!0},Fr="shopify-exit-interstitial";function yn(y){let d=window;if(d.top!==d)return;let m=document,T=d.navigation,N=location.origin,b=URL,ft=a(b.prototype,"href"),hn=a(b.prototype,"origin"),mn=a(b.prototype,"protocol"),gn=a(b.prototype,"hostname"),En=J(b.prototype,"search"),Vt=FormData,Jt=i(FormData.prototype.forEach),_n=URLSearchParams,F=typeof DataTransfer=="function"?DataTransfer:void 0,wn=F&&a(DataTransfer.prototype,"items"),Tn=F&&a(DataTransfer.prototype,"files"),Rn=F&&i(DataTransferItemList.prototype.add),Sn=F&&J(HTMLInputElement.prototype,"files"),Nn=i(URLSearchParams.prototype.toString),bn=i(URLSearchParams.prototype.append),Qt=i(Event.prototype.preventDefault),Zt=i(Event.prototype.stopImmediatePropagation),dt=i(Event.prototype.composedPath),te=a(Event.prototype,"type"),ee=a(Event.prototype,"target"),ne=typeof SubmitEvent=="function"?a(SubmitEvent.prototype,"submitter"):void 0,xn=typeof File=="function"?a(File.prototype,"name"):void 0,oe=a(HTMLButtonElement.prototype,"form"),re=a(HTMLInputElement.prototype,"form"),On=a(Event.prototype,"cancelable"),yt=a(Event.prototype,"defaultPrevented"),kn=a(Event.prototype,"cancelBubble"),Cn=a(MouseEvent.prototype,"button"),In=a(MouseEvent.prototype,"metaKey"),Mn=a(MouseEvent.prototype,"ctrlKey"),Dn=a(MouseEvent.prototype,"shiftKey"),Ln=T&&a(NavigateEvent.prototype,"destination"),vn=T&&a(NavigationDestination.prototype,"url"),se=T&&a(NavigateEvent.prototype,"navigationType"),An=T&&a(NavigateEvent.prototype,"formData"),ce=T&&"sourceElement"in NavigateEvent.prototype?a(NavigateEvent.prototype,"sourceElement"):void 0,w=i(Element.prototype.getAttribute),Pn=i(Element.prototype.getAttributeNS),x=i(Element.prototype.setAttribute),Fn=i(Element.prototype.remove),ht=i(Node.prototype.appendChild),mt=a(Element.prototype,"localName"),K=a(Element.prototype,"namespaceURI"),Hn=i(Document.prototype.querySelector),Un=i(Document.prototype.querySelectorAll),Wn=a(NodeList.prototype,"length"),$n=i(NodeList.prototype.item),tt=a(Node.prototype,"baseURI"),Kn=a(Document.prototype,"URL"),jn=a(Document.prototype,"documentElement"),et=a(Node.prototype,"isConnected"),le=a(Node.prototype,"ownerDocument"),M=a(Node.prototype,"parentNode"),ie=i(Node.prototype.getRootNode),Bn=a(ShadowRoot.prototype,"host"),zn=a(Element.prototype,"assignedSlot"),qn=a(Text.prototype,"assignedSlot"),Yn=a(HTMLInputElement.prototype,"type"),Gn=a(HTMLButtonElement.prototype,"type"),Xn=i(Element.prototype.querySelector),Vn=i(Element.prototype.matches),Jn=a(Event.prototype,"bubbles"),Qn=a(Event.prototype,"composed"),Zn=i(EventTarget.prototype.dispatchEvent),j=i(Document.prototype.createElement),ae=i(HTMLElement.prototype.click),pe=i(HTMLFormElement.prototype.submit),to=J(HTMLTextAreaElement.prototype,"value"),eo=i(Element.prototype.closest),ue=typeof HTMLDialogElement=="function"&&typeof HTMLDialogElement.prototype.close=="function"?i(HTMLDialogElement.prototype.close):void 0,fe=i(d.open),no=i(location.assign),oo=i(location.replace),ro=encodeURIComponent,so=i(String.prototype.startsWith),_=i(RegExp.prototype.exec),de=i(String.prototype.charCodeAt),H=i(String.prototype.slice),D=i(String.prototype.toLowerCase),co=String.fromCharCode,ye=Number.parseInt,he=i(d.setTimeout),U=i(EventTarget.prototype.addEventListener),gt=i(EventTarget.prototype.removeEventListener),nt=i(d.addEventListener),lo=Object.defineProperties,me=Reflect.defineProperty,O=Reflect.apply,Et=(t,e)=>me(t,t.length,{__proto__:null,value:e,writable:!0,enumerable:!0,configurable:!0}),_t=t=>{let e=[],n=[HTMLElement.prototype,SVGElement.prototype,Document.prototype,d];for(let o=0;o<n.length;o+=1)try{e[e.length]={get:a(n[o],t),set:J(n[o],t)}}catch{}return e},io={click:_t("onclick"),auxclick:_t("onauxclick"),submit:_t("onsubmit")},B=WeakMap,wt=WeakSet,z=i(WeakMap.prototype.get),Tt=i(WeakMap.prototype.set),ge=i(WeakMap.prototype.delete),Rt=i(WeakSet.prototype.add),ot=i(WeakSet.prototype.has),ao=ln(y.site),St=un(navigator.userAgent),Ee=ft(new b(y.exitPath,N)),po=`${Ee}?`,L=(t,e)=>{try{let n=new b(t,e);return{href:ft(n),origin:hn(n),protocol:mn(n),hostname:gn(n)}}catch{return}},uo=(t,e,n)=>{let o=n?"&noreferrer=1":"";return`${Ee}?q=${ro(t.href)}&trigger=${e}${o}`},rt=()=>{let t=Un(m,'meta[name="referrer" i][content]'),e=!1;for(let n=0;n<Wn(t);n+=1)e=pn(w($n(t,n),"content"),e);return e},q=(t,e,{target:n,noReferrer:o,replaces:r})=>{let s=uo(t,e,o);if(n){fe(d,s,n,"noopener");return}(r?oo:no)(location,s)},k=t=>an(t,N,ao),st=0,Nt,bt=!1,xt=t=>{if(st>0){Nt=t;return}t()},fo=t=>{if(st-=1,t&&(bt=!0),st>0)return;let e=bt?void 0:Nt;Nt=void 0,bt=!1,e&&e()},yo=t=>t!==void 0&&so(t.href,po),R=t=>{try{return mt(t)}catch{return}},_e=t=>Bt(w(t,"rel"),w(t,"referrerpolicy"),rt()),ho=t=>{let e=ce?ce(t):null,n=e===null?void 0:R(e);return n==="a"||n==="area"?_e(e):rt()},mo=t=>{let e=L(vn(Ln(t)));if(yo(e)){Zt(t);return}if(!On(t)||se(t)==="traverse"||!k(e)||An(t)!==null)return;Qt(t);let n={target:"",noReferrer:ho(t),replaces:se(t)==="replace"};xt(()=>q(e,"navigate",n))},we=t=>{let e=w(t,"href");return e===null&&K(t)===Mr?Pn(t,Dr,"href"):e},go=t=>{let e=dt(t);for(let n=0;n<e.length;n+=1){let o=e[n],r=R(o);if(r==="a"||r==="area"){let s=we(o);if(s!==null)return{node:o,href:s}}}},Te=()=>{let t=Hn(m,"base[target]");return t?w(t,"target"):""},Re=t=>w(t,"target")??Te(),Se=t=>{try{return{metaKey:In(t),ctrlKey:Mn(t),shiftKey:Dn(t),button:Cn(t)}}catch{return}},Ne=new wt,Eo=t=>{let e=!1,n=()=>{e=!0},o=()=>e||ot(Ne,t);return lo(t,{__proto__:null,preventDefault:{__proto__:null,configurable:!0,value:n},defaultPrevented:{__proto__:null,configurable:!0,get:o},returnValue:{__proto__:null,configurable:!0,get:()=>!o(),set:r=>{r||n()}}}),o},_o={click:new B,auxclick:new B,submit:new B},wo=(t,e)=>{let n=io[t],o=_o[t],r=[],s=c=>{for(let p=0;p<r.length;p+=1)if(r[p]===c)return!0;return!1},l=(c,p,h)=>{let g=i(h);function A(E){let S=g(this,E);return S===!1&&typeof E=="object"&&E!==null&&Rt(Ne,E),S}return{target:c,accessor:p,handler:h,wrapper:A,inFlight:0}},u=()=>{for(let c=0;c<e.length;c+=1)for(let p=0;p<n.length;p+=1){let h;try{h=n[p].get(e[c])}catch{continue}if(typeof h=="function"){let g=z(o,e[c]);(!g||g.wrapper!==h)&&(g=l(e[c],n[p],h),n[p].set(e[c],g.wrapper),Tt(o,e[c],g)),s(g)||(g.inFlight+=1,Et(r,g))}break}};return u(),{wrap:u,unwrap:()=>{for(let c=0;c<r.length;c+=1){let p=r[c];p.inFlight-=1,!(p.inFlight>0)&&(z(o,p.target)===p&&ge(o,p.target),p.accessor.get(p.target)===p.wrapper&&p.accessor.set(p.target,p.handler))}}}},Y={__proto__:null,go:()=>!1},To=(t,e)=>w(t,"download")!==null&&(e.origin===N||e.protocol==="blob:"||e.protocol==="data:"),Ro=(t,e,n)=>{let o=Q(Re(t),n),r=[];for(let l=0;l<zt.length;l+=1){let u=w(t,zt[l]);u!==null&&Et(r,[zt[l],u])}let s=To(t,e);return{__proto__:null,go:()=>{let l=j(m,"a");x(l,"href",e.href),x(l,"target",o||"_self");for(let u=0;u<r.length;u+=1)x(l,r[u][0],r[u][1]);return ae(l),o===""&&!s}}},be=t=>{let e=we(t);return e===null?void 0:L(e,tt(m))},xe=(t,e,n)=>{let o=be(t);if(!o)return Y;if(!k(o))return Ro(t,o,n);let r={target:St?"":Q(Re(t),n),noReferrer:_e(t),replaces:!1};return{__proto__:null,here:r.target==="",go:()=>(q(o,e,r),r.target==="")}},So=(t,e,n)=>({__proto__:null,plan:()=>xe(t,e,n)}),Oe=(t,e,n,o)=>{st+=1;let r=dt(t),s=r.length-1,l=wo(e,r),u,f,c=h=>{h===t&&u&&!u()&&(f=n.plan())};o&&(o.plan=()=>{f||c(t)});let p=h=>{h===t&&(l.wrap(),kn(t)&&c(h))};for(let h=0;h<s;h+=1)U(r[h],e,p,!0),U(r[h],e,p,!1);yt(t)||(Qt(t),u=Eo(t)),U(r[s],e,c,!1),he(d,()=>{let h=!1;try{l.unwrap();for(let g=0;g<s;g+=1)gt(r[g],e,p,!0),gt(r[g],e,p,!1);gt(r[s],e,c,!1),u&&!u()&&(f||(f=n.plan()),h=f.go())}finally{fo(h)}},0)},Ot=new B,No=(t,e)=>{let n=dt(t);for(let o=0;o<n.length;o+=1){let r=n[o],s=R(r);if(s==="button"||s==="input"){let l={__proto__:null,details:e,plan:void 0};Tt(Ot,r,l),he(d,()=>{ge(Ot,r),l.plan?.()},0);return}}},kt=(t,e)=>{if(e&&yt(t))return;let n=te(t),o=Se(t);if(!o||n==="auxclick"&&o.button!==1)return;!e&&n==="click"&&No(t,o);let r=go(t);!r||!k(L(r.href,tt(m)))||Oe(t,n,So(r.node,n,o))},G=(t,e,n,o)=>(e?w(e,n):null)??w(t,o),ke=(t,e)=>D(G(t,e,"formmethod","method")??""),bo=(t,e,n)=>Q(G(t,e,"formtarget","target")??Te(),n),Ce=(t,e)=>{let n=G(t,e,"formaction","action");return n?L(n,tt(m)):L(Kn(m))},Ct=(t,e)=>{let n=ke(t,e);if(n==="post"||n==="dialog")return;let o=Ce(t,e);return o&&(o.protocol==="https:"||o.protocol==="http:")?o:void 0},Ie=(t,e)=>{if((e&&(R(e)==="button"?oe:re)(e))===t)try{return new Vt(t,e)}catch{}return new Vt(t)},It=t=>{let e="",n=0;for(let o=0;o<t.length;o+=1){let r=de(t,o);(r===13||r===10)&&(e+=`${H(t,n,o)}\r
+`,r===13&&de(t,o+1)===10&&(o+=1),n=o+1)}return n===0?t:e+H(t,n)},xo=t=>{try{return It(xn(t))}catch{return""}},Oo=(t,e,n)=>{let o;try{o=Ie(t,e)}catch{return}try{let r=new b(n.href),s=new _n;return Jt(o,(l,u)=>{bn(s,It(u),typeof l=="string"?It(l):xo(l))}),En(r,`?${Nn(s)}`),L(ft(r))??n}catch{return n}},ko=(t,e)=>{let n=[],o=!0;try{Jt(Ie(t,e),(r,s)=>{typeof r!="string"&&!F&&(o=!1),Et(n,[s,r])})}catch{return}return o?n:void 0},Co=(t,e)=>{let n;if(typeof e!="string"){n=j(m,"input");let o=new F;Rn(wn(o),e),x(n,"type","file"),Sn(n,Tn(o))}else e!=="UTF-8"&&D(t)==="_charset_"?(n=j(m,"textarea"),to(n,e)):(n=j(m,"input"),x(n,"type","hidden"),x(n,"value",e));return x(n,"name",t),n},Mt=null,Io=(t,e)=>{let n=j(m,"form");for(let o=0;o<t.length;o+=2)t[o+1]!==null&&x(n,t[o],t[o+1]);for(let o=0;o<e.length;o+=1)ht(n,Co(e[o][0],e[o][1]));Mt=n;try{ht(jn(m),n),pe(n)}finally{Mt=null,Fn(n)}},Mo=t=>{if(!(!t||R(t)==="input"&&D(w(t,"type")??"")==="image"))return w(t,"value")??void 0},Do=t=>{ee(t)===Mt&&Zt(t)},Me=(t,e,n)=>{if(!et(t))return Y;if(ke(t,e)==="dialog"){let c=ue&&eo(t,"dialog"),p=Mo(e);return{__proto__:null,go:()=>(c&&ue(c,p),!1)}}let r=Ct(t,e),s=bo(t,e,n);if(k(r)){let c={target:St?"":s,noReferrer:Bt(w(t,"rel"),null,rt()),replaces:!1},p=Oo(t,e,r);return p&&et(t)?{__proto__:null,here:c.target==="",go:()=>(q(p,"submit",c),c.target==="")}:Y}let l=Ce(t,e);if(!l)return Y;let u=["action",l.href,"method",G(t,e,"formmethod","method"),"enctype",G(t,e,"formenctype","enctype"),"target",s||"_self","accept-charset",w(t,"accept-charset"),"rel",w(t,"rel")],f=ko(t,e);return f&&et(t)?{__proto__:null,go:()=>(Io(u,f),s==="")}:Y},Lo=(t,e,n)=>({__proto__:null,plan:()=>Me(t,e,n)}),vo=t=>{if(!t.isTrusted)return;let e=ee(t);if(R(e)!=="form")return;let n=ne?ne(t):null;if(!k(Ct(e,n)))return;let o=n?z(Ot,n):void 0;Oe(t,"submit",Lo(e,n,o?.details??it),o)},Dt=t=>{try{return Bn(t)}catch{return null}},Ao=t=>{try{return zn(t)}catch{try{return qn(t)}catch{return null}}},Po=(t,e,n)=>{let o=Ao(t);if(o)return o;let r=M(t);return r===null&&(n||t!==e)?Dt(t):r},Lt=t=>{try{return R(t)!=="fieldset"&&Vn(t,":disabled")}catch{return!1}},Fo=t=>{try{let e=R(t);if(e==="summary"){let o=M(t);return R(o)==="details"&&Xn(o,":scope > summary")===t}if(e==="button"){let o=Gn(t);return(o==="submit"||o==="reset")&&oe(t)!==null&&!Lt(t)}let n=e==="input"?Yn(t):"";return n==="submit"||n==="image"||n==="reset"?re(t)!==null&&!Lt(t):n==="checkbox"||n==="radio"||n==="file"||n==="color"}catch{return!1}},Ho=(t,e,n)=>{let o,r;try{o=le(t),r=ie(t)}catch{return}if(!(o!==m||(n?ie(t,Lr):r)===m))for(let s=t;s!==null;){let l=R(s);if(l==="a"||l==="area")return l==="a"||et(s)?s:void 0;if(!e||Fo(s))return;s=Po(s,r,n)}},De=t=>{t.here?xt(t.go):t.go()},Le=(t,e,n,o)=>{let r=Ho(t,e,n);return!r||!k(be(r))?!1:(De(xe(r,"click",o)),!0)},Uo=t=>{try{return te(t)}catch{return}};HTMLElement.prototype.click={click(){(Lt(this)||!Le(this,!0,!0,it))&&ae(this)}}.click,EventTarget.prototype.dispatchEvent={dispatchEvent(t){if(Uo(t)==="click"&&!yt(t)){let e=Se(t);if(e&&Le(this,Jn(t),Qn(t),e))return!0}return Zn(this,t)}}.dispatchEvent,HTMLFormElement.prototype.submit={submit(){let t=R(this)==="form"&&le(this)===m&&k(Ct(this,null))?Me(this,null,it):void 0;if(t){De(t);return}pe(this)}}.submit;let Wo=t=>{let e=_(vr,t);return e!==null&&_(Ar,e[1]??"")!==null};y.windowOpen==="enforce"&&(d.open={open(t,e,n){let o=t===void 0?"":`${t}`,r=e===void 0?"_blank":`${e}`,s=n===void 0?"":`${n}`,l=L(o,tt(m));if(!k(l))return fe(d,o,r,s);let u={target:St?"":Q(r||"_blank",it),noReferrer:Wo(s)||rt(),replaces:!1};return u.target===""?xt(()=>q(l,"navigate",u)):q(l,"navigate",u),null}}.open);let $o=i(Element.prototype.attachShadow),Ko=a(ShadowRoot.prototype,"mode"),X=(t,e)=>{let n=Object.getOwnPropertyDescriptor(t,e);return n?.get?i(n.get):void 0},vt=X(ShadowRoot.prototype,"clonable"),ve=X(ShadowRoot.prototype,"delegatesFocus"),Ae=X(ShadowRoot.prototype,"serializable"),Pe=X(ShadowRoot.prototype,"slotAssignment"),Fe=X(ShadowRoot.prototype,"customElementRegistry"),jo=d.customElements,Bo=Boolean,He=t=>kt(t,!0),zo=Node.prototype.cloneNode,qo=Document.prototype.importNode,Ue=HTMLElement.prototype.attachInternals,W=a(Node.prototype,"firstChild"),Yo=a(Node.prototype,"lastChild"),ct=a(Node.prototype,"nextSibling"),Go=i(Node.prototype.contains),We=a(Node.prototype,"nodeName"),Xo=a(Element.prototype,"shadowRoot"),$e=a(HTMLTemplateElement.prototype,"content"),Vo=i(Element.prototype.matches),At=t=>{try{return Xo(t)}catch{return null}},Ke=t=>R(t)==="template"&&K(t)===fn,Jo=t=>{try{return!Vo(t,":defined")}catch{return!1}},Qo=t=>{let e={__proto__:null,mode:"closed",clonable:!0};if(ve&&(e.delegatesFocus=ve(t)),Ae&&(e.serializable=Ae(t)),Pe&&(e.slotAssignment=Pe(t)),Fe){let n=Fe(t);n!==jo&&(e.customElementRegistry=n)}return e},Pt=new B,je=new wt,Ft=!1,v,Ht=new wt,Be=(t,e)=>{let n=e,o=!1;if(vt&&e!==null&&(typeof e=="object"||typeof e=="function")){let s=`${e.mode}`,l=Bo(e.clonable);o=l&&s==="closed",n={__proto__:e,mode:s,clonable:l&&!o}}let r=$o(t,n);return Ko(r)==="closed"&&(U(r,"click",He,!0),U(r,"auxclick",He,!0)),o&&(Tt(Pt,t,r),Rt(je,r),Ft=!0),r},ze=(t,e,n)=>{let o;try{o=Be(e,Qo(t))}catch{return}for(let r=W(t);r;r=ct(r))ht(o,n(r))},qe=(t,e,n,o=W(t))=>{for(let r=o,s=W(e);r&&s;)n(r,s),r=ct(r),s=ct(s)},Zo=(t,e,n)=>{let o={__proto__:null},r=0;for(let l=t,u=M(l)||Dt(l);u;l=u,u=M(l)||Dt(l))o[r]=l,r+=1;let s=e;for(;s&&r>0;){r-=1;let l=o[r],u=M(l),f=null;u?n(s,u,(c,p)=>{p===l&&(f=c)}):f=At(s),s=f}return s},Ye=t=>{if(!v||!Jo(t)||ot(Ht,t))return;let e=Zo(t,v.source,v.pairs),n=e&&z(Pt,e);n&&R(t)===mt(e)&&K(t)===K(e)&&(Rt(Ht,t),ze(n,t,v.cloneChild))},tr={attachShadow(t){return Ye(this),Be(this,t)}}.attachShadow;if(Element.prototype.attachShadow=tr,Ue&&(HTMLElement.prototype.attachInternals={attachInternals(...t){return Ye(this),O(Ue,this,t)}}.attachInternals),vt){let{configurable:t,enumerable:e}=Object.getOwnPropertyDescriptor(ShadowRoot.prototype,"clonable");me(ShadowRoot.prototype,"clonable",{__proto__:null,configurable:t,enumerable:e,get:Object.getOwnPropertyDescriptor({get clonable(){return ot(je,this)||vt(this)}},"clonable").get})}let er=(t,e,n,o,r)=>{let s={__proto__:null},l=0,u=(f,c)=>{s[l]=f,s[l+1]=c,l+=2};for(r?u(t,e):o(t,e,u);l>0;){l-=2;let f=s[l],c=s[l+1];if(We(f)===We(c)){let p=z(Pt,f);p&&!ot(Ht,c)&&ze(p,c,n),o(f,c,u),Ke(f)&&Ke(c)&&u($e(f),$e(c));let h=At(f),g=At(c);h&&g&&u(h,g)}}},Ut=(t,e,n,o,r,s=qe,l=!0)=>{if(!Ft)return O(t,e,n);let u=v;v={__proto__:null,source:o,cloneChild:r,pairs:s};let f;try{f=O(t,e,n)}finally{v=u}return er(o,f,r,s,l),f},Wt={cloneNode(...t){return Ut(zo,this,t,this,e=>O(Wt,e,[!0]))}}.cloneNode;Node.prototype.cloneNode=Wt;let Ge={importNode(...t){return Ut(qo,this,t,t[0],e=>O(Ge,this,[e,!0]))}}.importNode;Document.prototype.importNode=Ge;let nr=a(Range.prototype,"startContainer"),or=a(Range.prototype,"startOffset"),rr=a(Range.prototype,"endContainer"),sr=a(Range.prototype,"commonAncestorContainer"),cr=Range.prototype.cloneContents,lr=Range.prototype.extractContents,Xe=(t,e)=>{if(t===e||!Go(t,e))return null;let n=e;for(;M(n)!==t;)n=M(n);return n},ir=(t,e)=>{let n=W(t);for(let o=e;n&&o>0;o-=1)n=ct(n);return n},Ve=(t,e,n,o)=>{if(!Ft)return O(t,e,n);let r=nr(e),s=or(e),l=rr(e),u=(f,c,p)=>{let h=Xe(f,r),g=Xe(f,l);if(o&&(h||g||f===r||f===l)){let A=W(c),E=Yo(c);h&&A&&p(h,A),g&&E&&p(g,E);return}qe(f,c,p,f===r?ir(f,s):h??W(f))};return Ut(t,e,n,sr(e),f=>O(Wt,f,[!0]),u,!1)};Range.prototype.cloneContents={cloneContents(...t){return Ve(cr,this,t,!1)}}.cloneContents,Range.prototype.extractContents={extractContents(...t){return Ve(lr,this,t,!0)}}.extractContents;let ar=typeof TrustedHTML=="function"?i(TrustedHTML.prototype.toString):void 0,pr=d.trustedTypes,ur=typeof TrustedTypePolicyFactory=="function"?i(TrustedTypePolicyFactory.prototype.createPolicy):void 0,fr=typeof TrustedTypePolicy=="function"?i(TrustedTypePolicy.prototype.createHTML):void 0,V,$t,dr=t=>{if(V===void 0)try{V=ur(pr,Fr,{__proto__:null,createHTML:e=>{if(e!==$t)throw new TypeError("The exit interstitial policy makes only the markup that the guard opened.");return e}})}catch{V=null}if(V){$t=t;try{return fr(V,t)}catch{return}finally{$t=void 0}}},Je=(t,e)=>Pr[t]===!0||e&&t==="noscript",yr=t=>{let e="",n=0;pt.lastIndex=0;for(let o=_(pt,t);o;o=_(pt,t)){let r=o[1]?ye(o[1],16):ye(o[2],10);e+=`${H(t,n,o.index)}${r<128?co(r):"\uFFFD"}`,n=pt.lastIndex}return D(e+H(t,n))==="closed"},hr=(t,e,n)=>{if(n==="script"){let o=0;at.lastIndex=e;for(let r=_(at,t);r;r=_(at,t))if(r[1]==="/"){if(o<2)return r.index;o=1}else r[1]===""?o=o===1?2:o:r[0]==="-->"?o=0:(o=o||1,at.lastIndex=r.index+2)}else if(n!=="plaintext"){Xt.lastIndex=e;for(let o=_(Xt,t);o;o=_(Xt,t))if(D(o[1])===n)return o.index}return-1},mr=(t,e,n)=>{let o=!0,r;try{r=ar(t)}catch{o=!1,r=`${t}`}let s={__proto__:null},l=!1,u=(E,S)=>{let $=!S;P.lastIndex=E;for(let C=_(P,r);C;C=_(P,r)){if(C[2])return P.lastIndex;if(!$&&D(C[3])==="shadowrootmode"){$=!0;let jt=C[4]??C[5]??C[6];if(jt!==void 0&&yr(jt)){let tn=r[P.lastIndex-1],en=C[6]===void 0&&(tn==='"'||tn==="'")?P.lastIndex-1:P.lastIndex;s[en-jt.length]=en,l=!0}}}return-1},f=Je(e,n)?0:-1,c=f===0||dn[e]?-1:0,p;for(;c>=0;){p&&(c=hr(r,c,p),p=void 0),qt.lastIndex=c;let E=c<0?null:_(qt,r);if(!E)break;if(c=qt.lastIndex,E[1])r[c]===">"?c+=1:r[c]==="-"&&r[c+1]===">"?c+=2:(Yt.lastIndex=c,c=_(Yt,r)?Yt.lastIndex:-1);else if(E[2])Gt.lastIndex=c,c=_(Gt,r)?Gt.lastIndex:-1;else{let S=D(E[4]),$=E[3]==="";if(c=u(c,$&&S==="template"),$&&Je(S,n)){f=c;break}p=$&&dn[S]?S:void 0}}if(f>=0){Z.lastIndex=f;for(let E=_(Z,r);E;E=_(Z,r))u(Z.lastIndex-1,!0),Z.lastIndex=E.index+1}if(!l)return o?t:r;let h="",g=0;for(ut.lastIndex=0;_(ut,r);){let E=s[ut.lastIndex];E!==void 0&&(h+=`${H(r,g,ut.lastIndex)}open`,g=E)}let A=h+H(r,g);return o?dr(A)??t:A},gr=t=>{try{return K(t)===fn?mt(t):"svg"}catch{return}},Er=[[Element.prototype,"setHTMLUnsafe",!0],[ShadowRoot.prototype,"setHTMLUnsafe",!0],[Document,"parseHTMLUnsafe",!1],[Element.prototype,"setHTML",!0],[ShadowRoot.prototype,"setHTML",!0],[Document,"parseHTML",!1]];for(let[t,e,n]of Er){let o=t[e];typeof o=="function"&&(t[e]={[e](...r){return r.length>0&&(r[0]=mr(r[0],gr(this),n)),O(o,this,r)}}[e])}let Kt=()=>{T&&U(T,"navigate",mo,!0),nt(d,"click",kt,!0),nt(d,"auxclick",kt,!0),nt(d,"submit",vo,!0),nt(d,"formdata",Do,!0)};Kt();let lt=Reflect.apply,_r=Document.prototype.open,Qe=Document.prototype.write,wr=Document.prototype.writeln,Tr=d.trustedTypes?.emptyHTML??"",Rr=m.implementation.createDocument(null,null,null),Sr=a(DOMException.prototype,"name"),Nr=t=>{try{return Sr(t)==="InvalidStateError"}catch{return!1}},Ze=(t,e,n)=>{try{lt(e,Rr,n)}catch(o){if(!Nr(o))throw o}try{lt(Qe,t,[Tr])}finally{Kt()}return lt(e,t,n)},br={open(...t){try{return lt(_r,this,t)}finally{Kt()}},write(...t){return Ze(this,Qe,t)},writeln(...t){return Ze(this,wr,t)}};for(let t of["open","write","writeln"])Object.defineProperty(Document.prototype,t,{...Object.getOwnPropertyDescriptor(Document.prototype,t),value:br[t]})}yn({"site":"yakimavalleyhops.com","exitPath":"\/url"});})();
 //# sourceURL=exit-interstitial.js
 </script>
 
@@ -33,7 +33,7 @@
 <meta property="og:description" content="HBC 630 hops offer complex fruit flavors with notes of raspberry, cherry, peach, and banana. A unique, experimental hop for creative brews."><meta property="og:image" content="http://yakimavalleyhops.com/cdn/shop/files/Experimental_HBC_630_T90_Hop_Pellets.png?crop=center&height=1200&v=1784242494&width=1200">
   <meta property="og:image:secure_url" content="https://yakimavalleyhops.com/cdn/shop/files/Experimental_HBC_630_T90_Hop_Pellets.png?crop=center&height=1200&v=1784242494&width=1200">
   <meta property="og:image:width" content="2881">
-  <meta property="og:image:height" content="2881"><meta property="og:price:amount" content="5.00">
+  <meta property="og:image:height" content="2881"><meta property="og:price:amount" content="32.00">
   <meta property="og:price:currency" content="USD"><meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="HBC 630 Hops">
 <meta name="twitter:description" content="HBC 630 hops offer complex fruit flavors with notes of raspberry, cherry, peach, and banana. A unique, experimental hop for creative brews.">
@@ -204,7 +204,7 @@
   <script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script><meta name="google-site-verification" content="vyA-1lpnsL0mz1oHdVQrTDzO052zxM2g_m9PUfhUFX0">
 <meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/36545986693/digital_wallets/dialog">
 <meta id="in-context-paypal-metadata" data-shop-id="36545986693" data-venmo-supported="false" data-environment="production" data-locale="en_US" data-paypal-v4="true" data-currency="USD">
-<link rel="ucp" href="/.well-known/ucp" version="2026-08-25"><link rel="buy" href="/cart/41345309442181:1?ucp/version=2026-08-25" payment="com.google.pay dev.shopify.card dev.shopify.shop_pay"><link rel="alternate" type="application/json+oembed" href="https://yakimavalleyhops.com/products/hbc-630-hops.oembed">
+<link rel="ucp" href="/.well-known/ucp" version="2026-08-25"><link rel="buy" href="/cart/41438560977029:1?ucp/version=2026-08-25" payment="com.google.pay dev.shopify.card dev.shopify.shop_pay"><link rel="alternate" type="application/json+oembed" href="https://yakimavalleyhops.com/products/hbc-630-hops.oembed">
 <script async="async" src="/checkouts/internal/preloads.js?locale=en-US&default_configuration_id=1348632709"></script>
 <script id="shopify-features" type="application/json">{"accessToken":"749f71c9bdb9b79667080593ed398cef","betas":["rich-media-storefront-analytics"],"domain":"yakimavalleyhops.com","predictiveSearch":true,"shopId":36545986693,"locale":"en"}</script>
 <script>var Shopify = Shopify || {};
@@ -259,12 +259,12 @@ Shopify.SignInWithShop.User.recognized = false;</script>
     window.addEventListener('load', asyncLoad, false);
   }
 })();</script>
-<script id="__st">var __st={"a":36545986693,"offset":-28800,"reqid":"0b6976ca-4ad3-4001-8a68-dd6698e66df2-1793913167","pageurl":"yakimavalleyhops.com\/products\/hbc-630-hops","u":"d25f776475c5","p":"product","rtyp":"product","rid":5231876309125};</script>
+<script id="__st">var __st={"a":36545986693,"offset":-28800,"reqid":"58a01909-bda9-4252-8bbb-5aab2850927f-1794267197","pageurl":"yakimavalleyhops.com\/products\/hbc-630-hops","u":"4fbbf87b2ce7","p":"product","rtyp":"product","rid":5231876309125};</script>
 <script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
 <script id="captcha-bootstrap">!function(){'use strict';const t='contact',e='account',n='new_comment',o=[[t,t],['blogs',n],['comments',n],[t,'customer']],c=[[e,'customer_login'],[e,'guest_login'],[e,'recover_customer_password'],[e,'create_customer']],r=t=>t.map((([t,e])=>`form[action*='/${t}']:not([data-nocaptcha='true']) input[name='form_type'][value='${e}']`)).join(','),a=t=>()=>t?[...document.querySelectorAll(t)].map((t=>t.form)):[];function s(){const t=[...o],e=r(t);return a(e)}const i='password',u='form_key',d=['recaptcha-v3-token','g-recaptcha-response','h-captcha-response',i],f=()=>{try{return window.sessionStorage}catch{return}},m='__shopify_v',_=t=>t.elements[u];function p(t,e,n=!1){try{const o=window.sessionStorage,c=JSON.parse(o.getItem(e)),{data:r}=function(t){const{data:e,action:n}=t;return t[m]||n?{data:e,action:n}:{data:t,action:n}}(c);for(const[e,n]of Object.entries(r))t.elements[e]&&(t.elements[e].value=n);n&&o.removeItem(e)}catch(o){console.error('form repopulation failed',{error:o})}}const l='form_type',E='cptcha';function T(t){t.dataset[E]=!0}const w=window,h=w.document,L='Shopify',v='ce_forms',y='captcha';let A=!1;((t,e)=>{const n=(g='f06e6c50-85a8-45c8-87d0-21a2b65856fe',I='https://cdn.shopify.com/shopifycloud/storefront-forms-hcaptcha/ce_storefront_forms_captcha_hcaptcha.v1.5.3.iife.js',D={infoText:'Protected by hCaptcha',privacyText:'Privacy',termsText:'Terms'},(t,e,n)=>{const o=w[L][v],c=o.bindForm;if(c)return c(t,g,e,D).then(n);var r;o.q.push([[t,g,e,D],n]),r=I,A||(h.body.append(Object.assign(h.createElement('script'),{id:'captcha-provider',async:!0,src:r})),A=!0)});var g,I,D;w[L]=w[L]||{},w[L][v]=w[L][v]||{},w[L][v].q=[],w[L][y]=w[L][y]||{},w[L][y].protect=function(t,e){n(t,void 0,e),T(t)},Object.freeze(w[L][y]),function(t,e,n,w,h,L){const[v,y,A,g]=function(t,e,n){const i=e?o:[],u=t?c:[],d=[...i,...u],f=r(d),m=r(i),_=r(d.filter((([t,e])=>n.includes(e))));return[a(f),a(m),a(_),s()]}(w,h,L),I=t=>{const e=t.target;return e instanceof HTMLFormElement?e:e&&e.form},D=t=>v().includes(t);t.addEventListener('submit',(t=>{const e=I(t);if(!e)return;const n=D(e)&&!e.dataset.hcaptchaBound&&!e.dataset.recaptchaBound,o=_(e),c=g().includes(e)&&(!o||!o.value);(n||c)&&t.preventDefault(),c&&!n&&(function(t){try{if(!f())return;!function(t){const e=f();if(!e)return;const n=_(t);if(!n)return;const o=n.value;o&&e.removeItem(o)}(t);const e=Array.from(Array(32),(()=>Math.random().toString(36)[2])).join('');!function(t,e){_(t)||t.append(Object.assign(document.createElement('input'),{type:'hidden',name:u})),t.elements[u].value=e}(t,e),function(t,e){const n=f();if(!n)return;const o=[...t.querySelectorAll(`input[type='${i}']`)].map((({name:t})=>t)),c=[...d,...o],r={};for(const[a,s]of new FormData(t).entries())c.includes(a)||(r[a]=s);n.setItem(e,JSON.stringify({[m]:1,action:t.action,data:r}))}(t,e)}catch(e){console.error('failed to persist form',e)}}(e),e.submit())}));const S=(t,e)=>{t&&!t.dataset[E]&&(n(t,e.some((e=>e===t))),T(t))};for(const o of['focusin','change'])t.addEventListener(o,(t=>{const e=I(t);D(e)&&S(e,y())}));const B=e.get('form_key'),M=e.get(l),P=B&&M;t.addEventListener('DOMContentLoaded',(()=>{const t=y();if(P)for(const e of t)e.elements[l].value===M&&p(e,B);[...new Set([...A(),...v().filter((t=>'true'===t.dataset.shopifyCaptcha))])].forEach((e=>S(e,t)))}))}(h,new URLSearchParams(w.location.search),n,t,e,['guest_login'])})(!0,!0)}();</script>
 <script integrity="sha256-FYHzja/5XSmzkjz6zHj7s4rACJGFuVoYZdumgoO2Ecs=" data-source-attribution="shopify.loadfeatures" defer="defer" src="//yakimavalleyhops.com/cdn/shopifycloud/storefront/assets/storefront/load_feature-ed94c51f.js" crossorigin="anonymous"></script>
 <script>(function () {var userAgent = navigator.userAgent;var platform = navigator.platform;var maxTouchPoints = navigator.maxTouchPoints || 0;var isIOS = /iPad|iPhone|iPod/.test(platform) || (platform === 'MacIntel' && maxTouchPoints > 1);var isMacSafari = platform.indexOf('Mac') === 0 && /Safari/.test(userAgent) && !/Chrome|Chromium|CriOS|FxiOS|Edg|OPR|Android/.test(userAgent);var isAppleSafari = isIOS || isMacSafari;if (isAppleSafari) {fetch('/sf_private_access_tokens' + location.search).catch(function () {});}function browserMajorVersion(pattern) {var match = userAgent.match(pattern);return match ? parseInt(match[1], 10) : null;}function shouldLoadAutosizesPolyfill() {if (!window.PerformanceObserver?.supportedEntryTypes?.includes('paint')) {return false;}var chromeVersion = browserMajorVersion(/Chrome\/(\d+)/);if (chromeVersion !== null) {return chromeVersion < 126;}var firefoxVersion = browserMajorVersion(/Firefox\/(\d+)/);if (firefoxVersion !== null) {return firefoxVersion < 150;}var safariVersion = isAppleSafari ? browserMajorVersion(/Version\/(\d+).*Safari\//) : null;if (safariVersion !== null) {return safariVersion < 27;}return true;}if (shouldLoadAutosizesPolyfill()) {var autosizesScript = document.createElement('script');autosizesScript.async = true;autosizesScript.crossOrigin = 'anonymous';autosizesScript.src = "//yakimavalleyhops.com/cdn/shopifycloud/storefront/assets/storefront/autosizes-84416378.js";(document.head || document.documentElement).appendChild(autosizesScript);}window.ShopifyAnalytics = window.ShopifyAnalytics || {};window.ShopifyAnalytics.performance = window.ShopifyAnalytics.performance || {};(function () {var LONG_FRAME_THRESHOLD = 50;var longAnimationFrames = [];var activeRafId = null;function collectLongFrames() {var previousTime = null;function rafMonitor(now) {if (activeRafId === null) {return;}var delta = now - previousTime;if (delta > LONG_FRAME_THRESHOLD) {longAnimationFrames.push({startTime: previousTime,endTime: now,});}previousTime = now;activeRafId = requestAnimationFrame(rafMonitor);}previousTime = performance.now();activeRafId = requestAnimationFrame(rafMonitor);}if (!window.PerformanceObserver?.supportedEntryTypes?.includes('long-animation-frame')) {collectLongFrames();var timeoutId = setTimeout(function () {cancelAnimationFrame(activeRafId);}, 10000);window.ShopifyAnalytics.performance.getLongAnimationFrames = function (stopCollection) {if (stopCollection === undefined) {stopCollection = false;}if (stopCollection) {clearTimeout(timeoutId);cancelAnimationFrame(activeRafId);}return longAnimationFrames;};}})();})();</script><script id="shopify-origin-trials" async="async" integrity="sha256-YSmWUz/d+OnYYvMB8Rea/mSvxjGHQPsJQmWeX4moyZg=" src="//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-e8afbaf1.js" crossorigin="anonymous" onload="window.__shopifyOriginTrialsDone = true" onerror="window.__shopifyOriginTrialsDone = true"></script>
-<script>(()=>{var d="shopify:webmcp_adapter_loaded",n=Symbol.for("shopify.webmcp_adapter_loading");function s(c,a,{win:r=window,doc:o=document}={}){function p(){try{return r.localStorage.getItem(d)==="true"}catch{return!1}}function l(){try{r.localStorage.setItem(d,"true")}catch{}}function u(){return typeof(o.modelContext||r.navigator?.modelContext)?.registerTool=="function"}function f(){if(r[n]||!u())return;let t=o.head||o.getElementsByTagName("head")[0];if(!t)return;let e=o.createElement("script");e.type="module",e.crossOrigin="anonymous",a&&(e.integrity=a),e.src=c,e.addEventListener("load",l,{once:!0}),e.addEventListener("error",()=>{r[n]=!1},{once:!0}),t.appendChild(e),r[n]=!0}function _(t){let e=o.getElementById("shopify-origin-trials");if(!e||r.__shopifyOriginTrialsDone){t();return}e.addEventListener("load",t,{once:!0}),e.addEventListener("error",t,{once:!0})}function i(){_(()=>r.setTimeout(f,0))}function m(){o.addEventListener("DOMContentLoaded",i,{once:!0})}p()?i():m()}s("\/\/yakimavalleyhops.com\/cdn\/shopifycloud\/storefront\/assets\/storefront\/webmcp-54c687b6.js","sha256-5kNm6ku3yVQgaW8DNOK1E8HlUoBFVQFhsBTVHwnwcjA=");})();
+<script>(()=>{var d="shopify:webmcp_adapter_loaded",n=Symbol.for("shopify.webmcp_adapter_loading");function s(c,a,{win:r=window,doc:o=document}={}){function p(){try{return r.localStorage.getItem(d)==="true"}catch{return!1}}function l(){try{r.localStorage.setItem(d,"true")}catch{}}function u(){return typeof(o.modelContext||r.navigator?.modelContext)?.registerTool=="function"}function f(){if(r[n]||!u())return;let t=o.head||o.getElementsByTagName("head")[0];if(!t)return;let e=o.createElement("script");e.type="module",e.crossOrigin="anonymous",a&&(e.integrity=a),e.src=c,e.addEventListener("load",l,{once:!0}),e.addEventListener("error",()=>{r[n]=!1},{once:!0}),t.appendChild(e),r[n]=!0}function _(t){let e=o.getElementById("shopify-origin-trials");if(!e||r.__shopifyOriginTrialsDone){t();return}e.addEventListener("load",t,{once:!0}),e.addEventListener("error",t,{once:!0})}function i(){_(()=>r.setTimeout(f,0))}function m(){o.addEventListener("DOMContentLoaded",i,{once:!0})}p()?i():m()}s("\/\/yakimavalleyhops.com\/cdn\/shopifycloud\/storefront\/assets\/storefront\/webmcp-cfeae510.js","sha256-hdSsaskU5p37T8dqwXSuZ1454uxl\/hhOLZu33d3jWEE=");})();
 </script>
 <script data-source-attribution="shopify.dynamic_checkout.dynamic.init">var Shopify=Shopify||{};Shopify.PaymentButton=Shopify.PaymentButton||{isStorefrontPortableWallets:!0,init:function(){window.Shopify.PaymentButton.init=function(){};var t=document.createElement("script");t.src="https://yakimavalleyhops.com/cdn/shopifycloud/portable-wallets/latest/portable-wallets.en.js",t.type="module",document.head.appendChild(t)}};
 </script>
@@ -503,8 +503,8 @@ Shopify.SignInWithShop.User.recognized = false;</script>
     window.customerHub = {};
   }
   window.customerHub.storefrontRoutes = {
-    login: "https://account.yakimavalleyhops.com?locale=en&region_country=US&buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ5YWtpbWF2YWxsZXlob3BzLm15c2hvcGlmeS5jb20iLCJmbGFncyI6W10sImV4cCI6MTc5NDUxNzk2NywibmJmIjoxNzkzOTEzMTY3fQ.gb-PDd8EqRTe73z7zjOEIJ-a8t5UvTXhVwNInqFQJYs&return_url=%2F%23k-hub",
-    register: "https://account.yakimavalleyhops.com?locale=en&region_country=US&buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ5YWtpbWF2YWxsZXlob3BzLm15c2hvcGlmeS5jb20iLCJmbGFncyI6W10sImV4cCI6MTc5NDUxNzk2NywibmJmIjoxNzkzOTEzMTY3fQ.gb-PDd8EqRTe73z7zjOEIJ-a8t5UvTXhVwNInqFQJYs&return_url=%2F%23k-hub",
+    login: "https://account.yakimavalleyhops.com?locale=en&region_country=US&buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ5YWtpbWF2YWxsZXlob3BzLm15c2hvcGlmeS5jb20iLCJmbGFncyI6W10sImV4cCI6MTc5NDg3MTk5NywibmJmIjoxNzk0MjY3MTk3fQ.Ev3IHOFde-oKHgk3PRQ1Mu4Obd3Q-rlhQDuG41zrheI&return_url=%2F%23k-hub",
+    register: "https://account.yakimavalleyhops.com?locale=en&region_country=US&buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ5YWtpbWF2YWxsZXlob3BzLm15c2hvcGlmeS5jb20iLCJmbGFncyI6W10sImV4cCI6MTc5NDg3MTk5NywibmJmIjoxNzk0MjY3MTk3fQ.Ev3IHOFde-oKHgk3PRQ1Mu4Obd3Q-rlhQDuG41zrheI&return_url=%2F%23k-hub",
     logout: "/account/logout",
     profile: "/account",
     addresses: "/account/addresses",
@@ -530,7 +530,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
                 
                 
                 {
-                  name: "2oz",
+                  name: "11lb",
                   colorHex: null,
                   swatchImageUrl: null
                 },
@@ -538,7 +538,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
                 
                 
                 {
-                  name: "8oz",
+                  name: "2oz",
                   colorHex: null,
                   swatchImageUrl: null
                 },
@@ -554,7 +554,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
                 
                 
                 {
-                  name: "11lb",
+                  name: "8oz",
                   colorHex: null,
                   swatchImageUrl: null
                 }
@@ -589,13 +589,13 @@ Shopify.SignInWithShop.User.recognized = false;</script>
       variants: [
         
           {
-            id: "41345309606021",
+            id: "41438560977029",
             selectedOptions: [
               
                 
                 {
                   name: "Size",
-                  value: "2oz"
+                  value: "11lb"
                 },
               
                 
@@ -608,88 +608,10 @@ Shopify.SignInWithShop.User.recognized = false;</script>
             
             imageUrl: null,
             
-            price: "200",
-            currency: "USD",
-            availableForSale: false,
-            title: "2oz \/ 2023",
-          },
-        
-          {
-            id: "41345309540485",
-            selectedOptions: [
-              
-                
-                {
-                  name: "Size",
-                  value: "8oz"
-                },
-              
-                
-                {
-                  name: "Crop Year",
-                  value: "2024"
-                }
-              
-            ],
-            
-            imageUrl: null,
-            
-            price: "400",
-            currency: "USD",
-            availableForSale: false,
-            title: "8oz \/ 2024",
-          },
-        
-          {
-            id: "41345309442181",
-            selectedOptions: [
-              
-                
-                {
-                  name: "Size",
-                  value: "16oz"
-                },
-              
-                
-                {
-                  name: "Crop Year",
-                  value: "2024"
-                }
-              
-            ],
-            
-            imageUrl: null,
-            
-            price: "500",
+            price: "3200",
             currency: "USD",
             availableForSale: true,
-            title: "16oz \/ 2024",
-          },
-        
-          {
-            id: "41345309409413",
-            selectedOptions: [
-              
-                
-                {
-                  name: "Size",
-                  value: "16oz"
-                },
-              
-                
-                {
-                  name: "Crop Year",
-                  value: "2023"
-                }
-              
-            ],
-            
-            imageUrl: null,
-            
-            price: "600",
-            currency: "USD",
-            availableForSale: false,
-            title: "16oz \/ 2023",
+            title: "11lb \/ 2023",
           },
         
           {
@@ -719,13 +641,13 @@ Shopify.SignInWithShop.User.recognized = false;</script>
           },
         
           {
-            id: "41438560977029",
+            id: "41345309606021",
             selectedOptions: [
               
                 
                 {
                   name: "Size",
-                  value: "11lb"
+                  value: "2oz"
                 },
               
                 
@@ -738,10 +660,10 @@ Shopify.SignInWithShop.User.recognized = false;</script>
             
             imageUrl: null,
             
-            price: "3200",
+            price: "200",
             currency: "USD",
-            availableForSale: true,
-            title: "11lb \/ 2023",
+            availableForSale: false,
+            title: "2oz \/ 2023",
           },
         
           {
@@ -768,6 +690,84 @@ Shopify.SignInWithShop.User.recognized = false;</script>
             currency: "USD",
             availableForSale: true,
             title: "2oz \/ 2024",
+          },
+        
+          {
+            id: "41345309409413",
+            selectedOptions: [
+              
+                
+                {
+                  name: "Size",
+                  value: "16oz"
+                },
+              
+                
+                {
+                  name: "Crop Year",
+                  value: "2023"
+                }
+              
+            ],
+            
+            imageUrl: null,
+            
+            price: "600",
+            currency: "USD",
+            availableForSale: false,
+            title: "16oz \/ 2023",
+          },
+        
+          {
+            id: "41345309442181",
+            selectedOptions: [
+              
+                
+                {
+                  name: "Size",
+                  value: "16oz"
+                },
+              
+                
+                {
+                  name: "Crop Year",
+                  value: "2024"
+                }
+              
+            ],
+            
+            imageUrl: null,
+            
+            price: "500",
+            currency: "USD",
+            availableForSale: true,
+            title: "16oz \/ 2024",
+          },
+        
+          {
+            id: "42737582801029",
+            selectedOptions: [
+              
+                
+                {
+                  name: "Size",
+                  value: "8oz"
+                },
+              
+                
+                {
+                  name: "Crop Year",
+                  value: "2024"
+                }
+              
+            ],
+            
+            imageUrl: null,
+            
+            price: "400",
+            currency: "USD",
+            availableForSale: false,
+            title: "8oz \/ 2024",
           },
         
       ],
@@ -2228,11 +2228,11 @@ Shopify.SignInWithShop.User.recognized = false;</script>
 <script>
   window.__TREKKIE_SHIM_QUEUE = window.__TREKKIE_SHIM_QUEUE || [];
 </script>
-<script>(function(){var wpmLoader=function(){"use strict";var e=/Googlebot|Storebot-Google|bingbot|Baiduspider|YandexBot|DuckDuckBot|Slurp|facebookexternalhit|Twitterbot|LinkedInBot|Applebot|AdsBot-Google|Mediapartners-Google|APIs-Google|PetalBot|SemrushBot|AhrefsBot|MJ12bot|DotBot|Acunetix|PerplexityBot|Perplexity-User/i,t=/bytedance/i;function i(){try{var e=document.cookie;if(!e||"string"!=typeof e)return;for(var t=0,i=e.split(";");t<i.length;t++){var n=i[t],r=n.indexOf("=");if(-1!==r){var o=n.slice(0,r).trim();if(o){var a=void 0;try{a=decodeURIComponent(o)}catch(e){a=o}if("_shopify_s"===a){var d=n.slice(r+1).trim();try{return decodeURIComponent(d)}catch(e){return d}}}}}return}catch(e){return}}function n(e){try{"undefined"!=typeof console&&"function"==typeof console.warn&&console.warn(e)}catch(e){}}function r(e,t){return"string"==typeof e&&e.length>0&&e.length<=t?e:void 0}function o(e){var t;switch(null==(t=null==e?void 0:e.navigation)?void 0:t.type){case 0:return"navigate";case 1:return"reload";case 2:return"back_forward";default:return}}function a(){var e,t,i;try{var n=null==(i=null==(t=null==(e=self.ShopifyAnalytics)?void 0:e.lib)?void 0:t.trekkie)?void 0:i.state;return"awaiting-consent"===n||"initialized"===n?n:void 0}catch(e){return}}return function(d,s,u,l){var c=arguments.length>4&&void 0!==arguments[4]?arguments[4]:{};try{var p=c.trekkieShim;!0!==p&&"true"!==p||null!=window.__TREKKIE_SHIM_QUEUE||(window.__TREKKIE_SHIM_QUEUE=[])}catch(e){}var f,v,h,y,g=(v=(f={modern:/Edge?\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Firefox\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Chrom(ium|e)\/(9{2}|\d{3,})\.\d+(\.\d+|)|(Maci|X1{2}).+ Version\/(15\.\d+|(1[6-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(9{2}|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(15[._]\d+|(1[6-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Android.+Firefox\/(15\d|1[6-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|SamsungBrowser\/([2-9]\d|\d{3,})\.\d+/,legacy:/Edge?\/(1[6-9]|[2-9]\d|\d{3,})\.\d+(\.\d+|)|Firefox\/(5[4-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)|Chrom(ium|e)\/(5[1-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)([\d.]+$|.*Safari\/(?![\d.]+ Edge\/[\d.]+$))|(Maci|X1{2}).+ Version\/(10\.\d+|(1[1-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(3[89]|[4-9]\d|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(10[._]\d+|(1[1-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Mobile Safari.+OPR\/([89]\d|\d{3,})\.\d+\.\d+|Android.+Firefox\/(15\d|1[6-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+(UC? ?Browser|UCWEB|U3)[ /]?(15\.([5-9]|\d{2,})|(1[6-9]|[2-9]\d|\d{3,})\.\d+)\.\d+|SamsungBrowser\/(5\.\d+|([6-9]|\d{2,})\.\d+)|Android.+MQ{2}Browser\/(14(\.(9|\d{2,})|)|(1[5-9]|[2-9]\d|\d{3,})(\.\d+|))(\.\d+|)|K[Aa][Ii]OS\/(3\.\d+|([4-9]|\d{2,})\.\d+)(\.\d+|)/}).modern,h=f.legacy,(y=navigator.userAgent).match(e)?"bot":y.match(v)?"modern":y.match(h)?"legacy":y.match(t)?"bot":"unknown"),m=function(e){var t,i,n=r(e,128);try{var a=window.performance,d=null==(t=null==a?void 0:a.getEntriesByType)?void 0:t.call(a,"navigation")[0];if(!d)return{requestId:n,navigationType:o(a)};var s="type"in d?r(d.type,64):void 0,u="serverTiming"in d&&Array.isArray(d.serverTiming)?d.serverTiming:[];return{requestId:null!=n?n:r(null==(i=u.find(function(e){return"requestID"===e.name}))?void 0:i.description,128),navigationType:s}}catch(e){return{requestId:n}}}(c.requestId),w=function(e){var t=e.version,r=e.browserTarget,o=e.surface,a=e.shopId,d=e.monorailEndpoint,s=window.location.href;return{emit:function(e){var u=e.status,l=e.errorMsg,c=e.failureReason,p=e.useKeepaliveFallback,f=void 0!==p&&p,v=e.navigationType,h=e.pagehidePersisted,y=e.requestId,g=e.trekkieState;if(d){var m,w;try{var b=(new Date).getTime();m=JSON.stringify({metadata:{event_sent_at_ms:b},events:[{schema_id:"web_pixels_manager_load/3.3",payload:{version:t,bundle_target:r,page_url:s,status:u,surface:o,error_msg:l,failure_reason:c,navigation_type:v,pagehide_persisted:h,request_id:y,trekkie_state:g,shop_id:a,visit_token:i()},metadata:{event_created_at_ms:b}}]})}catch(e){return}try{if("function"==typeof window.navigator.sendBeacon&&-1===(w=window.navigator.userAgent).indexOf("iPhone; CPU iPhone OS 12_")&&-1===w.indexOf("iPad; CPU OS 12_")&&-1===w.indexOf("iPod touch; CPU iPhone OS 12_")&&window.navigator.sendBeacon.bind(window.navigator)(d,m))return}catch(e){}if(f)try{"function"==typeof window.fetch&&window.fetch(d,{method:"POST",headers:{"Content-Type":"text/plain"},body:m,keepalive:!0}).catch(function(){})}catch(e){}else try{var _=new XMLHttpRequest;_.open("POST",d,!0),_.setRequestHeader("Content-Type","text/plain"),_.send(m)}catch(e){n("[Web Pixels Manager] Got an unhandled error while logging to Monorail.")}}else n("[Web Pixels Manager] No Monorail endpoint provided, skipping logging.")}}}({version:u,browserTarget:g,surface:d.surface,shopId:d.shopId,monorailEndpoint:d.monorailEndpoint});if(Boolean(null==(_=null==(b=window.Shopify)?void 0:b.analytics)?void 0:_.replayQueue))w.emit({status:"setup-skipped",errorMsg:"replay queue already initialized."});else{var b,_;w.emit({status:"setup-started"}),window.Shopify=window.Shopify||{};var S=window.Shopify;S.analytics=S.analytics||{};var P=S.analytics;P.replayQueue=[],P.publish=function(e,t,i){return P.replayQueue.push([e,t,i]),!0};try{self.performance.mark("wpm:start")}catch(e){}var k,C="modern"===g?"modern":"legacy",E=(null!=l?l:{modern:"",legacy:""})[C],I=[(k={baseUrl:s,hashVersion:u,buildTarget:C}).baseUrl,"/wpm","/b",k.hashVersion,"modern"===k.buildTarget?"m":"l",".js"].join(""),O=!1,T=!1;try{c.browserTarget=g,function(){O=!0;try{window.addEventListener("pagehide",M)}catch(e){O=!1}}(),R(function(){try{R(x)}catch(e){D(e)}}),w.emit({status:"loading",requestId:m.requestId,navigationType:m.navigationType,trekkieState:a()})}catch(e){D(e)}}function U(){var e;if(q(),!function(){var e,t;return Boolean(null==(t=null==(e=window.Shopify)?void 0:e.analytics)?void 0:t.initialized)}()){var t,i,n;try{if("function"!=typeof(null==(e=window.webPixelsManager)?void 0:e.init))return void A();if(!(null!==(n=i=t=window.webPixelsManager.init(d))&&"function"!=typeof n&&Object(n)===n&&"publish"in i&&"function"==typeof i.publish&&"publishCustomEvent"in i&&"function"==typeof i.publishCustomEvent&&"visitor"in i&&"function"==typeof i.visitor))return void A()}catch(e){return void A(e)}var r=window.Shopify.analytics;r.replayQueue.forEach(function(e){var i=e[0],n=e[1],r=e[2];t.publishCustomEvent(i,n,r)}),r.replayQueue=[],r.publish=t.publishCustomEvent,r.visitor=t.visitor,r.initialized=!0}}function A(e){B("manager_api_unavailable",void 0===e?void 0:Q(e))}function x(){B("script_load_failed","".concat(I," has failed to load"))}function B(e,t){T||(T=!0,q(),w.emit({status:"failed",errorMsg:t,failureReason:e,requestId:m.requestId,navigationType:m.navigationType,trekkieState:a()}))}function M(e){O&&(q(),w.emit({status:"pagehide-while-loading",useKeepaliveFallback:!0,pagehidePersisted:e.persisted,requestId:m.requestId,navigationType:m.navigationType,trekkieState:a()}))}function q(){O=!1;try{window.removeEventListener("pagehide",M)}catch(e){}}function R(e){var t;!function(e){var t=e.src,i=e.async,n=void 0===i||i,r=e.onload,o=e.onerror,a=e.sri,d=e.scriptDataAttributes,s=void 0===d?{}:d,u=document.createElement("script"),l=document.querySelector("head"),c=document.querySelector("body");if(u.async=n,u.src=t,a&&(u.integrity=a,u.crossOrigin="anonymous"),s)for(var p in s)if(Object.prototype.hasOwnProperty.call(s,p))try{u.dataset[p]=String(s[p])}catch(e){}if(r&&u.addEventListener("load",r),o&&u.addEventListener("error",o),l)l.appendChild(u);else{if(!c)throw new Error("Did not find a head or body element to append the script");c.appendChild(u)}}({src:I,async:!0,onload:U,onerror:e,sri:(t=E,"string"==typeof t&&/^sha384-[A-Za-z0-9+/=]+$/.test(t)?E:""),scriptDataAttributes:c})}function D(e){B("script_append_failed",Q(e))}function Q(e){return e instanceof Error?e.message:"Unknown error"}}}();wpmLoader({shopId: 36545986693,storefrontBaseUrl: "https://yakimavalleyhops.com",extensionsBaseUrl: "https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager",monorailEndpoint: "https://yakimavalleyhops.com/.well-known/shopify/monorail/unstable/produce_batch",surface: "storefront-renderer",enabledBetaFlags: ["7b21cf0b","b13923a8","4c64608a","08197dfb"],webPixelsConfigList: [{"id":"666402949","configuration":"{\"accountID\":\"VQEefX\",\"webPixelConfig\":\"eyJlbmFibGVBZGRlZFRvQ2FydEV2ZW50cyI6IHRydWUsICJlbmFibGVBbm9ueW1vdXNCYWNrZmlsbCI6IHRydWV9\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"3fe25e975c30cd2a9af38a04798704c0","type":"APP","apiClientId":123074,"privacyPurposes":["ANALYTICS","MARKETING"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized","enabledFlags":["9a3ed68a"]},{"id":"246382725","configuration":"{\"config\":\"{\\\"google_tag_ids\\\":[\\\"G-94ZJ5TTEM1\\\",\\\"AW-867992544\\\",\\\"GT-WVXD25C\\\",\\\"AW-17668340971\\\"],\\\"target_country\\\":\\\"US\\\",\\\"gtag_events\\\":[{\\\"type\\\":\\\"begin_checkout\\\",\\\"action_label\\\":[\\\"G-94ZJ5TTEM1\\\",\\\"AW-867992544\\\/v6-UCKbVgekBEOCH8p0D\\\",\\\"AW-867992544\\\/E82eCKWti-sYEOCH8p0D\\\"]},{\\\"type\\\":\\\"search\\\",\\\"action_label\\\":[\\\"G-94ZJ5TTEM1\\\",\\\"AW-867992544\\\/lkUFCKnVgekBEOCH8p0D\\\"]},{\\\"type\\\":\\\"remove_from_cart\\\",\\\"action_label\\\":\\\"G-94ZJ5TTEM1\\\"},{\\\"type\\\":\\\"view_item\\\",\\\"action_label\\\":[\\\"G-94ZJ5TTEM1\\\",\\\"AW-867992544\\\/5EI8CKDVgekBEOCH8p0D\\\",\\\"MC-QF5PZ0RY3G\\\"]},{\\\"type\\\":\\\"add_shipping_info\\\",\\\"action_label\\\":\\\"G-94ZJ5TTEM1\\\"},{\\\"type\\\":\\\"purchase\\\",\\\"action_label\\\":[\\\"G-94ZJ5TTEM1\\\",\\\"AW-867992544\\\/X2NJCJ3VgekBEOCH8p0D\\\",\\\"MC-QF5PZ0RY3G\\\",\\\"AW-867992544\\\/qC-uCOu7yv4BEOCH8p0D\\\",\\\"AW-17668340971\\\/xm73CISx0N4bEOv59ehB\\\"]},{\\\"type\\\":\\\"page_view\\\",\\\"action_label\\\":[\\\"G-94ZJ5TTEM1\\\",\\\"AW-867992544\\\/gg3dCJrVgekBEOCH8p0D\\\",\\\"MC-QF5PZ0RY3G\\\"]},{\\\"type\\\":\\\"view_item_list\\\",\\\"action_label\\\":\\\"G-94ZJ5TTEM1\\\"},{\\\"type\\\":\\\"add_payment_info\\\",\\\"action_label\\\":[\\\"G-94ZJ5TTEM1\\\",\\\"AW-867992544\\\/yWmVCKzVgekBEOCH8p0D\\\"]},{\\\"type\\\":\\\"add_to_cart\\\",\\\"action_label\\\":[\\\"G-94ZJ5TTEM1\\\",\\\"AW-867992544\\\/5Ad1CKPVgekBEOCH8p0D\\\"]},{\\\"type\\\":\\\"view_cart\\\",\\\"action_label\\\":\\\"G-94ZJ5TTEM1\\\"}],\\\"enable_monitoring_mode\\\":false}\"}","eventPayloadVersion":"v1","runtimeContext":"OPEN","scriptVersion":"a3321ca85cf5aaf6b57585fcd8d67b3a","type":"APP","apiClientId":1780363,"privacyPurposes":[],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted","enabledFlags":["9a3ed68a"]},{"id":"132087941","configuration":"{\"siteId\":\"2f8203\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"bde82ca25016dddc251f955e607d9702","type":"APP","apiClientId":12202,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_email","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized"},{"id":"91029637","configuration":"{\"pixel_id\":\"727323017676515\",\"pixel_type\":\"facebook_pixel\",\"metaapp_system_user_token\":\"-\"}","eventPayloadVersion":"v1","runtimeContext":"OPEN","scriptVersion":"bd2f978c17a94bbb8a74d43de2165dc5","type":"APP","apiClientId":2329312,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized","enabledFlags":["9a3ed68a"]},{"id":"4554885","configuration":"{\"myshopifyDomain\":\"yakimavalleyhops.myshopify.com\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"23b97d18e2aa74363140dc29c9284e87","type":"APP","apiClientId":2775569,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_phone","read_customer_personal_data"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized"},{"id":"17924229","eventPayloadVersion":"1","runtimeContext":"LAX","scriptVersion":"2","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"name":"IntelliSuggest"},{"id":"71172229","eventPayloadVersion":"1","runtimeContext":"LAX","scriptVersion":"2","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"name":"GTM Form Submit"},{"id":"shopify-app-pixel","configuration":"{}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"0530","apiClientId":"shopify-pixel","type":"APP","privacyPurposes":["ANALYTICS","MARKETING"]},{"id":"shopify-custom-pixel","eventPayloadVersion":"v1","runtimeContext":"LAX","scriptVersion":"0530","apiClientId":"shopify-pixel","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING"]}],isMerchantRequest: false,initData: {"shop":{"name":"Yakima Valley Hops","paymentSettings":{"currencyCode":"USD"},"myshopifyDomain":"yakimavalleyhops.myshopify.com","countryCode":"US","storefrontUrl":"https:\/\/yakimavalleyhops.com"},"customer":null,"cart":null,"checkout":null,"productVariants":[{"price":{"amount":2.0,"currencyCode":"USD"},"product":{"title":"HBC 630 Hops","vendor":"Yakima Valley Hops","id":"5231876309125","untranslatedTitle":"HBC 630 Hops","url":"\/products\/hbc-630-hops","type":"Domestic Pellet Hops"},"id":"41345309606021","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"sku":"C-T90-US-HBC630-2023-2oz","title":"2oz \/ 2023","untranslatedTitle":"2oz \/ 2023"},{"price":{"amount":4.0,"currencyCode":"USD"},"product":{"title":"HBC 630 Hops","vendor":"Yakima Valley Hops","id":"5231876309125","untranslatedTitle":"HBC 630 Hops","url":"\/products\/hbc-630-hops","type":"Domestic Pellet Hops"},"id":"41345309540485","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"sku":"B-T90-US-HBC630-2024-8oz","title":"8oz \/ 2024","untranslatedTitle":"8oz \/ 2024"},{"price":{"amount":5.0,"currencyCode":"USD"},"product":{"title":"HBC 630 Hops","vendor":"Yakima Valley Hops","id":"5231876309125","untranslatedTitle":"HBC 630 Hops","url":"\/products\/hbc-630-hops","type":"Domestic Pellet Hops"},"id":"41345309442181","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"sku":"A-T90-US-HBC630-2024-16oz","title":"16oz \/ 2024","untranslatedTitle":"16oz \/ 2024"},{"price":{"amount":6.0,"currencyCode":"USD"},"product":{"title":"HBC 630 Hops","vendor":"Yakima Valley Hops","id":"5231876309125","untranslatedTitle":"HBC 630 Hops","url":"\/products\/hbc-630-hops","type":"Domestic Pellet Hops"},"id":"41345309409413","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"sku":"A-T90-US-HBC630-2023-16oz","title":"16oz \/ 2023","untranslatedTitle":"16oz \/ 2023"},{"price":{"amount":38.0,"currencyCode":"USD"},"product":{"title":"HBC 630 Hops","vendor":"Yakima Valley Hops","id":"5231876309125","untranslatedTitle":"HBC 630 Hops","url":"\/products\/hbc-630-hops","type":"Domestic Pellet Hops"},"id":"41345246560389","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"sku":"E-T90-US-HBC630-2024-Bulk","title":"11lb \/ 2024","untranslatedTitle":"11lb \/ 2024"},{"price":{"amount":32.0,"currencyCode":"USD"},"product":{"title":"HBC 630 Hops","vendor":"Yakima Valley Hops","id":"5231876309125","untranslatedTitle":"HBC 630 Hops","url":"\/products\/hbc-630-hops","type":"Domestic Pellet Hops"},"id":"41438560977029","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"sku":"E-T90-US-HBC630-2023-Bulk","title":"11lb \/ 2023","untranslatedTitle":"11lb \/ 2023"},{"price":{"amount":2.5,"currencyCode":"USD"},"product":{"title":"HBC 630 Hops","vendor":"Yakima Valley Hops","id":"5231876309125","untranslatedTitle":"HBC 630 Hops","url":"\/products\/hbc-630-hops","type":"Domestic Pellet Hops"},"id":"41345309638789","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"sku":"C-T90-US-HBC630-2024-2oz","title":"2oz \/ 2024","untranslatedTitle":"2oz \/ 2024"}],"products":[{"id":"5231876309125","handle":"hbc-630-hops","isCollective":null,"title":"HBC 630 Hops","type":"Domestic Pellet Hops","untranslatedTitle":"HBC 630 Hops","url":"\/products\/hbc-630-hops","vendor":"Yakima Valley Hops","remoteShopId":null,"variants":[{"id":"41345309606021","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"price":{"amount":2.0,"currencyCode":"USD"},"sku":"C-T90-US-HBC630-2023-2oz","title":"2oz \/ 2023","untranslatedTitle":"2oz \/ 2023"},{"id":"41345309540485","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"price":{"amount":4.0,"currencyCode":"USD"},"sku":"B-T90-US-HBC630-2024-8oz","title":"8oz \/ 2024","untranslatedTitle":"8oz \/ 2024"},{"id":"41345309442181","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"price":{"amount":5.0,"currencyCode":"USD"},"sku":"A-T90-US-HBC630-2024-16oz","title":"16oz \/ 2024","untranslatedTitle":"16oz \/ 2024"},{"id":"41345309409413","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"price":{"amount":6.0,"currencyCode":"USD"},"sku":"A-T90-US-HBC630-2023-16oz","title":"16oz \/ 2023","untranslatedTitle":"16oz \/ 2023"},{"id":"41345246560389","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"price":{"amount":38.0,"currencyCode":"USD"},"sku":"E-T90-US-HBC630-2024-Bulk","title":"11lb \/ 2024","untranslatedTitle":"11lb \/ 2024"},{"id":"41438560977029","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"price":{"amount":32.0,"currencyCode":"USD"},"sku":"E-T90-US-HBC630-2023-Bulk","title":"11lb \/ 2023","untranslatedTitle":"11lb \/ 2023"},{"id":"41345309638789","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"price":{"amount":2.5,"currencyCode":"USD"},"sku":"C-T90-US-HBC630-2024-2oz","title":"2oz \/ 2024","untranslatedTitle":"2oz \/ 2024"}]},{"id":"7188455915653","handle":"harvest-2025-t-shirt","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"41337443025029","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"7328709935237","handle":"pomona-modern-hybrid-ipa-yeast","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"41852585771141","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"5087463440517","handle":"flex","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"34331411513477","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"7222452125829","handle":"citra-co2-hop-extract","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"41452646432901","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"7231482003589","handle":"aseptic-fruit-purees","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"41484502106245","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"5184682950789","handle":"hopaid-antifoam","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"40291821355141","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"6700072009861","handle":"hophaze","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"40782038335621","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"4822836936837","handle":"us-05","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"39925008990341","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"7188508508293","handle":"yakima-valley-hops-trucker-hat","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"41337521832069","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]}],"purchasingCompany":null},},"https://yakimavalleyhops.com/cdn","4e7a7028w708d11bfpd22fc97dm92febe21",{"modern":"","legacy":""},{"trekkieShim":true,"agentContext":true,"apiClientId":"580111","facebookCapiEnabled":"true","themeId":"122832257157","themePublished":"true","eventMetadataId":"1f2c7c73-b403-4c3c-ac00-5683f7654ce8","pageType":"product","resourceId":"5231876309125","shopId":"36545986693","storefrontBaseUrl":"https:\/\/yakimavalleyhops.com","extensionBaseUrl":"https:\/\/extensions.shopifycdn.com\/cdn\/shopifycloud\/web-pixels-manager","surface":"storefront-renderer","enabledBetaFlags":"[\"7b21cf0b\", \"b13923a8\", \"4c64608a\", \"08197dfb\"]","isMerchantRequest":"false","hashVersion":"4e7a7028w708d11bfpd22fc97dm92febe21","publish":"custom","events":"[[\"page_viewed\",{}],[\"product_viewed\",{\"productVariant\":{\"price\":{\"amount\":5.0,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"HBC 630 Hops\",\"vendor\":\"Yakima Valley Hops\",\"id\":\"5231876309125\",\"untranslatedTitle\":\"HBC 630 Hops\",\"url\":\"\/products\/hbc-630-hops\",\"type\":\"Domestic Pellet Hops\"},\"id\":\"41345309442181\",\"image\":{\"src\":\"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494\"},\"sku\":\"A-T90-US-HBC630-2024-16oz\",\"title\":\"16oz \/ 2024\",\"untranslatedTitle\":\"16oz \/ 2024\"}}]]"});})();</script><script>
+<script>(function(){var wpmLoader=function(){"use strict";var e=/Googlebot|Storebot-Google|bingbot|Baiduspider|YandexBot|DuckDuckBot|Slurp|facebookexternalhit|Twitterbot|LinkedInBot|Applebot|AdsBot-Google|Mediapartners-Google|APIs-Google|PetalBot|SemrushBot|AhrefsBot|MJ12bot|DotBot|Acunetix|PerplexityBot|Perplexity-User/i,t=/bytedance/i;function i(){try{var e=document.cookie;if(!e||"string"!=typeof e)return;for(var t=0,i=e.split(";");t<i.length;t++){var n=i[t],r=n.indexOf("=");if(-1!==r){var o=n.slice(0,r).trim();if(o){var a=void 0;try{a=decodeURIComponent(o)}catch(e){a=o}if("_shopify_s"===a){var d=n.slice(r+1).trim();try{return decodeURIComponent(d)}catch(e){return d}}}}}return}catch(e){return}}function n(e){try{"undefined"!=typeof console&&"function"==typeof console.warn&&console.warn(e)}catch(e){}}function r(e,t){return"string"==typeof e&&e.length>0&&e.length<=t?e:void 0}function o(e){var t;switch(null==(t=null==e?void 0:e.navigation)?void 0:t.type){case 0:return"navigate";case 1:return"reload";case 2:return"back_forward";default:return}}function a(){var e,t,i;try{var n=null==(i=null==(t=null==(e=self.ShopifyAnalytics)?void 0:e.lib)?void 0:t.trekkie)?void 0:i.state;return"awaiting-consent"===n||"initialized"===n?n:void 0}catch(e){return}}return function(d,s,u,l){var c=arguments.length>4&&void 0!==arguments[4]?arguments[4]:{};try{var p=c.trekkieShim;!0!==p&&"true"!==p||null!=window.__TREKKIE_SHIM_QUEUE||(window.__TREKKIE_SHIM_QUEUE=[])}catch(e){}var f,v,h,y,g=(v=(f={modern:/Edge?\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Firefox\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Chrom(ium|e)\/(9{2}|\d{3,})\.\d+(\.\d+|)|(Maci|X1{2}).+ Version\/(15\.\d+|(1[6-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(9{2}|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(15[._]\d+|(1[6-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Android.+Firefox\/(15\d|1[6-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|SamsungBrowser\/([2-9]\d|\d{3,})\.\d+/,legacy:/Edge?\/(1[6-9]|[2-9]\d|\d{3,})\.\d+(\.\d+|)|Firefox\/(5[4-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)|Chrom(ium|e)\/(5[1-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)([\d.]+$|.*Safari\/(?![\d.]+ Edge\/[\d.]+$))|(Maci|X1{2}).+ Version\/(10\.\d+|(1[1-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(3[89]|[4-9]\d|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(10[._]\d+|(1[1-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Mobile Safari.+OPR\/([89]\d|\d{3,})\.\d+\.\d+|Android.+Firefox\/(15\d|1[6-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+(UC? ?Browser|UCWEB|U3)[ /]?(15\.([5-9]|\d{2,})|(1[6-9]|[2-9]\d|\d{3,})\.\d+)\.\d+|SamsungBrowser\/(5\.\d+|([6-9]|\d{2,})\.\d+)|Android.+MQ{2}Browser\/(14(\.(9|\d{2,})|)|(1[5-9]|[2-9]\d|\d{3,})(\.\d+|))(\.\d+|)|K[Aa][Ii]OS\/(3\.\d+|([4-9]|\d{2,})\.\d+)(\.\d+|)/}).modern,h=f.legacy,(y=navigator.userAgent).match(e)?"bot":y.match(v)?"modern":y.match(h)?"legacy":y.match(t)?"bot":"unknown"),m=function(e){var t,i,n=r(e,128);try{var a=window.performance,d=null==(t=null==a?void 0:a.getEntriesByType)?void 0:t.call(a,"navigation")[0];if(!d)return{requestId:n,navigationType:o(a)};var s="type"in d?r(d.type,64):void 0,u="serverTiming"in d&&Array.isArray(d.serverTiming)?d.serverTiming:[];return{requestId:null!=n?n:r(null==(i=u.find(function(e){return"requestID"===e.name}))?void 0:i.description,128),navigationType:s}}catch(e){return{requestId:n}}}(c.requestId),w=function(e){var t=e.version,r=e.browserTarget,o=e.surface,a=e.shopId,d=e.monorailEndpoint,s=window.location.href;return{emit:function(e){var u=e.status,l=e.errorMsg,c=e.failureReason,p=e.useKeepaliveFallback,f=void 0!==p&&p,v=e.navigationType,h=e.pagehidePersisted,y=e.requestId,g=e.trekkieState;if(d){var m,w;try{var b=(new Date).getTime();m=JSON.stringify({metadata:{event_sent_at_ms:b},events:[{schema_id:"web_pixels_manager_load/3.3",payload:{version:t,bundle_target:r,page_url:s,status:u,surface:o,error_msg:l,failure_reason:c,navigation_type:v,pagehide_persisted:h,request_id:y,trekkie_state:g,shop_id:a,visit_token:i()},metadata:{event_created_at_ms:b}}]})}catch(e){return}try{if("function"==typeof window.navigator.sendBeacon&&-1===(w=window.navigator.userAgent).indexOf("iPhone; CPU iPhone OS 12_")&&-1===w.indexOf("iPad; CPU OS 12_")&&-1===w.indexOf("iPod touch; CPU iPhone OS 12_")&&window.navigator.sendBeacon.bind(window.navigator)(d,m))return}catch(e){}if(f)try{"function"==typeof window.fetch&&window.fetch(d,{method:"POST",headers:{"Content-Type":"text/plain"},body:m,keepalive:!0}).catch(function(){})}catch(e){}else try{var _=new XMLHttpRequest;_.open("POST",d,!0),_.setRequestHeader("Content-Type","text/plain"),_.send(m)}catch(e){n("[Web Pixels Manager] Got an unhandled error while logging to Monorail.")}}else n("[Web Pixels Manager] No Monorail endpoint provided, skipping logging.")}}}({version:u,browserTarget:g,surface:d.surface,shopId:d.shopId,monorailEndpoint:d.monorailEndpoint});if(Boolean(null==(_=null==(b=window.Shopify)?void 0:b.analytics)?void 0:_.replayQueue))w.emit({status:"setup-skipped",errorMsg:"replay queue already initialized."});else{var b,_;w.emit({status:"setup-started"}),window.Shopify=window.Shopify||{};var S=window.Shopify;S.analytics=S.analytics||{};var P=S.analytics;P.replayQueue=[],P.publish=function(e,t,i){return P.replayQueue.push([e,t,i]),!0};try{self.performance.mark("wpm:start")}catch(e){}var k,C="modern"===g?"modern":"legacy",E=(null!=l?l:{modern:"",legacy:""})[C],I=[(k={baseUrl:s,hashVersion:u,buildTarget:C}).baseUrl,"/wpm","/b",k.hashVersion,"modern"===k.buildTarget?"m":"l",".js"].join(""),O=!1,T=!1;try{c.browserTarget=g,function(){O=!0;try{window.addEventListener("pagehide",M)}catch(e){O=!1}}(),R(function(){try{R(x)}catch(e){D(e)}}),w.emit({status:"loading",requestId:m.requestId,navigationType:m.navigationType,trekkieState:a()})}catch(e){D(e)}}function U(){var e;if(q(),!function(){var e,t;return Boolean(null==(t=null==(e=window.Shopify)?void 0:e.analytics)?void 0:t.initialized)}()){var t,i,n;try{if("function"!=typeof(null==(e=window.webPixelsManager)?void 0:e.init))return void A();if(!(null!==(n=i=t=window.webPixelsManager.init(d))&&"function"!=typeof n&&Object(n)===n&&"publish"in i&&"function"==typeof i.publish&&"publishCustomEvent"in i&&"function"==typeof i.publishCustomEvent&&"visitor"in i&&"function"==typeof i.visitor))return void A()}catch(e){return void A(e)}var r=window.Shopify.analytics;r.replayQueue.forEach(function(e){var i=e[0],n=e[1],r=e[2];t.publishCustomEvent(i,n,r)}),r.replayQueue=[],r.publish=t.publishCustomEvent,r.visitor=t.visitor,r.initialized=!0}}function A(e){B("manager_api_unavailable",void 0===e?void 0:Q(e))}function x(){B("script_load_failed","".concat(I," has failed to load"))}function B(e,t){T||(T=!0,q(),w.emit({status:"failed",errorMsg:t,failureReason:e,requestId:m.requestId,navigationType:m.navigationType,trekkieState:a()}))}function M(e){O&&(q(),w.emit({status:"pagehide-while-loading",useKeepaliveFallback:!0,pagehidePersisted:e.persisted,requestId:m.requestId,navigationType:m.navigationType,trekkieState:a()}))}function q(){O=!1;try{window.removeEventListener("pagehide",M)}catch(e){}}function R(e){var t;!function(e){var t=e.src,i=e.async,n=void 0===i||i,r=e.onload,o=e.onerror,a=e.sri,d=e.scriptDataAttributes,s=void 0===d?{}:d,u=document.createElement("script"),l=document.querySelector("head"),c=document.querySelector("body");if(u.async=n,u.src=t,a&&(u.integrity=a,u.crossOrigin="anonymous"),s)for(var p in s)if(Object.prototype.hasOwnProperty.call(s,p))try{u.dataset[p]=String(s[p])}catch(e){}if(r&&u.addEventListener("load",r),o&&u.addEventListener("error",o),l)l.appendChild(u);else{if(!c)throw new Error("Did not find a head or body element to append the script");c.appendChild(u)}}({src:I,async:!0,onload:U,onerror:e,sri:(t=E,"string"==typeof t&&/^sha384-[A-Za-z0-9+/=]+$/.test(t)?E:""),scriptDataAttributes:c})}function D(e){B("script_append_failed",Q(e))}function Q(e){return e instanceof Error?e.message:"Unknown error"}}}();wpmLoader({shopId: 36545986693,storefrontBaseUrl: "https://yakimavalleyhops.com",extensionsBaseUrl: "https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager",monorailEndpoint: "https://yakimavalleyhops.com/.well-known/shopify/monorail/unstable/produce_batch",surface: "storefront-renderer",enabledBetaFlags: ["7b21cf0b","b13923a8","4c64608a","08197dfb"],webPixelsConfigList: [{"id":"666402949","configuration":"{\"accountID\":\"VQEefX\",\"webPixelConfig\":\"eyJlbmFibGVBZGRlZFRvQ2FydEV2ZW50cyI6IHRydWUsICJlbmFibGVBbm9ueW1vdXNCYWNrZmlsbCI6IHRydWV9\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"3fe25e975c30cd2a9af38a04798704c0","type":"APP","apiClientId":123074,"privacyPurposes":["ANALYTICS","MARKETING"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized","enabledFlags":["9a3ed68a"]},{"id":"246382725","configuration":"{\"config\":\"{\\\"google_tag_ids\\\":[\\\"G-94ZJ5TTEM1\\\",\\\"AW-867992544\\\",\\\"GT-WVXD25C\\\",\\\"AW-17668340971\\\"],\\\"target_country\\\":\\\"US\\\",\\\"gtag_events\\\":[{\\\"type\\\":\\\"begin_checkout\\\",\\\"action_label\\\":[\\\"G-94ZJ5TTEM1\\\",\\\"AW-867992544\\\/v6-UCKbVgekBEOCH8p0D\\\",\\\"AW-867992544\\\/E82eCKWti-sYEOCH8p0D\\\"]},{\\\"type\\\":\\\"search\\\",\\\"action_label\\\":[\\\"G-94ZJ5TTEM1\\\",\\\"AW-867992544\\\/lkUFCKnVgekBEOCH8p0D\\\"]},{\\\"type\\\":\\\"remove_from_cart\\\",\\\"action_label\\\":\\\"G-94ZJ5TTEM1\\\"},{\\\"type\\\":\\\"view_item\\\",\\\"action_label\\\":[\\\"G-94ZJ5TTEM1\\\",\\\"AW-867992544\\\/5EI8CKDVgekBEOCH8p0D\\\",\\\"MC-QF5PZ0RY3G\\\"]},{\\\"type\\\":\\\"add_shipping_info\\\",\\\"action_label\\\":\\\"G-94ZJ5TTEM1\\\"},{\\\"type\\\":\\\"purchase\\\",\\\"action_label\\\":[\\\"G-94ZJ5TTEM1\\\",\\\"AW-867992544\\\/X2NJCJ3VgekBEOCH8p0D\\\",\\\"MC-QF5PZ0RY3G\\\",\\\"AW-867992544\\\/qC-uCOu7yv4BEOCH8p0D\\\",\\\"AW-17668340971\\\/xm73CISx0N4bEOv59ehB\\\"]},{\\\"type\\\":\\\"page_view\\\",\\\"action_label\\\":[\\\"G-94ZJ5TTEM1\\\",\\\"AW-867992544\\\/gg3dCJrVgekBEOCH8p0D\\\",\\\"MC-QF5PZ0RY3G\\\"]},{\\\"type\\\":\\\"view_item_list\\\",\\\"action_label\\\":\\\"G-94ZJ5TTEM1\\\"},{\\\"type\\\":\\\"add_payment_info\\\",\\\"action_label\\\":[\\\"G-94ZJ5TTEM1\\\",\\\"AW-867992544\\\/yWmVCKzVgekBEOCH8p0D\\\"]},{\\\"type\\\":\\\"add_to_cart\\\",\\\"action_label\\\":[\\\"G-94ZJ5TTEM1\\\",\\\"AW-867992544\\\/5Ad1CKPVgekBEOCH8p0D\\\"]},{\\\"type\\\":\\\"view_cart\\\",\\\"action_label\\\":\\\"G-94ZJ5TTEM1\\\"}],\\\"enable_monitoring_mode\\\":false}\"}","eventPayloadVersion":"v1","runtimeContext":"OPEN","scriptVersion":"a3321ca85cf5aaf6b57585fcd8d67b3a","type":"APP","apiClientId":1780363,"privacyPurposes":[],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted","enabledFlags":["9a3ed68a"]},{"id":"132087941","configuration":"{\"siteId\":\"2f8203\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"bde82ca25016dddc251f955e607d9702","type":"APP","apiClientId":12202,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_email","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized"},{"id":"91029637","configuration":"{\"pixel_id\":\"727323017676515\",\"pixel_type\":\"facebook_pixel\",\"metaapp_system_user_token\":\"-\"}","eventPayloadVersion":"v1","runtimeContext":"OPEN","scriptVersion":"aa512388c6e159e69a109d31a3b74919","type":"APP","apiClientId":2329312,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized","enabledFlags":["9a3ed68a"]},{"id":"4554885","configuration":"{\"myshopifyDomain\":\"yakimavalleyhops.myshopify.com\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"23b97d18e2aa74363140dc29c9284e87","type":"APP","apiClientId":2775569,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_phone","read_customer_personal_data"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized"},{"id":"17924229","eventPayloadVersion":"1","runtimeContext":"LAX","scriptVersion":"2","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"name":"IntelliSuggest"},{"id":"71172229","eventPayloadVersion":"1","runtimeContext":"LAX","scriptVersion":"2","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"name":"GTM Form Submit"},{"id":"shopify-app-pixel","configuration":"{}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"0530","apiClientId":"shopify-pixel","type":"APP","privacyPurposes":["ANALYTICS","MARKETING"]},{"id":"shopify-custom-pixel","eventPayloadVersion":"v1","runtimeContext":"LAX","scriptVersion":"0530","apiClientId":"shopify-pixel","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING"]}],isMerchantRequest: false,initData: {"shop":{"name":"Yakima Valley Hops","paymentSettings":{"currencyCode":"USD"},"myshopifyDomain":"yakimavalleyhops.myshopify.com","countryCode":"US","storefrontUrl":"https:\/\/yakimavalleyhops.com"},"customer":null,"cart":null,"checkout":null,"productVariants":[{"price":{"amount":32.0,"currencyCode":"USD"},"product":{"title":"HBC 630 Hops","vendor":"Yakima Valley Hops","id":"5231876309125","untranslatedTitle":"HBC 630 Hops","url":"\/products\/hbc-630-hops","type":"Domestic Pellet Hops"},"id":"41438560977029","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"sku":"E-T90-US-HBC630-2023-Bulk","title":"11lb \/ 2023","untranslatedTitle":"11lb \/ 2023"},{"price":{"amount":38.0,"currencyCode":"USD"},"product":{"title":"HBC 630 Hops","vendor":"Yakima Valley Hops","id":"5231876309125","untranslatedTitle":"HBC 630 Hops","url":"\/products\/hbc-630-hops","type":"Domestic Pellet Hops"},"id":"41345246560389","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"sku":"E-T90-US-HBC630-2024-Bulk","title":"11lb \/ 2024","untranslatedTitle":"11lb \/ 2024"},{"price":{"amount":2.0,"currencyCode":"USD"},"product":{"title":"HBC 630 Hops","vendor":"Yakima Valley Hops","id":"5231876309125","untranslatedTitle":"HBC 630 Hops","url":"\/products\/hbc-630-hops","type":"Domestic Pellet Hops"},"id":"41345309606021","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"sku":"C-T90-US-HBC630-2023-2oz","title":"2oz \/ 2023","untranslatedTitle":"2oz \/ 2023"},{"price":{"amount":2.5,"currencyCode":"USD"},"product":{"title":"HBC 630 Hops","vendor":"Yakima Valley Hops","id":"5231876309125","untranslatedTitle":"HBC 630 Hops","url":"\/products\/hbc-630-hops","type":"Domestic Pellet Hops"},"id":"41345309638789","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"sku":"C-T90-US-HBC630-2024-2oz","title":"2oz \/ 2024","untranslatedTitle":"2oz \/ 2024"},{"price":{"amount":6.0,"currencyCode":"USD"},"product":{"title":"HBC 630 Hops","vendor":"Yakima Valley Hops","id":"5231876309125","untranslatedTitle":"HBC 630 Hops","url":"\/products\/hbc-630-hops","type":"Domestic Pellet Hops"},"id":"41345309409413","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"sku":"A-T90-US-HBC630-2023-16oz","title":"16oz \/ 2023","untranslatedTitle":"16oz \/ 2023"},{"price":{"amount":5.0,"currencyCode":"USD"},"product":{"title":"HBC 630 Hops","vendor":"Yakima Valley Hops","id":"5231876309125","untranslatedTitle":"HBC 630 Hops","url":"\/products\/hbc-630-hops","type":"Domestic Pellet Hops"},"id":"41345309442181","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"sku":"A-T90-US-HBC630-2024-16oz","title":"16oz \/ 2024","untranslatedTitle":"16oz \/ 2024"},{"price":{"amount":4.0,"currencyCode":"USD"},"product":{"title":"HBC 630 Hops","vendor":"Yakima Valley Hops","id":"5231876309125","untranslatedTitle":"HBC 630 Hops","url":"\/products\/hbc-630-hops","type":"Domestic Pellet Hops"},"id":"42737582801029","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"sku":"B-T90-US-HBC630-2024-8oz","title":"8oz \/ 2024","untranslatedTitle":"8oz \/ 2024"}],"products":[{"id":"5231876309125","handle":"hbc-630-hops","isCollective":null,"title":"HBC 630 Hops","type":"Domestic Pellet Hops","untranslatedTitle":"HBC 630 Hops","url":"\/products\/hbc-630-hops","vendor":"Yakima Valley Hops","remoteShopId":null,"variants":[{"id":"41438560977029","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"price":{"amount":32.0,"currencyCode":"USD"},"sku":"E-T90-US-HBC630-2023-Bulk","title":"11lb \/ 2023","untranslatedTitle":"11lb \/ 2023"},{"id":"41345246560389","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"price":{"amount":38.0,"currencyCode":"USD"},"sku":"E-T90-US-HBC630-2024-Bulk","title":"11lb \/ 2024","untranslatedTitle":"11lb \/ 2024"},{"id":"41345309606021","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"price":{"amount":2.0,"currencyCode":"USD"},"sku":"C-T90-US-HBC630-2023-2oz","title":"2oz \/ 2023","untranslatedTitle":"2oz \/ 2023"},{"id":"41345309638789","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"price":{"amount":2.5,"currencyCode":"USD"},"sku":"C-T90-US-HBC630-2024-2oz","title":"2oz \/ 2024","untranslatedTitle":"2oz \/ 2024"},{"id":"41345309409413","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"price":{"amount":6.0,"currencyCode":"USD"},"sku":"A-T90-US-HBC630-2023-16oz","title":"16oz \/ 2023","untranslatedTitle":"16oz \/ 2023"},{"id":"41345309442181","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"price":{"amount":5.0,"currencyCode":"USD"},"sku":"A-T90-US-HBC630-2024-16oz","title":"16oz \/ 2024","untranslatedTitle":"16oz \/ 2024"},{"id":"42737582801029","image":{"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"price":{"amount":4.0,"currencyCode":"USD"},"sku":"B-T90-US-HBC630-2024-8oz","title":"8oz \/ 2024","untranslatedTitle":"8oz \/ 2024"}]},{"id":"7188455915653","handle":"harvest-2025-t-shirt","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"41337443025029","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"7328709935237","handle":"pomona-modern-hybrid-ipa-yeast","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"41852585771141","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"5087463440517","handle":"flex","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"34331411513477","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"7222452125829","handle":"citra-co2-hop-extract","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"41452646432901","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"7231482003589","handle":"aseptic-fruit-purees","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"41484502106245","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"5184682950789","handle":"hopaid-antifoam","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"40291821355141","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"6700072009861","handle":"hophaze","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"40782038335621","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"4822836936837","handle":"us-05","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"39925008990341","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"7188508508293","handle":"yakima-valley-hops-trucker-hat","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"41337521832069","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]}],"purchasingCompany":null},},"https://yakimavalleyhops.com/cdn","f882002ew93f4c027p0c16e2cama50b1ec1",{"modern":"","legacy":""},{"trekkieShim":true,"agentContext":true,"apiClientId":"580111","facebookCapiEnabled":"true","themeId":"122832257157","themePublished":"true","eventMetadataId":"b97d65c6-830e-47e4-9a0c-d1536b079f78","pageType":"product","resourceId":"5231876309125","shopId":"36545986693","storefrontBaseUrl":"https:\/\/yakimavalleyhops.com","extensionBaseUrl":"https:\/\/extensions.shopifycdn.com\/cdn\/shopifycloud\/web-pixels-manager","surface":"storefront-renderer","enabledBetaFlags":"[\"7b21cf0b\", \"b13923a8\", \"4c64608a\", \"08197dfb\"]","isMerchantRequest":"false","hashVersion":"f882002ew93f4c027p0c16e2cama50b1ec1","publish":"custom","events":"[[\"page_viewed\",{}],[\"product_viewed\",{\"productVariant\":{\"price\":{\"amount\":32.0,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"HBC 630 Hops\",\"vendor\":\"Yakima Valley Hops\",\"id\":\"5231876309125\",\"untranslatedTitle\":\"HBC 630 Hops\",\"url\":\"\/products\/hbc-630-hops\",\"type\":\"Domestic Pellet Hops\"},\"id\":\"41438560977029\",\"image\":{\"src\":\"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494\"},\"sku\":\"E-T90-US-HBC630-2023-Bulk\",\"title\":\"11lb \/ 2023\",\"untranslatedTitle\":\"11lb \/ 2023\"}}]]"});})();</script><script>
   window.ShopifyAnalytics = window.ShopifyAnalytics || {};
   window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
   window.ShopifyAnalytics.meta.currency = 'USD';
-  var meta = {"product":{"id":5231876309125,"gid":"gid:\/\/shopify\/Product\/5231876309125","vendor":"Yakima Valley Hops","type":"Domestic Pellet Hops","handle":"hbc-630-hops","variants":[{"id":41345309606021,"price":200,"name":"HBC 630 Hops - 2oz \/ 2023","public_title":"2oz \/ 2023","sku":"C-T90-US-HBC630-2023-2oz"},{"id":41345309540485,"price":400,"name":"HBC 630 Hops - 8oz \/ 2024","public_title":"8oz \/ 2024","sku":"B-T90-US-HBC630-2024-8oz"},{"id":41345309442181,"price":500,"name":"HBC 630 Hops - 16oz \/ 2024","public_title":"16oz \/ 2024","sku":"A-T90-US-HBC630-2024-16oz"},{"id":41345309409413,"price":600,"name":"HBC 630 Hops - 16oz \/ 2023","public_title":"16oz \/ 2023","sku":"A-T90-US-HBC630-2023-16oz"},{"id":41345246560389,"price":3800,"name":"HBC 630 Hops - 11lb \/ 2024","public_title":"11lb \/ 2024","sku":"E-T90-US-HBC630-2024-Bulk"},{"id":41438560977029,"price":3200,"name":"HBC 630 Hops - 11lb \/ 2023","public_title":"11lb \/ 2023","sku":"E-T90-US-HBC630-2023-Bulk"},{"id":41345309638789,"price":250,"name":"HBC 630 Hops - 2oz \/ 2024","public_title":"2oz \/ 2024","sku":"C-T90-US-HBC630-2024-2oz"}],"remote":false},"page":{"pageType":"product","resourceType":"product","resourceId":5231876309125,"requestId":"0b6976ca-4ad3-4001-8a68-dd6698e66df2-1793913167"}};
+  var meta = {"product":{"id":5231876309125,"gid":"gid:\/\/shopify\/Product\/5231876309125","vendor":"Yakima Valley Hops","type":"Domestic Pellet Hops","handle":"hbc-630-hops","variants":[{"id":41438560977029,"price":3200,"name":"HBC 630 Hops - 11lb \/ 2023","public_title":"11lb \/ 2023","sku":"E-T90-US-HBC630-2023-Bulk"},{"id":41345246560389,"price":3800,"name":"HBC 630 Hops - 11lb \/ 2024","public_title":"11lb \/ 2024","sku":"E-T90-US-HBC630-2024-Bulk"},{"id":41345309606021,"price":200,"name":"HBC 630 Hops - 2oz \/ 2023","public_title":"2oz \/ 2023","sku":"C-T90-US-HBC630-2023-2oz"},{"id":41345309638789,"price":250,"name":"HBC 630 Hops - 2oz \/ 2024","public_title":"2oz \/ 2024","sku":"C-T90-US-HBC630-2024-2oz"},{"id":41345309409413,"price":600,"name":"HBC 630 Hops - 16oz \/ 2023","public_title":"16oz \/ 2023","sku":"A-T90-US-HBC630-2023-16oz"},{"id":41345309442181,"price":500,"name":"HBC 630 Hops - 16oz \/ 2024","public_title":"16oz \/ 2024","sku":"A-T90-US-HBC630-2024-16oz"},{"id":42737582801029,"price":400,"name":"HBC 630 Hops - 8oz \/ 2024","public_title":"8oz \/ 2024","sku":"B-T90-US-HBC630-2024-8oz"}],"remote":false},"page":{"pageType":"product","resourceType":"product","resourceId":5231876309125,"requestId":"58a01909-bda9-4252-8bbb-5aab2850927f-1794267197"}};
   for (var attr in meta) {
     window.ShopifyAnalytics.meta[attr] = meta[attr];
   }
@@ -2326,7 +2326,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
       
     };
     trekkie.load(
-      {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":36545986693,"isMerchantRequest":null,"themeId":122832257157,"themeCityHash":"17827043544636386833","contentLanguage":"en","currency":"USD","eventMetadataId":"1f2c7c73-b403-4c3c-ac00-5683f7654ce8"},"isServerSideCookieWritingEnabled":true,"monorailRegion":"shop_domain","enabledBetaFlags":["7b21cf0b","b13923a8","4c64608a"]},"Session Attribution":{},"S2S":{"facebookCapiEnabled":true,"source":"trekkie-storefront-renderer","apiClientId":580111}}
+      {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":36545986693,"isMerchantRequest":null,"themeId":122832257157,"themeCityHash":"17827043544636386833","contentLanguage":"en","currency":"USD","eventMetadataId":"b97d65c6-830e-47e4-9a0c-d1536b079f78"},"isServerSideCookieWritingEnabled":true,"monorailRegion":"shop_domain","enabledBetaFlags":["7b21cf0b","b13923a8","4c64608a"]},"Session Attribution":{},"S2S":{"facebookCapiEnabled":true,"source":"trekkie-storefront-renderer","apiClientId":580111}}
     );
 
     var loaded = false;
@@ -2345,11 +2345,11 @@ Shopify.SignInWithShop.User.recognized = false;</script>
       var token = match? match[1]: undefined;
       if (!hasLoggedConversion(token)) {
         setCookieIfConversion(token);
-        window.ShopifyAnalytics.lib.track("Viewed Product",{"currency":"USD","variantId":41345309442181,"productId":5231876309125,"productGid":"gid:\/\/shopify\/Product\/5231876309125","name":"HBC 630 Hops - 16oz \/ 2024","price":"5.00","sku":"A-T90-US-HBC630-2024-16oz","brand":"Yakima Valley Hops","variant":"16oz \/ 2024","category":"Domestic Pellet Hops","nonInteraction":true,"remote":false,"available":true},undefined,undefined,{"shopifyEmitted":true});
+        window.ShopifyAnalytics.lib.track("Viewed Product",{"currency":"USD","variantId":41438560977029,"productId":5231876309125,"productGid":"gid:\/\/shopify\/Product\/5231876309125","name":"HBC 630 Hops - 11lb \/ 2023","price":"32.00","sku":"E-T90-US-HBC630-2023-Bulk","brand":"Yakima Valley Hops","variant":"11lb \/ 2023","category":"Domestic Pellet Hops","nonInteraction":true,"remote":false,"available":true},undefined,undefined,{"shopifyEmitted":true});
       }
     });
 
-    window.ShopifyAnalytics.lib.page(null,{"pageType":"product","resourceType":"product","resourceId":5231876309125,"requestId":"0b6976ca-4ad3-4001-8a68-dd6698e66df2-1793913167","shopifyEmitted":true});
+    window.ShopifyAnalytics.lib.page(null,{"pageType":"product","resourceType":"product","resourceId":5231876309125,"requestId":"58a01909-bda9-4252-8bbb-5aab2850927f-1794267197","shopifyEmitted":true});
 
     var eventsListenerScript = document.createElement('script');
     eventsListenerScript.async = true;
@@ -2375,7 +2375,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
   src="https://yakimavalleyhops.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.15.1.min.js"
   data-application="storefront-renderer"
   data-shop-id="36545986693"
-  data-render-region="gcp-us-west1"
+  data-render-region="gcp-us-east1"
   data-page-type="product"
   data-theme-instance-id="122832257157"
   data-theme-name="Enterprise"
@@ -2390,7 +2390,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
 ></script>
 <script id="shopify-chat-page-data" type="application/json">{"greetingMessage":"Welcome to Yakima Valley Hops. How can I help?","customerServiceEmail":"info@yakimavalleyhops.com","onlineStorePasswordProtected":false,"exportCommand":false,"shopName":"Yakima Valley Hops","translations":[{"key":"agent_chat.panel.open_chat","value":"Open chat"},{"key":"agent_chat.panel.ask_anything","value":"Ask anything"},{"key":"agent_chat.panel.title","value":"Storekick"},{"key":"agent_chat.panel.unread_replies","value":"Unread replies"},{"key":"agent_chat.panel.back_to_chat","value":"Back to chat"},{"key":"agent_chat.panel.see_history","value":"See chat history"},{"key":"agent_chat.panel.new_chat","value":"Create a new chat"},{"key":"agent_chat.panel.close","value":"Close chat"},{"key":"agent_chat.panel.undock","value":"Undock chat"},{"key":"agent_chat.panel.dock","value":"Dock chat"},{"key":"agent_chat.panel.expand","value":"Expand chat"},{"key":"agent_chat.panel.contract","value":"Contract chat"},{"key":"agent_chat.panel.jump_to_latest","value":"Jump to latest"},{"key":"agent_chat.panel.loading_chat","value":"Loading chat"},{"key":"agent_chat.input.label","value":"Type your message"},{"key":"agent_chat.input.placeholder","value":"Ask anything..."},{"key":"agent_chat.input.send","value":"Send"},{"key":"agent_chat.input.stop","value":"Stop generating"},{"key":"agent_chat.thinking","value":"Thinking..."},{"key":"agent_chat.first_response_delayed","value":"Agent is taking longer to respond…"},{"key":"agent_chat.searching","value":"Searching..."},{"key":"agent_chat.message.sent_timestamp","value":"Sent · {{time}}"},{"key":"agent_chat.message.automated_label","value":"Automated"},{"key":"agent_chat.message.automated_timestamp","value":"Automated · {{time}}"},{"key":"agent_chat.liveAgentHandoff","value":"Someone from our team will be with you shortly"},{"key":"agent_chat.human_handoff.action","value":"Chat with our team"},{"key":"agent_chat.human_handoff.request","value":"I’d like to talk to someone from your team"},{"key":"agent_chat.human_handoff.ai_assistant","value":"AI assistant"},{"key":"agent_chat.greeting.default","value":"Hi there!"},{"key":"agent_chat.greeting.with_name","value":"Hi {{name}}!"},{"key":"agent_chat.greeting.welcome","value":"You can ask questions about shopping, sizing\/dimensions, shipping, returns, or order status."},{"key":"agent_chat.greeting.welcome_back","value":"Welcome back to %{shop_name}! How can I help?"},{"key":"agent_chat.greeting.welcome_back_no_shop","value":"Welcome back! How can I help?"},{"key":"agent_chat.greeting.welcome_to_shop","value":"Welcome to %{shop_name}. How can I help?"},{"key":"agent_chat.greeting.generic","value":"How can I help?"},{"key":"agent_chat.disclaimer.text","value":"This chat is powered by AI from Shopify and may make mistakes. Your messages are visible to {{shop_name}}. See"},{"key":"agent_chat.disclaimer.text_human","value":"Your messages are visible to {{shop_name}} and to Shopify for the provision and improvement of the services. See"},{"key":"agent_chat.disclaimer.link_text","value":"privacy policy"},{"key":"agent_chat.error.response_unavailable","value":"Response unavailable"},{"key":"agent_chat.error.generic","value":"Something went wrong."},{"key":"agent_chat.error.response_failed","value":"Couldn’t load this message"},{"key":"agent_chat.error.message_send_failed","value":"Your message couldn’t be sent"},{"key":"agent_chat.error.attachment_upload_failed","value":"Your attachment didn’t upload"},{"key":"agent_chat.error.first_response_stalled","value":"Agent couldn’t respond"},{"key":"agent_chat.error.try_again","value":"Try again"},{"key":"agent_chat.error.unavailable","value":"Chat isn't available right now - try again later"},{"key":"agent_chat.error.usage_limit","value":"Message limit reached — try again later or email us at {{email}}"},{"key":"agent_chat.error.usage_limit_no_email","value":"Message limit reached — try again later"},{"key":"agent_chat.error.cost_quota_unhandled","value":"Chat isn’t available right now—email us at {{email}}"},{"key":"agent_chat.error.cost_quota_unhandled_no_email","value":"Chat isn’t available right now"},{"key":"agent_chat.error.cost_quota_handover","value":"AI assistant isn’t available right now — our team will reply shortly"},{"key":"agent_chat.unavailable.title","value":"Chat isn’t available right now"},{"key":"agent_chat.unavailable.description","value":"Something went wrong while loading the chat."},{"key":"agent_chat.history.heading","value":"Chat history"},{"key":"agent_chat.history.loading","value":"Loading conversation history"},{"key":"agent_chat.history.aria_label","value":"Conversation history"},{"key":"agent_chat.history.no_conversations","value":"No conversations"},{"key":"agent_chat.history.conversation.one","value":"conversation"},{"key":"agent_chat.history.conversation.other","value":"conversations"},{"key":"agent_chat.history.error_message","value":"Something went wrong."},{"key":"agent_chat.history.try_again","value":"Try again"},{"key":"agent_chat.history.no_past","value":"No past conversations"},{"key":"agent_chat.history.start_new","value":"Start a new chat"},{"key":"agent_chat.history.untitled","value":"Untitled conversation"},{"key":"agent_chat.history.resume","value":"Resume: {{title}}"},{"key":"agent_chat.history.resume_with_time","value":"Resume: {{title}}, {{time}}"},{"key":"agent_chat.history.delete","value":"Delete conversation: {{title}}"},{"key":"agent_chat.history.delete_failed","value":"Could not delete conversation"},{"key":"agent_chat.feedback.group_label","value":"Message feedback"},{"key":"agent_chat.feedback.thumbs_up","value":"Thumbs up"},{"key":"agent_chat.feedback.thumbs_down","value":"Thumbs down"},{"key":"agent_chat.feedback.add_comment","value":"Add comment"},{"key":"agent_chat.feedback.thanks","value":"Thanks for your feedback"},{"key":"agent_chat.feedback.placeholder_up","value":"Tell us what went well"},{"key":"agent_chat.feedback.placeholder_down","value":"Tell us what could have been better"},{"key":"agent_chat.feedback.comment_label","value":"Feedback comment"},{"key":"agent_chat.feedback.cancel","value":"Cancel"},{"key":"agent_chat.feedback.submit","value":"Submit"},{"key":"agent_chat.feedback.character_count","value":"{{current}}\/{{max}}"},{"key":"agent_chat.feedback.character_limit_reached","value":"Maximum length reached. Feedback is limited to {{max}} characters."},{"key":"agent_chat.buyer_profile.button.open","value":"Buyer Profile"},{"key":"agent_chat.buyer_profile.title","value":"Buyer Profile"},{"key":"agent_chat.buyer_profile.empty","value":"No buyer profile available."},{"key":"agent_chat.buyer_profile.close","value":"Close"},{"key":"agent_chat.suggestions.empty_state_label","value":"Suggested questions"},{"key":"agent_chat.suggestions.quick_reply_label","value":"Suggested replies"},{"key":"agent_chat.auth.sign_in_to_continue","value":"Sign in to continue"},{"key":"agent_chat.auth.sign_in","value":"Sign in"},{"key":"agent_chat.auth.skip_and_chat","value":"Skip and start chatting"},{"key":"agent_chat.auth.pre_chat_title","value":"Sign in to personalize and save your chats"},{"key":"agent_chat.auth.pre_chat_subtitle","value":"Sign in or create an account"},{"key":"agent_chat.auth.staff_chat_required_title","value":"Don't miss a reply"},{"key":"agent_chat.auth.staff_chat_required_subtitle","value":"Sign in to chat with our team. We'll email you if you leave the chat."},{"key":"agent_chat.auth.share_disclaimer","value":"By continuing, Shop will share your name and email with this store. See their {{terms_link}} and {{privacy_link}}"},{"key":"agent_chat.auth.terms_link","value":"terms"},{"key":"agent_chat.auth.privacy_link","value":"privacy policy"},{"key":"agent_chat.auth.declined_pre_chat","value":"I can’t connect you with the store unless you sign in."},{"key":"agent_chat.reply_by_email.continuation_prompt","value":"If you leave the chat, we’ll email you when there’s a reply."},{"key":"agent_chat.reply_by_email.sign_in_prompt","value":"Sign in to get emailed when there’s a reply."},{"key":"agent_chat.order_lookup.track_order","value":"Track my order"},{"key":"agent_chat.order_lookup.track_another_order","value":"Track another order"},{"key":"agent_chat.order_lookup.new_conversation","value":"New conversation"},{"key":"agent_chat.order_lookup.follow_up_label","value":"Order lookup actions"},{"key":"agent_chat.order_lookup.enter_order_information","value":"Enter order information"},{"key":"agent_chat.order_lookup.prompt","value":"To see your order status, please provide your order details."},{"key":"agent_chat.order_lookup.form_title","value":"Track my order"},{"key":"agent_chat.order_lookup.form_subtitle","value":"Please provide your information."},{"key":"agent_chat.order_lookup.order_number_label","value":"Order number"},{"key":"agent_chat.order_lookup.email_label","value":"Email address"},{"key":"agent_chat.order_lookup.submit","value":"Track my order"},{"key":"agent_chat.order_lookup.cancel","value":"Cancel"},{"key":"agent_chat.order_lookup.invalid_order_number","value":"Please enter a valid order number with only numbers and letters, no spaces (e.g. 1006)."},{"key":"agent_chat.order_lookup.invalid_order_number_whitespace","value":"Please enter a valid order number with only numbers and letters, no spaces (e.g. 1006)."},{"key":"agent_chat.order_lookup.invalid_email","value":"Please enter a valid email address"},{"key":"agent_chat.order_lookup.generic_error","value":"There was a problem looking up your order. Please try again."},{"key":"agent_chat.order_lookup.rate_limited_error","value":"Too many attempts. Try again later."},{"key":"agent_chat.order_lookup.locked_composer_status","value":"Order lookup is in progress. Start a new conversation to ask something else."},{"key":"agent_chat.legacy_contact.form_title","value":"Before we get started"},{"key":"agent_chat.legacy_contact.form_subtitle","value":"Please provide your information so we can reply to you if you leave the chat."},{"key":"agent_chat.legacy_contact.first_name_label","value":"First name"},{"key":"agent_chat.legacy_contact.last_name_label","value":"Last name"},{"key":"agent_chat.legacy_contact.email_label","value":"Email"},{"key":"agent_chat.legacy_contact.marketing_opt_in","value":"Email me with news and offers"},{"key":"agent_chat.legacy_contact.submit","value":"Start chat"},{"key":"agent_chat.legacy_contact.cancel","value":"Cancel"},{"key":"agent_chat.legacy_contact.invalid_first_name","value":"Enter a valid first name."},{"key":"agent_chat.legacy_contact.invalid_last_name","value":"Enter a valid last name."},{"key":"agent_chat.legacy_contact.invalid_email","value":"Enter a valid email address."},{"key":"agent_chat.legacy_contact.invalid_email_length","value":"Email address is too long."},{"key":"agent_chat.legacy_contact.generic_error","value":"Something went wrong."},{"key":"agent_chat.legacy_contact.rate_limited_error","value":"Too many attempts. Try again later."},{"key":"agent_chat.discountCard.useDiscount","value":"Use discount"},{"key":"agent_chat.discountCard.discountApplicationContext","value":"Applies automatically at checkout"},{"key":"agent_chat.cart.checkout","value":"Checkout"},{"key":"agent_chat.product.add_to_cart","value":"Add to cart"},{"key":"agent_chat.product.view_details","value":"View details"},{"key":"agent_chat.product.out_of_stock","value":"Out of stock"},{"key":"agent_chat.product.compare_suggestions","value":"Compare suggestions"},{"key":"agent_chat.product.hide_suggestions","value":"Hide suggestions"},{"key":"agent_chat.product.sold_out","value":"Sold out"},{"key":"agent_chat.order.item.one","value":"item"},{"key":"agent_chat.order.item.other","value":"items"},{"key":"agent_chat.order.less_items.one","value":"- hide {{count}} item"},{"key":"agent_chat.order.less_items.other","value":"- hide {{count}} items"},{"key":"agent_chat.order.more_items.one","value":"+ {{count}} more item"},{"key":"agent_chat.order.more_items.other","value":"+ {{count}} more items"},{"key":"agent_chat.order.view_order","value":"View order {{orderId}}"},{"key":"agent_chat.order.track_shipment","value":"Track shipment"},{"key":"agent_chat.order.of_total","value":"{{index}} of {{total}}"},{"key":"agent_chat.order.label","value":"Order {{number}}"},{"key":"agent_chat.order.count.one","value":"{{count}} Order"},{"key":"agent_chat.order.count.other","value":"{{count}} Orders"},{"key":"agent_chat.order.ordered_on","value":"Ordered {{date}}"},{"key":"agent_chat.order.select","value":"Select order {{number}}"},{"key":"agent_chat.return.heading","value":"Select items to return"},{"key":"agent_chat.return.toggle_item","value":"Select {{name}}"},{"key":"agent_chat.return.select_item_non_returnable","value":"{{name}}, not returnable"},{"key":"agent_chat.return.quantity_label","value":"Return quantity"},{"key":"agent_chat.return.reason_label","value":"Reason for return"},{"key":"agent_chat.return.reason_placeholder","value":"Select a reason"},{"key":"agent_chat.return.confirm","value":"Request return"},{"key":"agent_chat.return.confirmed","value":"Return requested"},{"key":"agent_chat.return.reason.size_too_small","value":"Size too small"},{"key":"agent_chat.return.reason.size_too_large","value":"Size too large"},{"key":"agent_chat.return.reason.unwanted","value":"Unwanted"},{"key":"agent_chat.return.reason.not_as_described","value":"Not as described"},{"key":"agent_chat.return.reason.wrong_item","value":"Wrong item"},{"key":"agent_chat.return.reason.defective","value":"Defective"},{"key":"agent_chat.return.reason.style","value":"Style"},{"key":"agent_chat.return.reason.color","value":"Color"},{"key":"agent_chat.return.reason.other_reason","value":"Other"},{"key":"agent_chat.scroll.previous","value":"Previous"},{"key":"agent_chat.scroll.next","value":"Next"}]}</script>
 <script id="shopify-customer-account-data" type="application/json">{"customer":null,"shop":{"id":"36545986693","customerAccountTranslations":[{"key":"account_menu.signed_out_state.sheet_title","value":"Sign in or create account"},{"key":"account_menu.signed_out_state.section_divider","value":"More ways to sign in"},{"key":"account_menu.signed_out_state.alternate_divider","value":"OR"},{"key":"account_menu.signed_out_state.email_field_label","value":"Email"},{"key":"account_menu.signed_out_state.orders_button","value":"Orders"},{"key":"account_menu.signed_out_state.profile_button","value":"Profile"},{"key":"account_menu.signed_out_state.shop_login_button","value":"Sign in with Shop"},{"key":"account_menu.signed_out_state.continue_with_google","value":"Continue with Google"},{"key":"account_menu.signed_out_state.continue_with_facebook","value":"Continue with Facebook"},{"key":"account_menu.signed_out_state.marketing_consent_label","value":"Email me with news and offers"},{"key":"account_menu.signed_in_state.greeting_with_name","value":"Hi, {{first_name}}"},{"key":"account_menu.signed_in_state.greeting_without_name","value":"Account"},{"key":"account_menu.signed_in_state.orders_button","value":"Orders"},{"key":"account_menu.signed_in_state.profile_button","value":"Profile"},{"key":"account_menu.location_picker.sheet_title","value":"Locations"},{"key":"account_menu.location_picker.search_field_placeholder","value":"Search"},{"key":"account_menu.aria_labels.close_menu","value":"Close menu"},{"key":"account_menu.aria_labels.back_to_main_menu","value":"Back to main menu from {{title}}"},{"key":"account_menu.aria_labels.open_submenu","value":"{{title}}, opens submenu"},{"key":"account_menu.aria_labels.loading_menu","value":"Loading menu"},{"key":"account_menu.aria_labels.loading","value":"Loading"},{"key":"account_menu.aria_labels.account","value":"Account"},{"key":"account_menu.aria_labels.sign_in_with_email","value":"Sign in with email"},{"key":"account_menu.aria_labels.sign_in","value":"Sign in"}],"socialLoginProviders":[],"legacyCustomerAccounts":false,"signInLinksVisible":true,"b2bEnabled":true,"marketingConsentSigninEnabled":true,"marketingConsentPreselected":true},"visitor":{"country":"US","language":"en"}}</script>
-<meta name="shopify-y" content="00000000-0000-0000-5000-000000000000" data-expiration="1825470768000"><meta name="shopify-s" content="00000000-0000-0000-5000-000000000000" data-expiration="1793914968000"><meta name="request-id" content="0b6976ca-4ad3-4001-8a68-dd6698e66df2-1793913167"        >
+<meta name="shopify-y" content="00000000-0000-0000-5000-000000000000" data-expiration="1825824797000"><meta name="shopify-s" content="00000000-0000-0000-5000-000000000000" data-expiration="1794268997000"><meta name="request-id" content="58a01909-bda9-4252-8bbb-5aab2850927f-1794267197"        >
 </head>
 
 <body class="cc-animate-enabled">
@@ -2471,7 +2471,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
           <script src="//yakimavalleyhops.com/cdn/shop/t/31/assets/speech-search.js?v=106462966657620737681700175504" defer="defer"></script></search-form>
     </form>
 
-      </div><div class="header__icons flex justify-end mis-auto js-closes-menu"><a class="header__icon text-current" href="https://account.yakimavalleyhops.com?locale=en&region_country=US&buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ5YWtpbWF2YWxsZXlob3BzLm15c2hvcGlmeS5jb20iLCJmbGFncyI6W10sImV4cCI6MTc5NDUxNzk2NywibmJmIjoxNzkzOTEzMTY3fQ.gb-PDd8EqRTe73z7zjOEIJ-a8t5UvTXhVwNInqFQJYs">
+      </div><div class="header__icons flex justify-end mis-auto js-closes-menu"><a class="header__icon text-current" href="https://account.yakimavalleyhops.com?locale=en&region_country=US&buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ5YWtpbWF2YWxsZXlob3BzLm15c2hvcGlmeS5jb20iLCJmbGFncyI6W10sImV4cCI6MTc5NDg3MTk5NywibmJmIjoxNzk0MjY3MTk3fQ.Ev3IHOFde-oKHgk3PRQ1Mu4Obd3Q-rlhQDuG41zrheI">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" role="presentation" class="icon"><path d="M12 2a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.429a3.571 3.571 0 1 0 0 7.142 3.571 3.571 0 0 0 0-7.142zm0 10c2.558 0 5.114.471 7.664 1.411A3.571 3.571 0 0 1 22 18.19v3.096c0 .394-.32.714-.714.714H2.714A.714.714 0 0 1 2 21.286V18.19c0-1.495.933-2.833 2.336-3.35 2.55-.94 5.106-1.411 7.664-1.411zm0 1.428c-2.387 0-4.775.44-7.17 1.324a2.143 2.143 0 0 0-1.401 2.01v2.38H20.57v-2.38c0-.898-.56-1.7-1.401-2.01-2.395-.885-4.783-1.324-7.17-1.324z"/></svg>
             <span class="visually-hidden">Log in</span>
           </a><a class="header__icon relative text-current" id="cart-icon" href="/cart" data-no-instant><svg width="24" height="24" viewBox="0 0 24 24" class="icon icon--cart" aria-hidden="true" focusable="false" role="presentation"><path fill="currentColor" d="M17 18a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1V2m6 16a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7 2.78-5H6.14l2.36 5H16Z"/></svg><span class="visually-hidden">Cart</span><div id="cart-icon-bubble"></div>
@@ -2924,7 +2924,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
                     class="product-sku"
                     
                   ><span>SKU:</span>
-                    <span class="product-sku__value">A-T90-US-HBC630-2024-16oz</span>
+                    <span class="product-sku__value">E-T90-US-HBC630-2023-Bulk</span>
                   </span></div><div class="product-info__block product-info__block--sm product-info__title" >
               <h1 class="product-title h5">
                 HBC 630 Hops
@@ -2951,7 +2951,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
               <div class="product-info__price">
                 <div class="price">
   <div class="price__default">
-    <strong class="price__current">$5<sup>00
+    <strong class="price__current">$32<sup>00
 </strong>
     <s class="price__was price__was--supercents"></s>
    
@@ -2967,7 +2967,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
 
                 
               </div><div class="product-policies text-sm rte"><a href="/policies/shipping-policy">Shipping</a> calculated at checkout.
-</div><form method="post" action="/cart/add" id="instalments-form-template--14619021607045__main" accept-charset="UTF-8" class="js-instalments-form  text-sm mt-2" enctype="multipart/form-data"><input type="hidden" name="form_type" value="product" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="id" value="41345309442181">
+</div><form method="post" action="/cart/add" id="instalments-form-template--14619021607045__main" accept-charset="UTF-8" class="js-instalments-form  text-sm mt-2" enctype="multipart/form-data"><input type="hidden" name="form_type" value="product" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="id" value="41438560977029">
                 
 <input type="hidden" name="product-id" value="5231876309125" /><input type="hidden" name="section-id" value="template--14619021607045__main" /></form></div><a class="product-options--anchor" id="variants" rel="nofollow"></a><div class="product-info__block product-options" >
                 <script src="//yakimavalleyhops.com/cdn/shop/t/31/assets/variant-picker.js?v=119179752681859320341749492027" defer="defer"></script><variant-picker
@@ -2977,70 +2977,8 @@ Shopify.SignInWithShop.User.recognized = false;</script>
   data-show-availability="false"
 ><fieldset class="option-selector" data-selector-type="listed"><legend class="label">Size
           </legend><div class="option-selector__btns flex flex-wrap">
-              
-<input
-                type="radio"
-                class="opt-btn visually-hidden focus-label js-option"
-                name="template--14619021607045__main-size-option"
-                id="template--14619021607045__main-size-opt-0"
-                value="2oz"
-                
-              ><label
-                  class="opt-label opt-label--btn btn relative text-center"
-                  
-                  for="template--14619021607045__main-size-opt-0"
-                >
-                  <span
-                    
-                  >2oz</span>
-                </label>
-                
-
-
-              
-<input
-                type="radio"
-                class="opt-btn visually-hidden focus-label js-option"
-                name="template--14619021607045__main-size-option"
-                id="template--14619021607045__main-size-opt-1"
-                value="8oz"
-                
-              ><label
-                  class="opt-label opt-label--btn btn relative text-center"
-                  
-                  for="template--14619021607045__main-size-opt-1"
-                >
-                  <span
-                    
-                  >8oz</span>
-                </label>
-                
-
-
-              
-<input
-                type="radio"
-                class="opt-btn visually-hidden focus-label js-option"
-                name="template--14619021607045__main-size-option"
-                id="template--14619021607045__main-size-opt-2"
-                value="16oz"
-                
-                  checked
-                
-              ><label
-                  class="opt-label opt-label--btn btn relative text-center"
-                  
-                  for="template--14619021607045__main-size-opt-2"
-                >
-                  <span
-                    
-                  >16oz</span>
-                </label>
-                
-
-
               <a
-                href="https://account.yakimavalleyhops.com?locale=en&region_country=US&buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ5YWtpbWF2YWxsZXlob3BzLm15c2hvcGlmeS5jb20iLCJmbGFncyI6W10sImV4cCI6MTc5NDUxNzk2NywibmJmIjoxNzkzOTEzMTY3fQ.gb-PDd8EqRTe73z7zjOEIJ-a8t5UvTXhVwNInqFQJYs?return_url=%2Fproducts%2Fhbc-630-hops"
+                href="https://account.yakimavalleyhops.com?locale=en&region_country=US&buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ5YWtpbWF2YWxsZXlob3BzLm15c2hvcGlmeS5jb20iLCJmbGFncyI6W10sImV4cCI6MTc5NDg3MTk5NywibmJmIjoxNzk0MjY3MTk3fQ.Ev3IHOFde-oKHgk3PRQ1Mu4Obd3Q-rlhQDuG41zrheI?return_url=%2Fproducts%2Fhbc-630-hops"
                 class="opt-label opt-disabled opt-label--btn btn relative text-center"
                 
               >
@@ -3072,6 +3010,66 @@ Shopify.SignInWithShop.User.recognized = false;</script>
               <input type="hidden" data-label="Size" name="properties[qg_variant]" value='["11lb"]'>
 
             
+
+              
+<input
+                type="radio"
+                class="opt-btn visually-hidden focus-label js-option"
+                name="template--14619021607045__main-size-option"
+                id="template--14619021607045__main-size-opt-1"
+                value="2oz"
+                
+              ><label
+                  class="opt-label opt-label--btn btn relative text-center"
+                  
+                  for="template--14619021607045__main-size-opt-1"
+                >
+                  <span
+                    
+                  >2oz</span>
+                </label>
+                
+
+
+              
+<input
+                type="radio"
+                class="opt-btn visually-hidden focus-label js-option"
+                name="template--14619021607045__main-size-option"
+                id="template--14619021607045__main-size-opt-2"
+                value="16oz"
+                
+              ><label
+                  class="opt-label opt-label--btn btn relative text-center"
+                  
+                  for="template--14619021607045__main-size-opt-2"
+                >
+                  <span
+                    
+                  >16oz</span>
+                </label>
+                
+
+
+              
+<input
+                type="radio"
+                class="opt-btn visually-hidden focus-label js-option"
+                name="template--14619021607045__main-size-option"
+                id="template--14619021607045__main-size-opt-3"
+                value="8oz"
+                
+              ><label
+                  class="opt-label opt-label--btn btn relative text-center"
+                  
+                  for="template--14619021607045__main-size-opt-3"
+                >
+                  <span
+                    
+                  >8oz</span>
+                </label>
+                
+
 </div>
       </fieldset><fieldset class="option-selector" data-selector-type="listed"><legend class="label">Crop Year
           </legend><div class="option-selector__btns flex flex-wrap">
@@ -3082,6 +3080,8 @@ Shopify.SignInWithShop.User.recognized = false;</script>
                 name="template--14619021607045__main-crop-year-option"
                 id="template--14619021607045__main-crop-year-opt-0"
                 value="2023"
+                
+                  checked
                 
               ><label
                   class="opt-label opt-label--btn btn relative text-center"
@@ -3103,8 +3103,6 @@ Shopify.SignInWithShop.User.recognized = false;</script>
                 id="template--14619021607045__main-crop-year-opt-1"
                 value="2024"
                 
-                  checked
-                
               ><label
                   class="opt-label opt-label--btn btn relative text-center"
                   
@@ -3119,21 +3117,21 @@ Shopify.SignInWithShop.User.recognized = false;</script>
 </div>
       </fieldset><script type="application/json">
     {
-      "product":{"id":5231876309125,"title":"HBC 630 Hops","handle":"hbc-630-hops","description":"\u003ch1\u003eHBC 630 Hops\u003c\/h1\u003e\n\u003ch3\u003eHBC 630 Hop Profile\u003cbr\u003e\n\u003c\/h3\u003e\n\u003cp\u003eHBC 630 c.v. is an experimental variety from the \u003ca rel=\"noopener\" href=\"https:\/\/www.hopbreeding.com\/\" target=\"_blank\"\u003eHop Breeding Company\u003c\/a\u003e, a joint venture between \u003ca rel=\"noopener\" href=\"https:\/\/www.johnihaas.com\/\" target=\"_blank\"\u003eJohn I. Haas\u003c\/a\u003e and Yakima Chief Ranches. Complex and fruity, it offers a bouquet of cherry and raspberry character alongside with sweet, candy-like esters and lactones that contribute creamy notes of peach and banana. With high alpha (13-14%), HBC 630 pairs nicely with other varieties like \u003ca href=\"https:\/\/yakimavalleyhops.com\/products\/azacca-hop-pellets\" rel=\"noopener\" target=\"_blank\"\u003eAzacca®\u003c\/a\u003e, \u003ca href=\"https:\/\/yakimavalleyhops.com\/products\/strata-hop-pellets\" rel=\"noopener\" target=\"_blank\"\u003eStrata®\u003c\/a\u003e and \u003ca href=\"https:\/\/yakimavalleyhops.com\/products\/barbe-rouge-hop-pellets\" rel=\"noopener\" target=\"_blank\"\u003eBarbe Rouge\u003c\/a\u003e, \u003cmeta charset=\"utf-8\"\u003eamplifying its distinctive berry-forward profile. A richly layered hop with sweet, standout flavor.\u003c\/p\u003e\n\u003cp\u003e\u003cstrong\u003eAA%\u003c\/strong\u003e: 13-14%\u003c\/p\u003e\n\u003cp\u003e\u003cstrong\u003eBETA%\u003c\/strong\u003e= 5.6-6.3%\u003c\/p\u003e\n\u003cp\u003e\u003cstrong\u003eTOTAL OIL:\u003c\/strong\u003e 2.5-3 ml\/100g\u003c\/p\u003e\n\u003cp\u003eUpdated Dec. 2025\u003c\/p\u003e","published_at":"2024-01-02T16:58:49-08:00","created_at":"2020-12-28T15:23:21-08:00","vendor":"Yakima Valley Hops","type":"Domestic Pellet Hops","tags":["Aroma: Berry \u0026 Currant","Aroma: Cream Caramel","Aroma: Sweet Fruit","Berry \u0026 Currant","BFCM25","Cream Caramel","Experimental Hops","Hops","Region: United States","Sweet Fruit","United States"],"price":200,"price_min":200,"price_max":3800,"available":true,"price_varies":true,"compare_at_price":0,"compare_at_price_min":0,"compare_at_price_max":0,"compare_at_price_varies":false,"variants":[{"id":41345309606021,"title":"2oz \/ 2023","option1":"2oz","option2":"2023","option3":null,"sku":"C-T90-US-HBC630-2023-2oz","requires_shipping":true,"taxable":true,"featured_image":null,"available":false,"name":"HBC 630 Hops - 2oz \/ 2023","public_title":"2oz \/ 2023","options":["2oz","2023"],"price":200,"weight":54,"compare_at_price":0,"inventory_management":"shopify","barcode":null,"requires_selling_plan":false,"selling_plan_allocations":[],"quantity_rule":{"min":1,"max":null,"increment":1}},{"id":41345309540485,"title":"8oz \/ 2024","option1":"8oz","option2":"2024","option3":null,"sku":"B-T90-US-HBC630-2024-8oz","requires_shipping":true,"taxable":true,"featured_image":null,"available":false,"name":"HBC 630 Hops - 8oz \/ 2024","public_title":"8oz \/ 2024","options":["8oz","2024"],"price":400,"weight":227,"compare_at_price":0,"inventory_management":"shopify","barcode":null,"requires_selling_plan":false,"selling_plan_allocations":[],"quantity_rule":{"min":1,"max":null,"increment":1}},{"id":41345309442181,"title":"16oz \/ 2024","option1":"16oz","option2":"2024","option3":null,"sku":"A-T90-US-HBC630-2024-16oz","requires_shipping":true,"taxable":true,"featured_image":null,"available":true,"name":"HBC 630 Hops - 16oz \/ 2024","public_title":"16oz \/ 2024","options":["16oz","2024"],"price":500,"weight":454,"compare_at_price":0,"inventory_management":"shopify","barcode":null,"requires_selling_plan":false,"selling_plan_allocations":[],"quantity_rule":{"min":1,"max":null,"increment":1}},{"id":41345309409413,"title":"16oz \/ 2023","option1":"16oz","option2":"2023","option3":null,"sku":"A-T90-US-HBC630-2023-16oz","requires_shipping":true,"taxable":true,"featured_image":null,"available":false,"name":"HBC 630 Hops - 16oz \/ 2023","public_title":"16oz \/ 2023","options":["16oz","2023"],"price":600,"weight":454,"compare_at_price":0,"inventory_management":"shopify","barcode":null,"requires_selling_plan":false,"selling_plan_allocations":[],"quantity_rule":{"min":1,"max":null,"increment":1}},{"id":41345246560389,"title":"11lb \/ 2024","option1":"11lb","option2":"2024","option3":null,"sku":"E-T90-US-HBC630-2024-Bulk","requires_shipping":true,"taxable":true,"featured_image":null,"available":true,"name":"HBC 630 Hops - 11lb \/ 2024","public_title":"11lb \/ 2024","options":["11lb","2024"],"price":3800,"weight":4990,"compare_at_price":0,"inventory_management":"shopify","barcode":null,"requires_selling_plan":false,"selling_plan_allocations":[],"quantity_rule":{"min":1,"max":null,"increment":1}},{"id":41438560977029,"title":"11lb \/ 2023","option1":"11lb","option2":"2023","option3":null,"sku":"E-T90-US-HBC630-2023-Bulk","requires_shipping":true,"taxable":true,"featured_image":null,"available":true,"name":"HBC 630 Hops - 11lb \/ 2023","public_title":"11lb \/ 2023","options":["11lb","2023"],"price":3200,"weight":4990,"compare_at_price":0,"inventory_management":"shopify","barcode":null,"requires_selling_plan":false,"selling_plan_allocations":[],"quantity_rule":{"min":1,"max":null,"increment":1}},{"id":41345309638789,"title":"2oz \/ 2024","option1":"2oz","option2":"2024","option3":null,"sku":"C-T90-US-HBC630-2024-2oz","requires_shipping":true,"taxable":true,"featured_image":null,"available":true,"name":"HBC 630 Hops - 2oz \/ 2024","public_title":"2oz \/ 2024","options":["2oz","2024"],"price":250,"weight":54,"compare_at_price":0,"inventory_management":"shopify","barcode":null,"requires_selling_plan":false,"selling_plan_allocations":[],"quantity_rule":{"min":1,"max":null,"increment":1}}],"images":["\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"],"featured_image":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494","options":["Size","Crop Year"],"media":[{"alt":"Experimental HBC 630 Hop Profile: Sweet Fruit, Berry \u0026 Currant, Cream Caramel","id":26740498923653,"position":1,"preview_image":{"aspect_ratio":1.0,"height":2881,"width":2881,"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"aspect_ratio":1.0,"height":2881,"media_type":"image","src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494","width":2881}],"requires_selling_plan":false,"selling_plan_groups":[],"content":"\u003ch1\u003eHBC 630 Hops\u003c\/h1\u003e\n\u003ch3\u003eHBC 630 Hop Profile\u003cbr\u003e\n\u003c\/h3\u003e\n\u003cp\u003eHBC 630 c.v. is an experimental variety from the \u003ca rel=\"noopener\" href=\"https:\/\/www.hopbreeding.com\/\" target=\"_blank\"\u003eHop Breeding Company\u003c\/a\u003e, a joint venture between \u003ca rel=\"noopener\" href=\"https:\/\/www.johnihaas.com\/\" target=\"_blank\"\u003eJohn I. Haas\u003c\/a\u003e and Yakima Chief Ranches. Complex and fruity, it offers a bouquet of cherry and raspberry character alongside with sweet, candy-like esters and lactones that contribute creamy notes of peach and banana. With high alpha (13-14%), HBC 630 pairs nicely with other varieties like \u003ca href=\"https:\/\/yakimavalleyhops.com\/products\/azacca-hop-pellets\" rel=\"noopener\" target=\"_blank\"\u003eAzacca®\u003c\/a\u003e, \u003ca href=\"https:\/\/yakimavalleyhops.com\/products\/strata-hop-pellets\" rel=\"noopener\" target=\"_blank\"\u003eStrata®\u003c\/a\u003e and \u003ca href=\"https:\/\/yakimavalleyhops.com\/products\/barbe-rouge-hop-pellets\" rel=\"noopener\" target=\"_blank\"\u003eBarbe Rouge\u003c\/a\u003e, \u003cmeta charset=\"utf-8\"\u003eamplifying its distinctive berry-forward profile. A richly layered hop with sweet, standout flavor.\u003c\/p\u003e\n\u003cp\u003e\u003cstrong\u003eAA%\u003c\/strong\u003e: 13-14%\u003c\/p\u003e\n\u003cp\u003e\u003cstrong\u003eBETA%\u003c\/strong\u003e= 5.6-6.3%\u003c\/p\u003e\n\u003cp\u003e\u003cstrong\u003eTOTAL OIL:\u003c\/strong\u003e 2.5-3 ml\/100g\u003c\/p\u003e\n\u003cp\u003eUpdated Dec. 2025\u003c\/p\u003e"},
-      "formatted": {"41345309606021":{"price":"$2\u003csup\u003e00\n"
-,"inventory":"none","weight":"0.12 lb"
-},"41345309540485":{"price":"$4\u003csup\u003e00\n"
-,"inventory":"none","weight":"0.5 lb"
-},"41345309442181":{"price":"$5\u003csup\u003e00\n"
-,"weight":"1.0 lb"
-},"41345309409413":{"price":"$6\u003csup\u003e00\n"
-,"inventory":"none","weight":"1.0 lb"
+      "product":{"id":5231876309125,"title":"HBC 630 Hops","handle":"hbc-630-hops","description":"\u003ch1\u003eHBC 630 Hops\u003c\/h1\u003e\n\u003ch3\u003eHBC 630 Hop Profile\u003cbr\u003e\n\u003c\/h3\u003e\n\u003cp\u003eHBC 630 c.v. is an experimental variety from the \u003ca rel=\"noopener\" href=\"https:\/\/www.hopbreeding.com\/\" target=\"_blank\"\u003eHop Breeding Company\u003c\/a\u003e, a joint venture between \u003ca rel=\"noopener\" href=\"https:\/\/www.johnihaas.com\/\" target=\"_blank\"\u003eJohn I. Haas\u003c\/a\u003e and Yakima Chief Ranches. Complex and fruity, it offers a bouquet of cherry and raspberry character alongside with sweet, candy-like esters and lactones that contribute creamy notes of peach and banana. With high alpha (13-14%), HBC 630 pairs nicely with other varieties like \u003ca href=\"https:\/\/yakimavalleyhops.com\/products\/azacca-hop-pellets\" rel=\"noopener\" target=\"_blank\"\u003eAzacca®\u003c\/a\u003e, \u003ca href=\"https:\/\/yakimavalleyhops.com\/products\/strata-hop-pellets\" rel=\"noopener\" target=\"_blank\"\u003eStrata®\u003c\/a\u003e and \u003ca href=\"https:\/\/yakimavalleyhops.com\/products\/barbe-rouge-hop-pellets\" rel=\"noopener\" target=\"_blank\"\u003eBarbe Rouge\u003c\/a\u003e, \u003cmeta charset=\"utf-8\"\u003eamplifying its distinctive berry-forward profile. A richly layered hop with sweet, standout flavor.\u003c\/p\u003e\n\u003cp\u003e\u003cstrong\u003eAA%\u003c\/strong\u003e: 13-14%\u003c\/p\u003e\n\u003cp\u003e\u003cstrong\u003eBETA%\u003c\/strong\u003e= 5.6-6.3%\u003c\/p\u003e\n\u003cp\u003e\u003cstrong\u003eTOTAL OIL:\u003c\/strong\u003e 2.5-3 ml\/100g\u003c\/p\u003e\n\u003cp\u003eUpdated Dec. 2025\u003c\/p\u003e","published_at":"2024-01-02T16:58:49-08:00","created_at":"2020-12-28T15:23:21-08:00","vendor":"Yakima Valley Hops","type":"Domestic Pellet Hops","tags":["Aroma: Berry \u0026 Currant","Aroma: Cream Caramel","Aroma: Sweet Fruit","Berry \u0026 Currant","BFCM25","Cream Caramel","Experimental Hops","Hops","Region: United States","Sweet Fruit","United States"],"price":200,"price_min":200,"price_max":3800,"available":true,"price_varies":true,"compare_at_price":0,"compare_at_price_min":0,"compare_at_price_max":0,"compare_at_price_varies":false,"variants":[{"id":41438560977029,"title":"11lb \/ 2023","option1":"11lb","option2":"2023","option3":null,"sku":"E-T90-US-HBC630-2023-Bulk","requires_shipping":true,"taxable":true,"featured_image":null,"available":true,"name":"HBC 630 Hops - 11lb \/ 2023","public_title":"11lb \/ 2023","options":["11lb","2023"],"price":3200,"weight":4990,"compare_at_price":0,"inventory_management":"shopify","barcode":null,"requires_selling_plan":false,"selling_plan_allocations":[],"quantity_rule":{"min":1,"max":null,"increment":1}},{"id":41345246560389,"title":"11lb \/ 2024","option1":"11lb","option2":"2024","option3":null,"sku":"E-T90-US-HBC630-2024-Bulk","requires_shipping":true,"taxable":true,"featured_image":null,"available":true,"name":"HBC 630 Hops - 11lb \/ 2024","public_title":"11lb \/ 2024","options":["11lb","2024"],"price":3800,"weight":4990,"compare_at_price":0,"inventory_management":"shopify","barcode":null,"requires_selling_plan":false,"selling_plan_allocations":[],"quantity_rule":{"min":1,"max":null,"increment":1}},{"id":41345309606021,"title":"2oz \/ 2023","option1":"2oz","option2":"2023","option3":null,"sku":"C-T90-US-HBC630-2023-2oz","requires_shipping":true,"taxable":true,"featured_image":null,"available":false,"name":"HBC 630 Hops - 2oz \/ 2023","public_title":"2oz \/ 2023","options":["2oz","2023"],"price":200,"weight":54,"compare_at_price":0,"inventory_management":"shopify","barcode":null,"requires_selling_plan":false,"selling_plan_allocations":[],"quantity_rule":{"min":1,"max":null,"increment":1}},{"id":41345309638789,"title":"2oz \/ 2024","option1":"2oz","option2":"2024","option3":null,"sku":"C-T90-US-HBC630-2024-2oz","requires_shipping":true,"taxable":true,"featured_image":null,"available":true,"name":"HBC 630 Hops - 2oz \/ 2024","public_title":"2oz \/ 2024","options":["2oz","2024"],"price":250,"weight":54,"compare_at_price":0,"inventory_management":"shopify","barcode":null,"requires_selling_plan":false,"selling_plan_allocations":[],"quantity_rule":{"min":1,"max":null,"increment":1}},{"id":41345309409413,"title":"16oz \/ 2023","option1":"16oz","option2":"2023","option3":null,"sku":"A-T90-US-HBC630-2023-16oz","requires_shipping":true,"taxable":true,"featured_image":null,"available":false,"name":"HBC 630 Hops - 16oz \/ 2023","public_title":"16oz \/ 2023","options":["16oz","2023"],"price":600,"weight":454,"compare_at_price":0,"inventory_management":"shopify","barcode":null,"requires_selling_plan":false,"selling_plan_allocations":[],"quantity_rule":{"min":1,"max":null,"increment":1}},{"id":41345309442181,"title":"16oz \/ 2024","option1":"16oz","option2":"2024","option3":null,"sku":"A-T90-US-HBC630-2024-16oz","requires_shipping":true,"taxable":true,"featured_image":null,"available":true,"name":"HBC 630 Hops - 16oz \/ 2024","public_title":"16oz \/ 2024","options":["16oz","2024"],"price":500,"weight":454,"compare_at_price":0,"inventory_management":"shopify","barcode":null,"requires_selling_plan":false,"selling_plan_allocations":[],"quantity_rule":{"min":1,"max":null,"increment":1}},{"id":42737582801029,"title":"8oz \/ 2024","option1":"8oz","option2":"2024","option3":null,"sku":"B-T90-US-HBC630-2024-8oz","requires_shipping":true,"taxable":true,"featured_image":null,"available":false,"name":"HBC 630 Hops - 8oz \/ 2024","public_title":"8oz \/ 2024","options":["8oz","2024"],"price":400,"weight":227,"compare_at_price":0,"inventory_management":"shopify","barcode":null,"requires_selling_plan":false,"selling_plan_allocations":[],"quantity_rule":{"min":1,"max":null,"increment":1}}],"images":["\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"],"featured_image":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494","options":["Size","Crop Year"],"media":[{"alt":"Experimental HBC 630 Hop Profile: Sweet Fruit, Berry \u0026 Currant, Cream Caramel","id":26740498923653,"position":1,"preview_image":{"aspect_ratio":1.0,"height":2881,"width":2881,"src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494"},"aspect_ratio":1.0,"height":2881,"media_type":"image","src":"\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494","width":2881}],"requires_selling_plan":false,"selling_plan_groups":[],"content":"\u003ch1\u003eHBC 630 Hops\u003c\/h1\u003e\n\u003ch3\u003eHBC 630 Hop Profile\u003cbr\u003e\n\u003c\/h3\u003e\n\u003cp\u003eHBC 630 c.v. is an experimental variety from the \u003ca rel=\"noopener\" href=\"https:\/\/www.hopbreeding.com\/\" target=\"_blank\"\u003eHop Breeding Company\u003c\/a\u003e, a joint venture between \u003ca rel=\"noopener\" href=\"https:\/\/www.johnihaas.com\/\" target=\"_blank\"\u003eJohn I. Haas\u003c\/a\u003e and Yakima Chief Ranches. Complex and fruity, it offers a bouquet of cherry and raspberry character alongside with sweet, candy-like esters and lactones that contribute creamy notes of peach and banana. With high alpha (13-14%), HBC 630 pairs nicely with other varieties like \u003ca href=\"https:\/\/yakimavalleyhops.com\/products\/azacca-hop-pellets\" rel=\"noopener\" target=\"_blank\"\u003eAzacca®\u003c\/a\u003e, \u003ca href=\"https:\/\/yakimavalleyhops.com\/products\/strata-hop-pellets\" rel=\"noopener\" target=\"_blank\"\u003eStrata®\u003c\/a\u003e and \u003ca href=\"https:\/\/yakimavalleyhops.com\/products\/barbe-rouge-hop-pellets\" rel=\"noopener\" target=\"_blank\"\u003eBarbe Rouge\u003c\/a\u003e, \u003cmeta charset=\"utf-8\"\u003eamplifying its distinctive berry-forward profile. A richly layered hop with sweet, standout flavor.\u003c\/p\u003e\n\u003cp\u003e\u003cstrong\u003eAA%\u003c\/strong\u003e: 13-14%\u003c\/p\u003e\n\u003cp\u003e\u003cstrong\u003eBETA%\u003c\/strong\u003e= 5.6-6.3%\u003c\/p\u003e\n\u003cp\u003e\u003cstrong\u003eTOTAL OIL:\u003c\/strong\u003e 2.5-3 ml\/100g\u003c\/p\u003e\n\u003cp\u003eUpdated Dec. 2025\u003c\/p\u003e"},
+      "formatted": {"41438560977029":{"price":"$32\u003csup\u003e00\n"
+,"weight":"11.0 lb"
 },"41345246560389":{"price":"$38\u003csup\u003e00\n"
 ,"weight":"11.0 lb"
-},"41438560977029":{"price":"$32\u003csup\u003e00\n"
-,"weight":"11.0 lb"
+},"41345309606021":{"price":"$2\u003csup\u003e00\n"
+,"inventory":"none","weight":"0.12 lb"
 },"41345309638789":{"price":"$2\u003csup\u003e50\n"
 ,"weight":"0.12 lb"
+},"41345309409413":{"price":"$6\u003csup\u003e00\n"
+,"inventory":"none","weight":"1.0 lb"
+},"41345309442181":{"price":"$5\u003csup\u003e00\n"
+,"weight":"1.0 lb"
+},"42737582801029":{"price":"$4\u003csup\u003e00\n"
+,"inventory":"none","weight":"0.5 lb"
 }}
     }
   </script>
@@ -3147,6 +3145,18 @@ Shopify.SignInWithShop.User.recognized = false;</script>
     <label class="label" for="variants-template--14619021607045__main">Product variants</label>
     <div class="select relative">
       <select class="select w-full" id="variants-template--14619021607045__main" name="id" form="product-form-template--14619021607045__main"><option
+            value="41438560977029"
+            
+            
+          >11lb / 2023
+            - $32.00
+          </option><option
+            value="41345246560389"
+            
+            
+          >11lb / 2024
+            - $38.00
+          </option><option
             value="41345309606021"
             
             
@@ -3155,19 +3165,11 @@ Shopify.SignInWithShop.User.recognized = false;</script>
           >2oz / 2023 - Sold out
             - $2.00
           </option><option
-            value="41345309540485"
+            value="41345309638789"
             
             
-              disabled
-            
-          >8oz / 2024 - Sold out
-            - $4.00
-          </option><option
-            value="41345309442181"
-            
-            
-          >16oz / 2024
-            - $5.00
+          >2oz / 2024
+            - $2.50
           </option><option
             value="41345309409413"
             
@@ -3177,23 +3179,19 @@ Shopify.SignInWithShop.User.recognized = false;</script>
           >16oz / 2023 - Sold out
             - $6.00
           </option><option
-            value="41345246560389"
+            value="41345309442181"
             
             
-          >11lb / 2024
-            - $38.00
+          >16oz / 2024
+            - $5.00
           </option><option
-            value="41438560977029"
+            value="42737582801029"
             
             
-          >11lb / 2023
-            - $32.00
-          </option><option
-            value="41345309638789"
+              disabled
             
-            
-          >2oz / 2024
-            - $2.50
+          >8oz / 2024 - Sold out
+            - $4.00
           </option></select>
     </div>
   </div>
@@ -3204,7 +3202,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
                 
                 <div id="loginwholesale">
                   <a
-                    href="https://account.yakimavalleyhops.com?locale=en&region_country=US&buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ5YWtpbWF2YWxsZXlob3BzLm15c2hvcGlmeS5jb20iLCJmbGFncyI6W10sImV4cCI6MTc5NDUxNzk2NywibmJmIjoxNzkzOTEzMTY3fQ.gb-PDd8EqRTe73z7zjOEIJ-a8t5UvTXhVwNInqFQJYs?return_url=%2Fproducts%2Fhbc-630-hops"
+                    href="https://account.yakimavalleyhops.com?locale=en&region_country=US&buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ5YWtpbWF2YWxsZXlob3BzLm15c2hvcGlmeS5jb20iLCJmbGFncyI6W10sImV4cCI6MTc5NDg3MTk5NywibmJmIjoxNzk0MjY3MTk3fQ.Ev3IHOFde-oKHgk3PRQ1Mu4Obd3Q-rlhQDuG41zrheI?return_url=%2Fproducts%2Fhbc-630-hops"
                     class="underline text-xl font-bold"
                   >
                     CRAFT BREWER LOGIN
@@ -3214,7 +3212,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
             
 <div class="product-info__block" >
               <product-form>
-                <div class="alert mb-8 bg-error-bg text-error-text js-form-error text-start" role="alert" hidden></div><form method="post" action="/cart/add" id="product-form-template--14619021607045__main" accept-charset="UTF-8" class="js-product-form js-product-form-main" enctype="multipart/form-data"><input type="hidden" name="form_type" value="product" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="id" value="41345309442181" disabled>
+                <div class="alert mb-8 bg-error-bg text-error-text js-form-error text-start" role="alert" hidden></div><form method="post" action="/cart/add" id="product-form-template--14619021607045__main" accept-charset="UTF-8" class="js-product-form js-product-form-main" enctype="multipart/form-data"><input type="hidden" name="form_type" value="product" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="id" value="41438560977029" disabled>
                   <input type="hidden" name="properties[_bulk_quantity]" value="" disabled>
                   <div class="product-info__add-to-cart flex qty-input--secondary-btn">
 <quantity-input class="inline-block">
@@ -3243,7 +3241,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
                         
                       >Add to cart</button>
                     </div>
-                  </div><div data-shopify="payment-button" class="shopify-payment-button"> <shopify-accelerated-checkout recommended="null" fallback="{&quot;supports_subs&quot;:true,&quot;supports_def_opts&quot;:true,&quot;name&quot;:&quot;buy_it_now&quot;,&quot;wallet_params&quot;:{}}" access-token="749f71c9bdb9b79667080593ed398cef" buyer-country="US" buyer-locale="en" buyer-currency="USD" variant-params="[{&quot;id&quot;:41345309606021,&quot;requiresShipping&quot;:true},{&quot;id&quot;:41345309540485,&quot;requiresShipping&quot;:true},{&quot;id&quot;:41345309442181,&quot;requiresShipping&quot;:true},{&quot;id&quot;:41345309409413,&quot;requiresShipping&quot;:true},{&quot;id&quot;:41345246560389,&quot;requiresShipping&quot;:true},{&quot;id&quot;:41438560977029,&quot;requiresShipping&quot;:true},{&quot;id&quot;:41345309638789,&quot;requiresShipping&quot;:true}]" shop-id="36545986693" enabled-flags="[&quot;370070f3&quot;]" > <div class="shopify-payment-button__button" role="button" disabled aria-hidden="true" style="background-color: transparent; border: none"> <div class="shopify-payment-button__skeleton">&nbsp;</div> </div> </shopify-accelerated-checkout> </div>
+                  </div><div data-shopify="payment-button" class="shopify-payment-button"> <shopify-accelerated-checkout recommended="null" fallback="{&quot;supports_subs&quot;:true,&quot;supports_def_opts&quot;:true,&quot;name&quot;:&quot;buy_it_now&quot;,&quot;wallet_params&quot;:{}}" access-token="749f71c9bdb9b79667080593ed398cef" buyer-country="US" buyer-locale="en" buyer-currency="USD" variant-params="[{&quot;id&quot;:41438560977029,&quot;requiresShipping&quot;:true},{&quot;id&quot;:41345246560389,&quot;requiresShipping&quot;:true},{&quot;id&quot;:41345309606021,&quot;requiresShipping&quot;:true},{&quot;id&quot;:41345309638789,&quot;requiresShipping&quot;:true},{&quot;id&quot;:41345309409413,&quot;requiresShipping&quot;:true},{&quot;id&quot;:41345309442181,&quot;requiresShipping&quot;:true},{&quot;id&quot;:42737582801029,&quot;requiresShipping&quot;:true}]" shop-id="36545986693" enabled-flags="[&quot;370070f3&quot;]" > <div class="shopify-payment-button__button" role="button" disabled aria-hidden="true" style="background-color: transparent; border: none"> <div class="shopify-payment-button__skeleton">&nbsp;</div> </div> </shopify-accelerated-checkout> </div>
 <input type="hidden" name="product-id" value="5231876309125" /><input type="hidden" name="section-id" value="template--14619021607045__main" /></form></product-form></div><hr
               class="mt-8 mb-8"
               
@@ -3264,7 +3262,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
               
             >
               
-                1.0 lb
+                11.0 lb
               
             </div></div>
         </sticky-scroll-direction></div>
@@ -3314,60 +3312,15 @@ Shopify.SignInWithShop.User.recognized = false;</script>
     "name": "HBC 630 Hops",
     "url": "https:\/\/yakimavalleyhops.com\/products\/hbc-630-hops","image": [
         "https:\/\/yakimavalleyhops.com\/cdn\/shop\/files\/Experimental_HBC_630_T90_Hop_Pellets.png?v=1784242494\u0026width=2881"
-      ],"description": "HBC 630 Hops\nHBC 630 Hop Profile\n\nHBC 630 c.v. is an experimental variety from the Hop Breeding Company, a joint venture between John I. Haas and Yakima Chief Ranches. Complex and fruity, it offers a bouquet of cherry and raspberry character alongside with sweet, candy-like esters and lactones that contribute creamy notes of peach and banana. With high alpha (13-14%), HBC 630 pairs nicely with other varieties like Azacca®, Strata® and Barbe Rouge, amplifying its distinctive berry-forward profile. A richly layered hop with sweet, standout flavor.\nAA%: 13-14%\nBETA%= 5.6-6.3%\nTOTAL OIL: 2.5-3 ml\/100g\nUpdated Dec. 2025","sku": "A-T90-US-HBC630-2024-16oz","brand": {
+      ],"description": "HBC 630 Hops\nHBC 630 Hop Profile\n\nHBC 630 c.v. is an experimental variety from the Hop Breeding Company, a joint venture between John I. Haas and Yakima Chief Ranches. Complex and fruity, it offers a bouquet of cherry and raspberry character alongside with sweet, candy-like esters and lactones that contribute creamy notes of peach and banana. With high alpha (13-14%), HBC 630 pairs nicely with other varieties like Azacca®, Strata® and Barbe Rouge, amplifying its distinctive berry-forward profile. A richly layered hop with sweet, standout flavor.\nAA%: 13-14%\nBETA%= 5.6-6.3%\nTOTAL OIL: 2.5-3 ml\/100g\nUpdated Dec. 2025","sku": "E-T90-US-HBC630-2023-Bulk","brand": {
       "@type": "Brand",
       "name": "Yakima Valley Hops"
     },
     "offers": [{
-          "@type" : "Offer","sku": "C-T90-US-HBC630-2023-2oz","availability" : "http://schema.org/OutOfStock",
-          "price" : 2.0,
+          "@type" : "Offer","sku": "E-T90-US-HBC630-2023-Bulk","availability" : "http://schema.org/InStock",
+          "price" : 32.0,
           "priceCurrency" : "USD",
-          "url" : "https:\/\/yakimavalleyhops.com\/products\/hbc-630-hops?variant=41345309606021",
-          "seller": {
-            "@type": "Organization",
-            "name": "Yakima Valley Hops",
-            
-            "sameAs": [
-              
-"https:\/\/www.facebook.com\/YakimaHops","https:\/\/www.instagram.com\/yakimavalleyhops\/","https:\/\/www.linkedin.com\/company\/yakimavalleyhops","https:\/\/www.youtube.com\/yakimavalleyhops"
-            ]
-          }
-        },
-{
-          "@type" : "Offer","sku": "B-T90-US-HBC630-2024-8oz","availability" : "http://schema.org/OutOfStock",
-          "price" : 4.0,
-          "priceCurrency" : "USD",
-          "url" : "https:\/\/yakimavalleyhops.com\/products\/hbc-630-hops?variant=41345309540485",
-          "seller": {
-            "@type": "Organization",
-            "name": "Yakima Valley Hops",
-            
-            "sameAs": [
-              
-"https:\/\/www.facebook.com\/YakimaHops","https:\/\/www.instagram.com\/yakimavalleyhops\/","https:\/\/www.linkedin.com\/company\/yakimavalleyhops","https:\/\/www.youtube.com\/yakimavalleyhops"
-            ]
-          }
-        },
-{
-          "@type" : "Offer","sku": "A-T90-US-HBC630-2024-16oz","availability" : "http://schema.org/InStock",
-          "price" : 5.0,
-          "priceCurrency" : "USD",
-          "url" : "https:\/\/yakimavalleyhops.com\/products\/hbc-630-hops?variant=41345309442181",
-          "seller": {
-            "@type": "Organization",
-            "name": "Yakima Valley Hops",
-            
-            "sameAs": [
-              
-"https:\/\/www.facebook.com\/YakimaHops","https:\/\/www.instagram.com\/yakimavalleyhops\/","https:\/\/www.linkedin.com\/company\/yakimavalleyhops","https:\/\/www.youtube.com\/yakimavalleyhops"
-            ]
-          }
-        },
-{
-          "@type" : "Offer","sku": "A-T90-US-HBC630-2023-16oz","availability" : "http://schema.org/OutOfStock",
-          "price" : 6.0,
-          "priceCurrency" : "USD",
-          "url" : "https:\/\/yakimavalleyhops.com\/products\/hbc-630-hops?variant=41345309409413",
+          "url" : "https:\/\/yakimavalleyhops.com\/products\/hbc-630-hops?variant=41438560977029",
           "seller": {
             "@type": "Organization",
             "name": "Yakima Valley Hops",
@@ -3394,10 +3347,10 @@ Shopify.SignInWithShop.User.recognized = false;</script>
           }
         },
 {
-          "@type" : "Offer","sku": "E-T90-US-HBC630-2023-Bulk","availability" : "http://schema.org/InStock",
-          "price" : 32.0,
+          "@type" : "Offer","sku": "C-T90-US-HBC630-2023-2oz","availability" : "http://schema.org/OutOfStock",
+          "price" : 2.0,
           "priceCurrency" : "USD",
-          "url" : "https:\/\/yakimavalleyhops.com\/products\/hbc-630-hops?variant=41438560977029",
+          "url" : "https:\/\/yakimavalleyhops.com\/products\/hbc-630-hops?variant=41345309606021",
           "seller": {
             "@type": "Organization",
             "name": "Yakima Valley Hops",
@@ -3413,6 +3366,51 @@ Shopify.SignInWithShop.User.recognized = false;</script>
           "price" : 2.5,
           "priceCurrency" : "USD",
           "url" : "https:\/\/yakimavalleyhops.com\/products\/hbc-630-hops?variant=41345309638789",
+          "seller": {
+            "@type": "Organization",
+            "name": "Yakima Valley Hops",
+            
+            "sameAs": [
+              
+"https:\/\/www.facebook.com\/YakimaHops","https:\/\/www.instagram.com\/yakimavalleyhops\/","https:\/\/www.linkedin.com\/company\/yakimavalleyhops","https:\/\/www.youtube.com\/yakimavalleyhops"
+            ]
+          }
+        },
+{
+          "@type" : "Offer","sku": "A-T90-US-HBC630-2023-16oz","availability" : "http://schema.org/OutOfStock",
+          "price" : 6.0,
+          "priceCurrency" : "USD",
+          "url" : "https:\/\/yakimavalleyhops.com\/products\/hbc-630-hops?variant=41345309409413",
+          "seller": {
+            "@type": "Organization",
+            "name": "Yakima Valley Hops",
+            
+            "sameAs": [
+              
+"https:\/\/www.facebook.com\/YakimaHops","https:\/\/www.instagram.com\/yakimavalleyhops\/","https:\/\/www.linkedin.com\/company\/yakimavalleyhops","https:\/\/www.youtube.com\/yakimavalleyhops"
+            ]
+          }
+        },
+{
+          "@type" : "Offer","sku": "A-T90-US-HBC630-2024-16oz","availability" : "http://schema.org/InStock",
+          "price" : 5.0,
+          "priceCurrency" : "USD",
+          "url" : "https:\/\/yakimavalleyhops.com\/products\/hbc-630-hops?variant=41345309442181",
+          "seller": {
+            "@type": "Organization",
+            "name": "Yakima Valley Hops",
+            
+            "sameAs": [
+              
+"https:\/\/www.facebook.com\/YakimaHops","https:\/\/www.instagram.com\/yakimavalleyhops\/","https:\/\/www.linkedin.com\/company\/yakimavalleyhops","https:\/\/www.youtube.com\/yakimavalleyhops"
+            ]
+          }
+        },
+{
+          "@type" : "Offer","sku": "B-T90-US-HBC630-2024-8oz","availability" : "http://schema.org/OutOfStock",
+          "price" : 4.0,
+          "priceCurrency" : "USD",
+          "url" : "https:\/\/yakimavalleyhops.com\/products\/hbc-630-hops?variant=42737582801029",
           "seller": {
             "@type": "Organization",
             "name": "Yakima Valley Hops",
@@ -3935,7 +3933,7 @@ Choose options
 <p>Updated Dec. 2025</p>
 </div><div data-compare-key="compare-variants" class="compare-col compare-col--medium compare-col--5231876309125 compare-col--5231876309125--variants" ><p class="compare-label font-bold">Size</p>
 
-              <div class="compare-value"><ul class="compare-value--options"><li>2oz</li><li>8oz</li><li>16oz</li><li>11lb</li></ul></div><p class="compare-label font-bold">Crop Year</p>
+              <div class="compare-value"><ul class="compare-value--options"><li>11lb</li><li>2oz</li><li>16oz</li><li>8oz</li></ul></div><p class="compare-label font-bold">Crop Year</p>
 
               <div class="compare-value"><ul class="compare-value--options"><li>2023</li><li>2024</li></ul></div></div><div data-compare-key="compare-weight" class="compare-col compare-col--medium compare-col--5231876309125" >
           <p class="compare-label font-bold">Weight</p>
@@ -4239,7 +4237,7 @@ Choose options
  
 		try {
 			
-				var product_code = 'C-T90-US-HBC630-2023-2oz';
+				var product_code = 'E-T90-US-HBC630-2023-Bulk';
 				IntelliSuggest.init({siteId: ss_site_id, context: 'Product/' + product_code, seed: product_code});
 				IntelliSuggest.viewItem({sku:product_code});
 			

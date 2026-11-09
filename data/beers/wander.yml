@@ -5,15 +5,8 @@ brewery:
   state: WA
   url: https://wanderbrewing.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-11-05'
+retrieved: '2026-11-09'
 beers:
-  - slug: aussie-steve-pale-lager
-    name: Aussie Steve Pale Lager
-    url: https://wanderbrewing.com/
-    abv: 4.9
-    hops_as_written: ' A pale lager with Australian Galaxy hops that’s extra pale and extra crispy.'
-    hops:
-      - { hop: galaxy, name: Galaxy, as_written: Galaxy }
   - slug: fresh-cassette-citra-hazy-fresh-hop-ipa
     name: Fresh Cassette Citra Hazy Fresh Hop IPA
     url: https://wanderbrewing.com/
@@ -34,6 +27,6 @@ beers:
     name: Nectaron Single EyePA
     url: https://wanderbrewing.com/
     abv: 6.4
-    hops_as_written: 4% ABV // 35 IBU // 4 SRM A showcase of the emerging, New Zealand grown “Nectaron” hop.  The only hop used in this one-off brew, we can confirm that Nectaron is as tropical and aromatically complex as it gets.  An extra smooth and rich drinking experience with barley and spelt malts acting as the springboard for the new peachy, pineapple-forward hops.
+    hops_as_written: 4% ABV // 4 SRM A showcase of the emerging, New Zealand grown “Nectaron” hop.  The only hop used in this one-off brew, we can confirm that Nectaron is as tropical and aromatically complex as it gets.  An extra smooth and rich drinking experience with barley and spelt malts acting as the springboard for the new peachy, pineapple-forward hops.
     hops:
       - { hop: nectaron, name: Nectaron, as_written: Nectaron }
