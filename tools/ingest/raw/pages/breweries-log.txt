@@ -3,7 +3,7 @@ fort-george: 62 beer page(s)
 double-mountain: 19 beer page(s)
 pfriem: 278 beer page(s)
 ex-novo: 192 beer page(s)
-breakside: 277 beer page(s)
+breakside: 278 beer page(s)
 ecliptic: 11 beer page(s)
 7-seas: 0 beer page(s)
 elysian: 16 beer page(s)
@@ -14,6 +14,7 @@ reubens: 454 beer page(s)
 fremont: 0 beer page(s)
 aslan: 103 beer page(s)
 georgetown: 115 beer page(s)
+  FAIL https://georgetownbeer.com/products/max-to-the-max: 429 Client Error: Too Many Requests for url: https://georgetownbeer.com/products/max-to-the-max
 stoup: 513 beer page(s)
 bale-breaker: 16 beer page(s)
 structures: 17 beer page(s)
@@ -35,7 +36,7 @@ matchless: 0 beer page(s)
 barley-browns: 0 beer page(s)
 narrows: 47 beer page(s)
 
-added 8 packages, and audited 9 packages in 2s
+added 8 packages, and audited 9 packages in 1s
 
 3 packages are looking for funding
   run `npm fund` for details
@@ -74,45 +75,45 @@ ok   https://indiehops.com/hops/sterling -> raw/pages/indiehops.com/hops_sterlin
 ok   https://indiehops.com/hops/us-tettnanger -> raw/pages/indiehops.com/hops_us-tettnanger.html (89135 bytes)
 ok   https://indiehops.com/hops/willamette -> raw/pages/indiehops.com/hops_willamette.html (82387 bytes)
 FAIL https://charlesfaram.com/hop-oracle/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/
-ok   https://charlesfaram.com/hop-oracle/pekko-hop/ -> raw/pages/charlesfaram.com/hop-oracle_pekko-hop.html (422327 bytes)
-ok   https://charlesfaram.com/hop-oracle/jarrylo/ -> raw/pages/charlesfaram.com/hop-oracle_jarrylo.html (423604 bytes)
-ok   https://charlesfaram.com/hop-oracle/idaho-gem-hop/ -> raw/pages/charlesfaram.com/hop-oracle_idaho-gem-hop.html (425279 bytes)
-ok   https://charlesfaram.com/hop-oracle/triumph/ -> raw/pages/charlesfaram.com/hop-oracle_triumph.html (422853 bytes)
-ok   https://charlesfaram.com/hop-oracle/vista/ -> raw/pages/charlesfaram.com/hop-oracle_vista.html (424872 bytes)
+ok   https://charlesfaram.com/hop-oracle/pekko-hop/ -> raw/pages/charlesfaram.com/hop-oracle_pekko-hop.html (424074 bytes)
+ok   https://charlesfaram.com/hop-oracle/jarrylo/ -> raw/pages/charlesfaram.com/hop-oracle_jarrylo.html (425351 bytes)
+ok   https://charlesfaram.com/hop-oracle/idaho-gem-hop/ -> raw/pages/charlesfaram.com/hop-oracle_idaho-gem-hop.html (427026 bytes)
+ok   https://charlesfaram.com/hop-oracle/triumph/ -> raw/pages/charlesfaram.com/hop-oracle_triumph.html (424600 bytes)
+ok   https://charlesfaram.com/hop-oracle/vista/ -> raw/pages/charlesfaram.com/hop-oracle_vista.html (426619 bytes)
 FAIL https://charlesfaram.com/hop-oracle/ultra/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/ultra/
 FAIL https://charlesfaram.com/hop-oracle/newport/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/newport/
 FAIL https://charlesfaram.com/hop-oracle/teamaker/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/teamaker/
 FAIL https://charlesfaram.com/hop-oracle/mackinac/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/mackinac/
 FAIL https://charlesfaram.com/hop-oracle/alora/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/alora/
 FAIL https://charlesfaram.com/hop-oracle/denali/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/denali/
-ok   https://charlesfaram.com/hop-oracle/zappa/ -> raw/pages/charlesfaram.com/hop-oracle_zappa.html (422477 bytes)
-ok   https://charlesfaram.com/hop-oracle/elani/ -> raw/pages/charlesfaram.com/hop-oracle_elani.html (424148 bytes)
+ok   https://charlesfaram.com/hop-oracle/zappa/ -> raw/pages/charlesfaram.com/hop-oracle_zappa.html (424224 bytes)
+ok   https://charlesfaram.com/hop-oracle/elani/ -> raw/pages/charlesfaram.com/hop-oracle_elani.html (425895 bytes)
 FAIL https://charlesfaram.com/hop-oracle/meridian/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/meridian/
 FAIL https://charlesfaram.com/hop-oracle/strata/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/strata/
 ok   https://www.johnihaas.com/wp-content/uploads/2020/09/Haas_HopSpecSheets-IdahoGem_110520.pdf -> raw/pages/johnihaas.com/wp-content_uploads_2020_09_Haas_HopSpecSheets-IdahoGem_110520.pdf (40057 bytes)
 ok   https://yakhops.com/elani/ -> raw/pages/yakhops.com/elani.html (110728 bytes)
 ok   https://neomexicanus.com/wp-content/uploads/2024/10/Zappa-Hops_2022-Fact-Sheet_final_web-1.pdf -> raw/pages/neomexicanus.com/wp-content_uploads_2024_10_Zappa-Hops_2022-Fact-Sheet_final_web-1.pdf (1707352 bytes)
-ok   https://nzhops.co.nz/collections/new-zealand-hops/products.json?limit=250 -> raw/pages/nzhops.co.nz/collections_new-zealand-hops_products.json.html (149562 bytes)
-ok   https://nzhops.co.nz/products/superdelic -> raw/pages/nzhops.co.nz/products_superdelic.html (83812 bytes)
-ok   https://nzhops.co.nz/products/nectaron -> raw/pages/nzhops.co.nz/products_nectaron.html (83383 bytes)
-ok   https://nzhops.co.nz/products/nelson-sauvin -> raw/pages/nzhops.co.nz/products_nelson-sauvin.html (90919 bytes)
-ok   https://nzhops.co.nz/products/motueka -> raw/pages/nzhops.co.nz/products_motueka.html (92225 bytes)
-ok   https://nzhops.co.nz/products/riwaka™ -> raw/pages/nzhops.co.nz/products_riwaka_.html (87548 bytes)
-ok   https://nzhops.co.nz/products/wai-iti -> raw/pages/nzhops.co.nz/products_wai-iti.html (89814 bytes)
-ok   https://nzhops.co.nz/products/rakau -> raw/pages/nzhops.co.nz/products_rakau.html (88682 bytes)
-ok   https://nzhops.co.nz/products/moutere™ -> raw/pages/nzhops.co.nz/products_moutere_.html (83167 bytes)
-ok   https://nzhops.co.nz/products/waimea -> raw/pages/nzhops.co.nz/products_waimea.html (91536 bytes)
-ok   https://nzhops.co.nz/products/wakatu-1 -> raw/pages/nzhops.co.nz/products_wakatu-1.html (84485 bytes)
-ok   https://nzhops.co.nz/products/kohatu -> raw/pages/nzhops.co.nz/products_kohatu.html (89847 bytes)
-ok   https://nzhops.co.nz/products/taiheke -> raw/pages/nzhops.co.nz/products_taiheke.html (89402 bytes)
-ok   https://nzhops.co.nz/products/pacifica -> raw/pages/nzhops.co.nz/products_pacifica.html (90280 bytes)
-ok   https://nzhops.co.nz/products/pacific-gem -> raw/pages/nzhops.co.nz/products_pacific-gem.html (89491 bytes)
-ok   https://nzhops.co.nz/products/southern-cross -> raw/pages/nzhops.co.nz/products_southern-cross.html (92049 bytes)
-ok   https://nzhops.co.nz/products/pacific-jade -> raw/pages/nzhops.co.nz/products_pacific-jade.html (89467 bytes)
-ok   https://nzhops.co.nz/products/green-bullet -> raw/pages/nzhops.co.nz/products_green-bullet.html (90482 bytes)
-ok   https://nzhops.co.nz/products/dr-rudi -> raw/pages/nzhops.co.nz/products_dr-rudi.html (86080 bytes)
-ok   https://nzhops.co.nz/products/fuggle-nz -> raw/pages/nzhops.co.nz/products_fuggle-nz.html (86200 bytes)
-ok   https://nzhops.co.nz/products/nz-chinoook -> raw/pages/nzhops.co.nz/products_nz-chinoook.html (86248 bytes)
+FAIL https://nzhops.co.nz/collections/new-zealand-hops/products.json?limit=250: 429 Client Error: Too Many Requests for url: https://nzhops.co.nz/collections/new-zealand-hops/products.json?limit=250
+FAIL https://nzhops.co.nz/products/superdelic: 429 Client Error: Too Many Requests for url: https://nzhops.co.nz/products/superdelic
+FAIL https://nzhops.co.nz/products/nectaron: 429 Client Error: Too Many Requests for url: https://nzhops.co.nz/products/nectaron
+ok   https://nzhops.co.nz/products/nelson-sauvin -> raw/pages/nzhops.co.nz/products_nelson-sauvin.html (90922 bytes)
+ok   https://nzhops.co.nz/products/motueka -> raw/pages/nzhops.co.nz/products_motueka.html (93397 bytes)
+FAIL https://nzhops.co.nz/products/riwaka™: 429 Client Error: Too Many Requests for url: https://nzhops.co.nz/products/riwaka%E2%84%A2
+ok   https://nzhops.co.nz/products/wai-iti -> raw/pages/nzhops.co.nz/products_wai-iti.html (89817 bytes)
+ok   https://nzhops.co.nz/products/rakau -> raw/pages/nzhops.co.nz/products_rakau.html (88685 bytes)
+ok   https://nzhops.co.nz/products/moutere™ -> raw/pages/nzhops.co.nz/products_moutere_.html (83170 bytes)
+ok   https://nzhops.co.nz/products/waimea -> raw/pages/nzhops.co.nz/products_waimea.html (91539 bytes)
+FAIL https://nzhops.co.nz/products/wakatu-1: 429 Client Error: Too Many Requests for url: https://nzhops.co.nz/products/wakatu-1
+FAIL https://nzhops.co.nz/products/kohatu: 429 Client Error: Too Many Requests for url: https://nzhops.co.nz/products/kohatu
+FAIL https://nzhops.co.nz/products/taiheke: 429 Client Error: Too Many Requests for url: https://nzhops.co.nz/products/taiheke
+FAIL https://nzhops.co.nz/products/pacifica: 429 Client Error: Too Many Requests for url: https://nzhops.co.nz/products/pacifica
+ok   https://nzhops.co.nz/products/pacific-gem -> raw/pages/nzhops.co.nz/products_pacific-gem.html (89494 bytes)
+FAIL https://nzhops.co.nz/products/southern-cross: 429 Client Error: Too Many Requests for url: https://nzhops.co.nz/products/southern-cross
+ok   https://nzhops.co.nz/products/pacific-jade -> raw/pages/nzhops.co.nz/products_pacific-jade.html (89470 bytes)
+ok   https://nzhops.co.nz/products/green-bullet -> raw/pages/nzhops.co.nz/products_green-bullet.html (90485 bytes)
+FAIL https://nzhops.co.nz/products/dr-rudi: 429 Client Error: Too Many Requests for url: https://nzhops.co.nz/products/dr-rudi
+FAIL https://nzhops.co.nz/products/fuggle-nz: 429 Client Error: Too Many Requests for url: https://nzhops.co.nz/products/fuggle-nz
+ok   https://nzhops.co.nz/products/nz-chinoook -> raw/pages/nzhops.co.nz/products_nz-chinoook.html (86251 bytes)
 ok   https://cdn.shopify.com/s/files/1/0378/6630/7719/files/Dr_Rudi_NZ_Hops_Ltd_Variety_Sheet.pdf -> raw/pages/cdn.shopify.com/s_files_1_0378_6630_7719_files_Dr_Rudi_NZ_Hops_Ltd_Variety_Sheet.pdf (8244573 bytes)
 ok   https://cdn.shopify.com/s/files/1/0378/6630/7719/files/NZ_Fuggle_NZ_Hops_Ltd_Variety_Sheet.pdf -> raw/pages/cdn.shopify.com/s_files_1_0378_6630_7719_files_NZ_Fuggle_NZ_Hops_Ltd_Variety_Sheet.pdf (5671749 bytes)
 ok   https://cdn.shopify.com/s/files/1/0378/6630/7719/files/Green_Bullet_NZ_Hops_Ltd_Variety_Sheet.pdf -> raw/pages/cdn.shopify.com/s_files_1_0378_6630_7719_files_Green_Bullet_NZ_Hops_Ltd_Variety_Sheet.pdf (4043281 bytes)
@@ -188,18 +189,18 @@ ok   https://www.crosbyhops.com/hops/varieties/wai-iti -> raw/pages/crosbyhops.c
 ok   https://www.crosbyhops.com/hops/varieties/waimea -> raw/pages/crosbyhops.com/hops_varieties_waimea.html (242223 bytes)
 ok   https://www.crosbyhops.com/hops/varieties/willamette -> raw/pages/crosbyhops.com/hops_varieties_willamette.html (242798 bytes)
 ok   https://www.crosbyhops.com/hops/varieties/zappa -> raw/pages/crosbyhops.com/hops_varieties_zappa.html (242344 bytes)
-ok   https://www.fremontbrewing.com/taplist -> raw/pages/fremontbrewing.com/taplist.html (154795 bytes)
-ok   https://yakimavalleyhops.com/products/hbc-630-hops -> raw/pages/yakimavalleyhops.com/products_hbc-630-hops.html (311436 bytes)
-ok   https://yakimavalleyhops.com/products/zumo-hops -> raw/pages/yakimavalleyhops.com/products_zumo-hops.html (303117 bytes)
-ok   https://yakimavalleyhops.com/products/hbc-1134-hops -> raw/pages/yakimavalleyhops.com/products_hbc-1134-hops.html (332932 bytes)
+ok   https://www.fremontbrewing.com/taplist -> raw/pages/fremontbrewing.com/taplist.html (155086 bytes)
+ok   https://yakimavalleyhops.com/products/hbc-630-hops -> raw/pages/yakimavalleyhops.com/products_hbc-630-hops.html (313393 bytes)
+ok   https://yakimavalleyhops.com/products/zumo-hops -> raw/pages/yakimavalleyhops.com/products_zumo-hops.html (312457 bytes)
+ok   https://yakimavalleyhops.com/products/hbc-1134-hops -> raw/pages/yakimavalleyhops.com/products_hbc-1134-hops.html (335011 bytes)
 FAIL https://hopalliance.com/products/peacharine-hops-2025: 404 Client Error: Not Found for url: https://hopalliance.com/products/peacharine-hops-2025
 ok   https://www.johnihaas.com/wp-content/uploads/2022/01/MiniSpecSheets-HBC638.pdf -> raw/pages/johnihaas.com/wp-content_uploads_2022_01_MiniSpecSheets-HBC638.pdf (40057 bytes)
-ok   https://yakimavalleyhops.com/products/hbc-638-hops -> raw/pages/yakimavalleyhops.com/products_hbc-638-hops.html (309731 bytes)
+FAIL https://yakimavalleyhops.com/products/hbc-638-hops: 429 Client Error: Too Many Requests for url: https://yakimavalleyhops.com/products/hbc-638-hops
 ok   https://www.johnihaas.com/wp-content/uploads/2020/09/Haas_HopSpecSheets-HBC522_091520.pdf -> raw/pages/johnihaas.com/wp-content_uploads_2020_09_Haas_HopSpecSheets-HBC522_091520.pdf (45198 bytes)
-ok   https://yakimavalleyhops.com/products/medusa-hop-pellets -> raw/pages/yakimavalleyhops.com/products_medusa-hop-pellets.html (313125 bytes)
-ok   https://yakimavalleyhops.com/products/anchovy-hops -> raw/pages/yakimavalleyhops.com/products_anchovy-hops.html (308224 bytes)
+ok   https://yakimavalleyhops.com/products/medusa-hop-pellets -> raw/pages/yakimavalleyhops.com/products_medusa-hop-pellets.html (315115 bytes)
+ok   https://yakimavalleyhops.com/products/anchovy-hops -> raw/pages/yakimavalleyhops.com/products_anchovy-hops.html (310181 bytes)
 ok   https://patents.google.com/patent/USPP34982 -> raw/pages/patents.google.com/patent_USPP34982.html (74784 bytes)
-ok   https://charlesfaram.com/hop-oracle/barbe-rouge/ -> raw/pages/charlesfaram.com/hop-oracle_barbe-rouge.html (426555 bytes)
+ok   https://charlesfaram.com/hop-oracle/barbe-rouge/ -> raw/pages/charlesfaram.com/hop-oracle_barbe-rouge.html (428302 bytes)
 FAIL https://charlesfaram.com/hop-oracle/barbe-rouge-hop/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/barbe-rouge-hop/
 FAIL https://yakimavalleyhops.com/products/barbe-rouge-hops: 404 Client Error: Not Found for url: https://yakimavalleyhops.com/products/barbe-rouge-hops
 FAIL https://charlesfaram.com/hop-oracle/bohemie/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/bohemie/
@@ -208,90 +209,90 @@ FAIL https://yakimavalleyhops.com/products/bohemie-hops: 404 Client Error: Not F
 FAIL https://charlesfaram.com/hop-oracle/flint/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/flint/
 FAIL https://charlesfaram.com/hop-oracle/flint-hop/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/flint-hop/
 FAIL https://yakimavalleyhops.com/products/flint-hops: 404 Client Error: Not Found for url: https://yakimavalleyhops.com/products/flint-hops
-ok   https://charlesfaram.com/hop-oracle/godiva/ -> raw/pages/charlesfaram.com/hop-oracle_godiva.html (424335 bytes)
-ok   https://charlesfaram.com/hop-oracle/godiva-hop/ -> raw/pages/charlesfaram.com/hop-oracle_godiva-hop.html (424335 bytes)
-FAIL https://yakimavalleyhops.com/products/godiva-hops: 404 Client Error: Not Found for url: https://yakimavalleyhops.com/products/godiva-hops
-ok   https://charlesfaram.com/hop-oracle/harlequin/ -> raw/pages/charlesfaram.com/hop-oracle_harlequin.html (425357 bytes)
+ok   https://charlesfaram.com/hop-oracle/godiva/ -> raw/pages/charlesfaram.com/hop-oracle_godiva.html (426082 bytes)
+ok   https://charlesfaram.com/hop-oracle/godiva-hop/ -> raw/pages/charlesfaram.com/hop-oracle_godiva-hop.html (426082 bytes)
+FAIL https://yakimavalleyhops.com/products/godiva-hops: 429 Client Error: Too Many Requests for url: https://yakimavalleyhops.com/products/godiva-hops
+ok   https://charlesfaram.com/hop-oracle/harlequin/ -> raw/pages/charlesfaram.com/hop-oracle_harlequin.html (427104 bytes)
 FAIL https://charlesfaram.com/hop-oracle/harlequin-hop/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/harlequin-hop/
-ok   https://yakimavalleyhops.com/products/harlequin-hops -> raw/pages/yakimavalleyhops.com/products_harlequin-hops.html (308116 bytes)
+ok   https://yakimavalleyhops.com/products/harlequin-hops -> raw/pages/yakimavalleyhops.com/products_harlequin-hops.html (310073 bytes)
 FAIL https://charlesfaram.com/hop-oracle/ibuki/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/ibuki/
 FAIL https://charlesfaram.com/hop-oracle/ibuki-hop/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/ibuki-hop/
 FAIL https://yakimavalleyhops.com/products/ibuki-hops: 404 Client Error: Not Found for url: https://yakimavalleyhops.com/products/ibuki-hops
-ok   https://charlesfaram.com/hop-oracle/jester/ -> raw/pages/charlesfaram.com/hop-oracle_jester.html (425250 bytes)
+ok   https://charlesfaram.com/hop-oracle/jester/ -> raw/pages/charlesfaram.com/hop-oracle_jester.html (426997 bytes)
 FAIL https://charlesfaram.com/hop-oracle/jester-hop/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/jester-hop/
-ok   https://yakimavalleyhops.com/products/jester-hops -> raw/pages/yakimavalleyhops.com/products_jester-hops.html (338528 bytes)
+ok   https://yakimavalleyhops.com/products/jester-hops -> raw/pages/yakimavalleyhops.com/products_jester-hops.html (340485 bytes)
 FAIL https://charlesfaram.com/hop-oracle/mackinac/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/mackinac/
 FAIL https://charlesfaram.com/hop-oracle/mackinac-hop/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/mackinac-hop/
-FAIL https://yakimavalleyhops.com/products/mackinac-hops: 404 Client Error: Not Found for url: https://yakimavalleyhops.com/products/mackinac-hops
-ok   https://charlesfaram.com/hop-oracle/mistral/ -> raw/pages/charlesfaram.com/hop-oracle_mistral.html (425690 bytes)
+FAIL https://yakimavalleyhops.com/products/mackinac-hops: 429 Client Error: Too Many Requests for url: https://yakimavalleyhops.com/products/mackinac-hops
+ok   https://charlesfaram.com/hop-oracle/mistral/ -> raw/pages/charlesfaram.com/hop-oracle_mistral.html (427437 bytes)
 FAIL https://charlesfaram.com/hop-oracle/mistral-hop/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/mistral-hop/
 FAIL https://yakimavalleyhops.com/products/mistral-hops: 404 Client Error: Not Found for url: https://yakimavalleyhops.com/products/mistral-hops
-ok   https://charlesfaram.com/hop-oracle/nectaron/ -> raw/pages/charlesfaram.com/hop-oracle_nectaron.html (425296 bytes)
+ok   https://charlesfaram.com/hop-oracle/nectaron/ -> raw/pages/charlesfaram.com/hop-oracle_nectaron.html (427043 bytes)
 FAIL https://charlesfaram.com/hop-oracle/nectaron-hop/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/nectaron-hop/
 FAIL https://yakimavalleyhops.com/products/nectaron-hops: 404 Client Error: Not Found for url: https://yakimavalleyhops.com/products/nectaron-hops
 FAIL https://charlesfaram.com/hop-oracle/newport/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/newport/
 FAIL https://charlesfaram.com/hop-oracle/newport-hop/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/newport-hop/
 FAIL https://yakimavalleyhops.com/products/newport-hops: 404 Client Error: Not Found for url: https://yakimavalleyhops.com/products/newport-hops
-ok   https://charlesfaram.com/hop-oracle/olicana/ -> raw/pages/charlesfaram.com/hop-oracle_olicana.html (426025 bytes)
-ok   https://charlesfaram.com/hop-oracle/olicana-hop/ -> raw/pages/charlesfaram.com/hop-oracle_olicana-hop.html (426025 bytes)
-FAIL https://yakimavalleyhops.com/products/olicana-hops: 404 Client Error: Not Found for url: https://yakimavalleyhops.com/products/olicana-hops
+ok   https://charlesfaram.com/hop-oracle/olicana/ -> raw/pages/charlesfaram.com/hop-oracle_olicana.html (427772 bytes)
+ok   https://charlesfaram.com/hop-oracle/olicana-hop/ -> raw/pages/charlesfaram.com/hop-oracle_olicana-hop.html (427772 bytes)
+FAIL https://yakimavalleyhops.com/products/olicana-hops: 429 Client Error: Too Many Requests for url: https://yakimavalleyhops.com/products/olicana-hops
 FAIL https://charlesfaram.com/hop-oracle/rubin/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/rubin/
 FAIL https://charlesfaram.com/hop-oracle/rubin-hop/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/rubin-hop/
-FAIL https://yakimavalleyhops.com/products/rubin-hops: 404 Client Error: Not Found for url: https://yakimavalleyhops.com/products/rubin-hops
+FAIL https://yakimavalleyhops.com/products/rubin-hops: 429 Client Error: Too Many Requests for url: https://yakimavalleyhops.com/products/rubin-hops
 FAIL https://charlesfaram.com/hop-oracle/southern-passion/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/southern-passion/
 FAIL https://charlesfaram.com/hop-oracle/southern-passion-hop/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/southern-passion-hop/
 FAIL https://yakimavalleyhops.com/products/southern-passion-hops: 404 Client Error: Not Found for url: https://yakimavalleyhops.com/products/southern-passion-hops
 FAIL https://charlesfaram.com/hop-oracle/styrian-cardinal/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/styrian-cardinal/
 FAIL https://charlesfaram.com/hop-oracle/styrian-cardinal-hop/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/styrian-cardinal-hop/
-FAIL https://yakimavalleyhops.com/products/styrian-cardinal-hops: 404 Client Error: Not Found for url: https://yakimavalleyhops.com/products/styrian-cardinal-hops
+FAIL https://yakimavalleyhops.com/products/styrian-cardinal-hops: 429 Client Error: Too Many Requests for url: https://yakimavalleyhops.com/products/styrian-cardinal-hops
 FAIL https://charlesfaram.com/hop-oracle/summer/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/summer/
 FAIL https://charlesfaram.com/hop-oracle/summer-hop/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/summer-hop/
-FAIL https://yakimavalleyhops.com/products/summer-hops: 404 Client Error: Not Found for url: https://yakimavalleyhops.com/products/summer-hops
-ok   https://charlesfaram.com/hop-oracle/superdelic/ -> raw/pages/charlesfaram.com/hop-oracle_superdelic.html (423937 bytes)
+FAIL https://yakimavalleyhops.com/products/summer-hops: 429 Client Error: Too Many Requests for url: https://yakimavalleyhops.com/products/summer-hops
+ok   https://charlesfaram.com/hop-oracle/superdelic/ -> raw/pages/charlesfaram.com/hop-oracle_superdelic.html (425684 bytes)
 FAIL https://charlesfaram.com/hop-oracle/superdelic-hop/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/superdelic-hop/
-ok   https://yakimavalleyhops.com/products/superdelic-hops -> raw/pages/yakimavalleyhops.com/products_superdelic-hops.html (329240 bytes)
+ok   https://yakimavalleyhops.com/products/superdelic-hops -> raw/pages/yakimavalleyhops.com/products_superdelic-hops.html (331197 bytes)
 FAIL https://charlesfaram.com/hop-oracle/teamaker/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/teamaker/
 FAIL https://charlesfaram.com/hop-oracle/teamaker-hop/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/teamaker-hop/
-FAIL https://yakimavalleyhops.com/products/teamaker-hops: 404 Client Error: Not Found for url: https://yakimavalleyhops.com/products/teamaker-hops
+FAIL https://yakimavalleyhops.com/products/teamaker-hops: 429 Client Error: Too Many Requests for url: https://yakimavalleyhops.com/products/teamaker-hops
 FAIL https://charlesfaram.com/hop-oracle/ultra/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/ultra/
 FAIL https://charlesfaram.com/hop-oracle/ultra-hop/: 404 Client Error: Not Found for url: https://charlesfaram.com/hop-oracle/ultra-hop/
 FAIL https://yakimavalleyhops.com/products/ultra-hops: 404 Client Error: Not Found for url: https://yakimavalleyhops.com/products/ultra-hops
-ok   https://hopalliance.com/products/mackinac-mi-hop-pellets-2025 -> raw/pages/hopalliance.com/products_mackinac-mi-hop-pellets-2025.html (342657 bytes)
-ok   https://yakimavalleyhops.com/products/southern-passion-pellet-hops -> raw/pages/yakimavalleyhops.com/products_southern-passion-pellet-hops.html (309370 bytes)
-ok   https://charlesfaram.com/uk/hop-oracle/cardinal/ -> raw/pages/charlesfaram.com/uk_hop-oracle_cardinal.html (479640 bytes)
-ok   https://hopalliance.com/products/cardinal-sl-hop-pellets-2024 -> raw/pages/hopalliance.com/products_cardinal-sl-hop-pellets-2024.html (334668 bytes)
-ok   https://charlesfaram.com/uk/hop-oracle/archer/ -> raw/pages/charlesfaram.com/uk_hop-oracle_archer.html (481583 bytes)
-ok   https://charlesfaram.com/hop-oracle/bouclier/ -> raw/pages/charlesfaram.com/hop-oracle_bouclier.html (424954 bytes)
-ok   https://charlesfaram.com/uk/hop-oracle/emperor/ -> raw/pages/charlesfaram.com/uk_hop-oracle_emperor.html (479797 bytes)
-ok   https://charlesfaram.com/uk/hop-oracle/epic-hops/ -> raw/pages/charlesfaram.com/uk_hop-oracle_epic-hops.html (478532 bytes)
-ok   https://charlesfaram.com/uk/hop-oracle/ernest/ -> raw/pages/charlesfaram.com/uk_hop-oracle_ernest.html (480519 bytes)
-ok   https://hopalliance.com/products/ernest-hops-2025 -> raw/pages/hopalliance.com/products_ernest-hops-2025.html (342387 bytes)
-ok   https://charlesfaram.com/hop-oracle/mystic/ -> raw/pages/charlesfaram.com/hop-oracle_mystic.html (425353 bytes)
-ok   https://charlesfaram.com/ca/hop-oracle/opus/ -> raw/pages/charlesfaram.com/ca_hop-oracle_opus.html (417020 bytes)
-ok   https://charlesfaram.com/ca/hop-oracle/pilot/ -> raw/pages/charlesfaram.com/ca_hop-oracle_pilot.html (415077 bytes)
-ok   https://charlesfaram.com/ca/hop-oracle/pioneer/ -> raw/pages/charlesfaram.com/ca_hop-oracle_pioneer.html (416756 bytes)
-ok   https://charlesfaram.com/hop-oracle/keyworths-early/ -> raw/pages/charlesfaram.com/hop-oracle_keyworths-early.html (422322 bytes)
-ok   https://charlesfaram.com/hop-oracle/keyworths-mid-season/ -> raw/pages/charlesfaram.com/hop-oracle_keyworths-mid-season.html (423265 bytes)
-ok   https://charlesfaram.com/hop-oracle/most/ -> raw/pages/charlesfaram.com/hop-oracle_most.html (424629 bytes)
-ok   https://yakimavalleyhops.com/products/most-hops -> raw/pages/yakimavalleyhops.com/products_most-hops.html (296843 bytes)
-ok   https://charlesfaram.com/hop-oracle/junga/ -> raw/pages/charlesfaram.com/hop-oracle_junga.html (424740 bytes)
-ok   https://charlesfaram.com/eu/hop-oracle/pulawski/ -> raw/pages/charlesfaram.com/eu_hop-oracle_pulawski.html (432356 bytes)
-ok   https://charlesfaram.com/hop-oracle/krpan/ -> raw/pages/charlesfaram.com/hop-oracle_krpan.html (423047 bytes)
-ok   https://charlesfaram.com/uk/hop-oracle/styrian-dragon/ -> raw/pages/charlesfaram.com/uk_hop-oracle_styrian-dragon.html (480935 bytes)
-ok   https://charlesfaram.com/ca/hop-oracle/styrian-eureka/ -> raw/pages/charlesfaram.com/ca_hop-oracle_styrian-eureka.html (416568 bytes)
-ok   https://charlesfaram.com/int/hop-oracle/styrian-kolibri/ -> raw/pages/charlesfaram.com/int_hop-oracle_styrian-kolibri.html (415981 bytes)
-ok   https://charlesfaram.com/hop-oracle/fox/ -> raw/pages/charlesfaram.com/hop-oracle_fox.html (421926 bytes)
-ok   https://charlesfaram.com/hop-oracle/karma-hop-variety/ -> raw/pages/charlesfaram.com/hop-oracle_karma-hop-variety.html (415841 bytes)
-ok   https://hopalliance.com/products/karma-hops-2025 -> raw/pages/hopalliance.com/products_karma-hops-2025.html (349681 bytes)
-ok   https://hopalliance.com/products/bullion-hops-2025 -> raw/pages/hopalliance.com/products_bullion-hops-2025.html (344616 bytes)
-ok   https://hopalliance.com/products/celeste-hops-2025 -> raw/pages/hopalliance.com/products_celeste-hops-2025.html (355489 bytes)
-ok   https://hopalliance.com/products/bergamot-mi-hop-pellets-2025 -> raw/pages/hopalliance.com/products_bergamot-mi-hop-pellets-2025.html (341889 bytes)
-ok   https://hopalliance.com/products/copper-mi-hop-pellets-2025 -> raw/pages/hopalliance.com/products_copper-mi-hop-pellets-2025.html (357423 bytes)
-ok   https://hopalliance.com/products/emerald-spire-mi-hop-pellets-2025 -> raw/pages/hopalliance.com/products_emerald-spire-mi-hop-pellets-2025.html (356429 bytes)
-ok   https://hopalliance.com/products/hydra-mi-hop-pellets-2025 -> raw/pages/hopalliance.com/products_hydra-mi-hop-pellets-2025.html (342797 bytes)
-ok   https://hopalliance.com/products/paradigm-mi-hop-pellets-2025 -> raw/pages/hopalliance.com/products_paradigm-mi-hop-pellets-2025.html (354370 bytes)
-ok   https://hopalliance.com/products/erebus-hop-pellets-2025 -> raw/pages/hopalliance.com/products_erebus-hop-pellets-2025.html (344505 bytes)
-ok   https://yakimavalleyhops.com/products/southern-tropic-hops -> raw/pages/yakimavalleyhops.com/products_southern-tropic-hops.html (307863 bytes)
-ok   https://hopalliance.com/products/samsquanch-hop-pellets-exclusive -> raw/pages/hopalliance.com/products_samsquanch-hop-pellets-exclusive.html (347490 bytes)
+ok   https://hopalliance.com/products/mackinac-mi-hop-pellets-2025 -> raw/pages/hopalliance.com/products_mackinac-mi-hop-pellets-2025.html (342266 bytes)
+ok   https://yakimavalleyhops.com/products/southern-passion-pellet-hops -> raw/pages/yakimavalleyhops.com/products_southern-passion-pellet-hops.html (311327 bytes)
+ok   https://charlesfaram.com/uk/hop-oracle/cardinal/ -> raw/pages/charlesfaram.com/uk_hop-oracle_cardinal.html (481387 bytes)
+FAIL https://hopalliance.com/products/cardinal-sl-hop-pellets-2024: 429 Client Error: Too Many Requests for url: https://hopalliance.com/products/cardinal-sl-hop-pellets-2024
+ok   https://charlesfaram.com/uk/hop-oracle/archer/ -> raw/pages/charlesfaram.com/uk_hop-oracle_archer.html (483330 bytes)
+ok   https://charlesfaram.com/hop-oracle/bouclier/ -> raw/pages/charlesfaram.com/hop-oracle_bouclier.html (426701 bytes)
+ok   https://charlesfaram.com/uk/hop-oracle/emperor/ -> raw/pages/charlesfaram.com/uk_hop-oracle_emperor.html (481544 bytes)
+ok   https://charlesfaram.com/uk/hop-oracle/epic-hops/ -> raw/pages/charlesfaram.com/uk_hop-oracle_epic-hops.html (480279 bytes)
+ok   https://charlesfaram.com/uk/hop-oracle/ernest/ -> raw/pages/charlesfaram.com/uk_hop-oracle_ernest.html (482266 bytes)
+FAIL https://hopalliance.com/products/ernest-hops-2025: 429 Client Error: Too Many Requests for url: https://hopalliance.com/products/ernest-hops-2025
+ok   https://charlesfaram.com/hop-oracle/mystic/ -> raw/pages/charlesfaram.com/hop-oracle_mystic.html (427100 bytes)
+ok   https://charlesfaram.com/ca/hop-oracle/opus/ -> raw/pages/charlesfaram.com/ca_hop-oracle_opus.html (418767 bytes)
+ok   https://charlesfaram.com/ca/hop-oracle/pilot/ -> raw/pages/charlesfaram.com/ca_hop-oracle_pilot.html (416824 bytes)
+ok   https://charlesfaram.com/ca/hop-oracle/pioneer/ -> raw/pages/charlesfaram.com/ca_hop-oracle_pioneer.html (418503 bytes)
+ok   https://charlesfaram.com/hop-oracle/keyworths-early/ -> raw/pages/charlesfaram.com/hop-oracle_keyworths-early.html (424069 bytes)
+ok   https://charlesfaram.com/hop-oracle/keyworths-mid-season/ -> raw/pages/charlesfaram.com/hop-oracle_keyworths-mid-season.html (425012 bytes)
+ok   https://charlesfaram.com/hop-oracle/most/ -> raw/pages/charlesfaram.com/hop-oracle_most.html (426376 bytes)
+ok   https://yakimavalleyhops.com/products/most-hops -> raw/pages/yakimavalleyhops.com/products_most-hops.html (298800 bytes)
+ok   https://charlesfaram.com/hop-oracle/junga/ -> raw/pages/charlesfaram.com/hop-oracle_junga.html (426487 bytes)
+ok   https://charlesfaram.com/eu/hop-oracle/pulawski/ -> raw/pages/charlesfaram.com/eu_hop-oracle_pulawski.html (434103 bytes)
+ok   https://charlesfaram.com/hop-oracle/krpan/ -> raw/pages/charlesfaram.com/hop-oracle_krpan.html (424794 bytes)
+ok   https://charlesfaram.com/uk/hop-oracle/styrian-dragon/ -> raw/pages/charlesfaram.com/uk_hop-oracle_styrian-dragon.html (482682 bytes)
+ok   https://charlesfaram.com/ca/hop-oracle/styrian-eureka/ -> raw/pages/charlesfaram.com/ca_hop-oracle_styrian-eureka.html (418315 bytes)
+ok   https://charlesfaram.com/int/hop-oracle/styrian-kolibri/ -> raw/pages/charlesfaram.com/int_hop-oracle_styrian-kolibri.html (417728 bytes)
+ok   https://charlesfaram.com/hop-oracle/fox/ -> raw/pages/charlesfaram.com/hop-oracle_fox.html (423673 bytes)
+ok   https://charlesfaram.com/hop-oracle/karma-hop-variety/ -> raw/pages/charlesfaram.com/hop-oracle_karma-hop-variety.html (417588 bytes)
+FAIL https://hopalliance.com/products/karma-hops-2025: 429 Client Error: Too Many Requests for url: https://hopalliance.com/products/karma-hops-2025
+FAIL https://hopalliance.com/products/bullion-hops-2025: 429 Client Error: Too Many Requests for url: https://hopalliance.com/products/bullion-hops-2025
+FAIL https://hopalliance.com/products/celeste-hops-2025: 429 Client Error: Too Many Requests for url: https://hopalliance.com/products/celeste-hops-2025
+FAIL https://hopalliance.com/products/bergamot-mi-hop-pellets-2025: 429 Client Error: Too Many Requests for url: https://hopalliance.com/products/bergamot-mi-hop-pellets-2025
+ok   https://hopalliance.com/products/copper-mi-hop-pellets-2025 -> raw/pages/hopalliance.com/products_copper-mi-hop-pellets-2025.html (357030 bytes)
+FAIL https://hopalliance.com/products/emerald-spire-mi-hop-pellets-2025: 429 Client Error: Too Many Requests for url: https://hopalliance.com/products/emerald-spire-mi-hop-pellets-2025
+FAIL https://hopalliance.com/products/hydra-mi-hop-pellets-2025: 429 Client Error: Too Many Requests for url: https://hopalliance.com/products/hydra-mi-hop-pellets-2025
+FAIL https://hopalliance.com/products/paradigm-mi-hop-pellets-2025: 429 Client Error: Too Many Requests for url: https://hopalliance.com/products/paradigm-mi-hop-pellets-2025
+FAIL https://hopalliance.com/products/erebus-hop-pellets-2025: 429 Client Error: Too Many Requests for url: https://hopalliance.com/products/erebus-hop-pellets-2025
+FAIL https://yakimavalleyhops.com/products/southern-tropic-hops: 429 Client Error: Too Many Requests for url: https://yakimavalleyhops.com/products/southern-tropic-hops
+ok   https://hopalliance.com/products/samsquanch-hop-pellets-exclusive -> raw/pages/hopalliance.com/products_samsquanch-hop-pellets-exclusive.html (347111 bytes)
 
-183/237 saved
+160/237 saved

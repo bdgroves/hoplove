@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://cloudburstbrew.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-11-09'
+retrieved: '2026-11-12'
 beers:
   - slug: the-white-lotus-theme-song
     name: (The White Lotus Theme Song)
@@ -786,6 +786,16 @@ beers:
       - { hop: golding-uk, name: Golding (UK), as_written: Goldings }
       - { hop: citra, name: Citra, as_written: Citra }
       - { hop: motueka, name: Motueka, as_written: Motueka }
+  - slug: erm-what-the-sigma
+    name: Erm What The Sigma
+    url: https://www.cloudburstbrew.com/beer/erm-what-the-sigma/
+    abv: 6.7
+    hops_as_written: ' Erm What The Sigma IPA | 6.7% ABV | 53 IBU ‘Sup from the Unks. This juice got the rizz AND the skibidi. It’s all hopmaxxing with Citra. And Simcoe. Also Simcoe Cryo. Also Ekuanot Cryo. It’s straight bussin, no cap. Don’t be delulu, shit ain’t cooked. Just put the fries in the bag, bro. We mogged this thing, no Ohio. It slaps. K nuff yapping – Bye Chat. '
+    hops:
+      - { hop: citra, name: Citra, as_written: Citra }
+      - { hop: simcoe, name: Simcoe, as_written: Simcoe }
+      - { hop: simcoe, name: Simcoe, form: Cryo, as_written: Simcoe }
+      - { hop: ekuanot, name: Ekuanot, form: Cryo, as_written: Ekuanot }
   - slug: eternal-summer-slacking-ipa
     name: Eternal Summer Slacking IPA
     url: https://www.cloudburstbrew.com/beer/eternal-summer-slacking-ipa/
