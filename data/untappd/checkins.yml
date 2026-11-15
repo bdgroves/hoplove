@@ -1,5 +1,13 @@
 source: Untappd, via https://brooksgroves.com/beers.json (tools/ingest/untappd.py) -- do not edit by hand
 checkins:
+  - id: 1615572912
+    date: '2026-11-15'
+    beer: Cabin Fever
+    brewery: Boundary Bay Brewery
+    venue: Western State Hospital
+    comment: The first winter warmer of the season!! ❄️🍺🤙
+    photo: https://images.untp.beer/crop?width=200&height=200&stripmeta=true&url=https://untappd.s3.amazonaws.com/photos/2026_11_15/96a5cb63a81f3ace6bf18220197f8bf4_c_1615572912_raw.jpg
+    link: https://untappd.com/user/bdgroves/checkin/1615572912
   - id: 1614013373
     date: '2026-11-08'
     beer: Newly Sharpened Pencils
