@@ -8,7 +8,7 @@
  * The site cannot drift from the API because it is built out of it.
  */
 import { mkdirSync, writeFileSync, cpSync, rmSync } from 'node:fs';
-import { join } from 'node:path';
+import { join, relative, sep } from 'node:path';
 import { loadDataset, DIST, ROOT, c } from './lib/load.js';
 import { rollupHop } from './lib/rollup.js';
 import { buildSimilarity } from './lib/similarity.js';
@@ -59,9 +59,21 @@ const meta = {
 const out = (p) => join(DIST, p);
 const api = (p) => out(join('api', API_VERSION, p));
 
+// Every page names its own clean address as canonical. Search Console flagged
+// /compare/?a=…&b=… links as "Duplicate without user-selected canonical": the
+// compare page is one shell filled by script, so each query string looked like
+// a copy of it. Redirect stubs and noindex pages keep what they have.
+const SITE = 'https://brooksgroves.com/hoplove/';
+const withCanonical = (path, html) => {
+  if (!path.endsWith('.html') || !html.includes('</head>') || html.includes('rel="canonical"')
+      || /name="robots"[^>]*noindex/.test(html) || path.endsWith('404.html')) return html;
+  const rel = relative(DIST, path).split(sep).join('/').replace(/(^|\/)index\.html$/, '$1');
+  return html.replace('</head>', `<link rel="canonical" href="${SITE}${rel}">\n</head>`);
+};
+
 const write = (path, data) => {
   mkdirSync(join(path, '..'), { recursive: true });
-  writeFileSync(path, typeof data === 'string' ? data : JSON.stringify(data, null, 2));
+  writeFileSync(path, typeof data === 'string' ? withCanonical(path, data) : JSON.stringify(data, null, 2));
 };
 
 // ------------------------------------------------------------------- the API
