@@ -5,8 +5,17 @@ brewery:
   state: WA
   url: https://www.laddandlassbrewing.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-11-12'
+retrieved: '2026-11-16'
 beers:
+  - slug: cloud-sipper
+    name: Cloud Sipper
+    url: https://www.laddandlassbrewing.com/
+    abv: 6.4
+    hops_as_written: Cryo Citra, Strata, Comet
+    hops:
+      - { hop: citra, name: Citra, form: Cryo, as_written: Cryo Citra }
+      - { hop: strata, name: Strata, as_written: Strata }
+      - { hop: comet, name: Comet, as_written: Comet }
   - slug: crunchy-boi
     name: Crunchy Boi
     url: https://www.laddandlassbrewing.com/
@@ -49,16 +58,6 @@ beers:
     hops:
       - { hop: citra, name: Citra, fresh: true, farm: Westwood Farms, as_written: Fresh Citra from Westwood Farms }
       - { hop: simcoe, name: Simcoe, product: Cryo Fresh, fresh: true, as_written: Simcoe Cryo Fresh }
-  - slug: fresh-hop-krush
-    name: Fresh Hop Krush
-    url: https://www.laddandlassbrewing.com/
-    abv: 6.8
-    hops_as_written: Fresh Krush, Cryo Krush, Cryo Citra, Nectaron
-    hops:
-      - { hop: krush, name: Krush, fresh: true, as_written: Fresh Krush }
-      - { hop: krush, name: Krush, form: Cryo, as_written: Cryo Krush }
-      - { hop: citra, name: Citra, form: Cryo, as_written: Cryo Citra }
-      - { hop: nectaron, name: Nectaron, as_written: Nectaron }
   - slug: fresh-hop-krush-hazy-ipa
     name: Fresh Hop Krush Hazy IPA
     url: https://www.laddandlassbrewing.com/
@@ -80,6 +79,16 @@ beers:
     hops_as_written: Fresh Strata from Coleman Farms
     hops:
       - { hop: strata, name: Strata, fresh: true, farm: Coleman Farms, as_written: Fresh Strata from Coleman Farms }
+  - slug: howdy-friend
+    name: Howdy, Friend
+    url: https://www.laddandlassbrewing.com/
+    abv: 6.5
+    hops_as_written: El Dorado, Centennial, Cryo Citra, Chinook
+    hops:
+      - { hop: el-dorado, name: El Dorado, as_written: El Dorado }
+      - { hop: centennial, name: Centennial, as_written: Centennial }
+      - { hop: citra, name: Citra, form: Cryo, as_written: Cryo Citra }
+      - { hop: chinook, name: Chinook, as_written: Chinook }
   - slug: nick-teddy-s-excellent-adventure
     name: Nick & Teddy’s Excellent Adventure
     url: https://www.laddandlassbrewing.com/

@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://www.stoupbrewing.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-11-12'
+retrieved: '2026-11-16'
 beers:
   - slug: you-should-smile-more-ipa
     name: (You Should) Smile More IPA
@@ -1651,6 +1651,14 @@ beers:
     hops:
       - { hop: nectaron, name: Nectaron, as_written: Nectaron }
       - { hop: nectaron, name: Nectaron, form: Cryo, as_written: Nectaron }
+  - slug: new-bohemia-nz-pils
+    name: New Bohemia NZ Pils
+    url: https://www.stoupbrewing.com/beer/new-bohemia-nz-pils-8218.html
+    abv: 5.0
+    hops_as_written: 'New Bohemia NZ Pils Collaboration with Fall Brewing ABV: 5.00 IBU: 29.00 SRM: 2.00 Categories: Lager, Pilsner, Hop Driven A chance meeting in San Diego between Stoup and Fall brewers brought out the best in us. This hop forward pilsner features Clayton Farms Rhapzody and a touch of the most expressive Mosaic we could get our hands on. Aromas of passion fruit, guava and blueberry settle into a c...'
+    hops:
+      - { hop: most, name: Most, as_written: most }
+      - { hop: mosaic, name: Mosaic, as_written: Mosaic }
   - slug: new-kidz-on-this-block-ipa-pike-brewing-collab-for-the-grand-opening-of-their-ballard-location
     name: New Kidz on THIS Block IPA (Pike Brewing Collab for the Grand Opening of their Ballard Location)
     url: https://www.stoupbrewing.com/beer/new-kidz-on-this-block-ipa-pike-brewing-collab-for-the-grand-opening-of-their-ballard-location-2870.html

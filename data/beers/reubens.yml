@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://reubensbrews.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-11-12'
+retrieved: '2026-11-16'
 beers:
   - slug: 2-x-2-x
     name: 2 x 2 x 2
@@ -455,6 +455,15 @@ beers:
       - { hop: simcoe, name: Simcoe, as_written: Simcoe }
       - { hop: loral, name: Loral, as_written: Loral }
       - { hop: hallertau-blanc, name: Hallertau Blanc, as_written: Hallertau Blanc }
+  - slug: crush-the-slopes
+    name: Crush the Slopes
+    url: https://www.reubensbrews.com/beer/crush-the-slopes/
+    abv: 7.0
+    hops_as_written: Flaked oats, pale, Flaked Wheat, White Wheat, Honey, Pilsner
+    hops:
+      - { hop: null, name: pale, as_written: pale }
+      - { hop: null, name: White Wheat, as_written: White Wheat }
+      - { hop: null, name: Honey, as_written: Honey }
   - slug: czech-amber-lager
     name: Czech Amber Lager
     url: https://www.reubensbrews.com/beer/czech-amber-lager/
@@ -883,6 +892,13 @@ beers:
   - slug: fresh-strawberry-rhubarb
     name: Fresh! Strawberry Rhubarb
     url: https://www.reubensbrews.com/beer/fresh-strawberry-rhubarb/
+    abv: 4.7
+    hops_as_written: Simcoe
+    hops:
+      - { hop: simcoe, name: Simcoe, as_written: Simcoe }
+  - slug: fresh-sugar-plum
+    name: Fresh! Sugar Plum
+    url: https://www.reubensbrews.com/beer/fresh-sugar-plum/
     abv: 4.7
     hops_as_written: Simcoe
     hops:

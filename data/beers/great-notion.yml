@@ -5,7 +5,7 @@ brewery:
   state: OR
   url: https://greatnotion.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-11-12'
+retrieved: '2026-11-16'
 beers:
   - slug: alpha
     name: Alpha
@@ -107,6 +107,14 @@ beers:
     hops_as_written: Quantity Decrease quantity for Notion Lite  Notion Lite – Great Notion Skip to content Our hop waters and sodas ship nationwide! Shop by Location Shipping Anchorage, Alaska California Kentucky Nebraska New Hampshire North Dakota Ohio Oregon Pennsylvania Washington Washington DC Vermont Virginia Nationwide Oregon Alberta Northwest Beaverton Washington Ballard Georgetown California Sacramento Ful...
     hops:
       - { hop: hallertau-mittelfrueh, name: Hallertau Mittelfruh, as_written: Hallertau Mittelfruh }
+  - slug: oggy-1
+    name: Oggy
+    url: https://greatnotion.com/products/oggy-1
+    abv: 7.0
+    hops_as_written: Quantity Decrease quantity for Oggy  Oggy – Great Notion Skip to content Our hop waters and sodas ship nationwide! Shop by Location Shipping Anchorage, Alaska California Kentucky Nebraska New Hampshire North Dakota Ohio Oregon Pennsylvania Washington Washington DC Vermont Virginia Nationwide Oregon Alberta Northwest Beaverton Washington Ballard Georgetown California Sacramento Fulfillment Cente...
+    hops:
+      - { hop: citra, name: Citra, as_written: Citra }
+      - { hop: galaxy, name: Galaxy, as_written: Galaxy }
   - slug: oktoberfest
     name: Oktoberfest
     url: https://greatnotion.com/products/oktoberfest

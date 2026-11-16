@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://www.structuresbrewing.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-11-12'
+retrieved: '2026-11-16'
 beers:
   - slug: dih
     name: Die In Haze
@@ -68,6 +68,15 @@ beers:
       - { hop: mosaic, name: Mosaic, as_written: Mosaic }
       - { hop: strata, name: Strata, as_written: Strata }
       - { hop: simcoe, name: Simcoe, as_written: Simcoe }
+  - slug: revenant
+    name: Revenant
+    url: https://www.structuresbrewing.com/revenant
+    abv: 7.2
+    hops_as_written: West Coast IPA made with Nelson, Simcoe, and Citra bursting with aromas of mango and pomelo.
+    hops:
+      - { hop: nelson-sauvin, name: Nelson Sauvin, as_written: Nelson }
+      - { hop: simcoe, name: Simcoe, as_written: Simcoe }
+      - { hop: citra, name: Citra, as_written: Citra }
   - slug: subterranean
     name: Subterranean
     url: https://www.structuresbrewing.com/subterranean

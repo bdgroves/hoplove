@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://georgetownbeer.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-11-12'
+retrieved: '2026-11-16'
 beers:
   - slug: 0-69
     name: 0-69
@@ -1006,6 +1006,17 @@ beers:
     hops:
       - { hop: columbus, name: Columbus, as_written: Columbus }
       - { hop: cascade, name: Cascade, as_written: Cascade }
+  - slug: max-to-the-max
+    name: Max to the MAX
+    url: https://georgetownbeer.com/products/max-to-the-max
+    abv: 7.0
+    hops_as_written: Columbus, Simcoe, Chinook, Krush, Citra
+    hops:
+      - { hop: columbus, name: Columbus, as_written: Columbus }
+      - { hop: simcoe, name: Simcoe, as_written: Simcoe }
+      - { hop: chinook, name: Chinook, as_written: Chinook }
+      - { hop: krush, name: Krush, as_written: Krush }
+      - { hop: citra, name: Citra, as_written: Citra }
   - slug: oh-my-gourd-becky-look-at-her-squash
     name: Oh My Gourd, Becky, Look At Her Squash
     url: https://georgetownbeer.com/products/oh-my-gourd-becky-look-at-her-squash
