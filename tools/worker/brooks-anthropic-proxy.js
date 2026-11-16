@@ -68,7 +68,7 @@ function buildCorsHeaders(origin, allowed) {
   return {
     'Access-Control-Allow-Origin': allow,
     'Access-Control-Allow-Methods': 'POST, OPTIONS',
-    'Access-Control-Allow-Headers': 'Content-Type',
+    'Access-Control-Allow-Headers': 'Content-Type, X-HopLove-Key',
     'Access-Control-Max-Age': '86400',
     'Vary': 'Origin',
   };
@@ -632,6 +632,15 @@ export default {
 
     const url = new URL(request.url);
     const path = url.pathname.replace(/\/+$/, '') || '/';
+
+    // Recipe changes commit to the site repo, so only Brooks may make them:
+    // the pages send the owner password (the same HOPLOVE_KEY HopLove uses,
+    // remembered on his devices) in X-HopLove-Key. Added Nov 16 2026.
+    if (['/save-recipe', '/delete-recipe', '/update-recipe'].includes(path)) {
+      if (!env.HOPLOVE_KEY || request.headers.get('X-HopLove-Key') !== env.HOPLOVE_KEY) {
+        return jsonResponse({ error: 'Owner password needed (same as HopLove).', needKey: true }, 401, cors);
+      }
+    }
 
     if (path === '/save-recipe') {
       return handleSaveRecipe(request, env, cors);
