@@ -102,7 +102,14 @@ async function handleAnthropic(request, env, cors) {
         'x-api-key': env.ANTHROPIC_API_KEY,
         'anthropic-version': '2023-06-01',
       },
-      body: JSON.stringify(body),
+      // Send only the fields the pages use -- nothing else the caller adds.
+      body: JSON.stringify({
+        model: body.model,
+        max_tokens: body.max_tokens,
+        ...(body.system ? { system: body.system } : {}),
+        messages: body.messages,
+        ...(typeof body.temperature === 'number' ? { temperature: body.temperature } : {}),
+      }),
     });
     const text = await upstream.text();
     return new Response(text, {
@@ -468,23 +475,30 @@ async function handleUpdateRecipe(request, env, cors) {
 // ══ HopLove (brooksgroves.com/hoplove) ═══════════════════════════════
 // Added Sept 2026. Two jobs:
 //   * guardClaude: limits on the Claude proxy (route 1) -- only these
-//     origins, any claude-* model, replies up to 4096 tokens, 6 MB body,
-//     40 calls per visitor per day and 400 per day in total (counted in the
-//     LIMITS KV namespace; skipped if it isn't bound). The recipe routes
-//     are not limited.
+//     origins, only the models in MODELS, replies up to 4096 tokens, 6 MB
+//     body, at most 4 images and 40,000 characters of text, 40 calls per
+//     visitor per day and 100 per day in total (counted in the LIMITS KV
+//     namespace; skipped if it isn't bound). The recipe routes are not
+//     limited.
+//     Tightened Nov 16 2026, after the open tutor Worker (tiny-dawn-75f1)
+//     was used to send ~1M-token requests to Fable/Opus on the same key.
 //   * GET /hoplove/ping and POST /hoplove/save: one-tap saves from the
 //     HopLove site. They open an issue on bdgroves/hoplove with the
 //     HOPLOVE_GITHUB_TOKEN secret (Issues R+W on that repo only); the
 //     HOPLOVE_KEY secret marks a save as Brooks's.
 
 const ORIGINS = ['https://brooksgroves.com', 'https://www.brooksgroves.com', 'https://bdgroves.github.io'];
-// Any Claude model: the Nora Reader and Recipe Extractor pick their own, and
-// the per-visitor and daily caps are what hold the bill down.
-const MODEL = /^claude-[a-z0-9.-]+$/;
+// Only the models the tools use: HopLove's scan page tries Sonnet 5 then
+// Opus 4.5; the Recipe Extractor uses Opus 4.5. Add one here if a page
+// switches models. (Fable and the newest Opus cost far more per token.)
+const MODELS = ['claude-sonnet-5', 'claude-opus-4-5'];
+const MAX_TEXT = 40000; // characters of text per request (the extractor sends ~15,000)
+const MAX_IMAGES = 4; // photos per request
+const MAX_MESSAGES = 6;
 const MAX_TOKENS = 4096; // the Recipe Extractor asks for 4096
 const MAX_BODY = 6 * 1024 * 1024; // a 1400px JPEG is well under this
 const PER_VISITOR_PER_DAY = 40;
-const PER_DAY = 400; // every visitor together; roughly a few dollars at most
+const PER_DAY = 100; // every visitor together
 const REPO = 'bdgroves/hoplove';
 
 const cors = (origin) => ({
@@ -515,11 +529,28 @@ async function guardClaude(request, env) {
   if (Number(request.headers.get('Content-Length') || 0) > MAX_BODY) return json({ error: 'that image is too big' }, 413, origin);
   let body;
   try {
-    body = await request.clone().json();
+    const raw = await request.clone().text();
+    if (raw.length > MAX_BODY) return json({ error: 'that image is too big' }, 413, origin);
+    body = JSON.parse(raw);
   } catch {
     return json({ error: 'bad request' }, 400, origin);
   }
-  if (!MODEL.test(String(body.model || ''))) return json({ error: `model ${body.model} not allowed` }, 400, origin);
+  if (!MODELS.includes(String(body.model || ''))) return json({ error: `model ${body.model} not allowed` }, 400, origin);
+  const messages = Array.isArray(body.messages) ? body.messages : [];
+  if (!messages.length || messages.length > MAX_MESSAGES) return json({ error: 'bad request' }, 400, origin);
+  let textChars = typeof body.system === 'string' ? body.system.length : JSON.stringify(body.system || '').length;
+  let images = 0;
+  for (const m of messages) {
+    if (typeof m.content === 'string') { textChars += m.content.length; continue; }
+    if (!Array.isArray(m.content)) return json({ error: 'bad request' }, 400, origin);
+    for (const b of m.content) {
+      if (b && b.type === 'text') textChars += String(b.text || '').length;
+      else if (b && b.type === 'image') images++;
+      else return json({ error: 'only text and photos' }, 400, origin);
+    }
+  }
+  if (textChars > MAX_TEXT) return json({ error: 'that’s too much text' }, 413, origin);
+  if (images > MAX_IMAGES) return json({ error: 'too many photos' }, 413, origin);
   if (!(body.max_tokens > 0) || body.max_tokens > MAX_TOKENS) return json({ error: `max_tokens must be 1-${MAX_TOKENS}` }, 400, origin);
   const day = new Date().toISOString().slice(0, 10);
   const who = request.headers.get('CF-Connecting-IP') || 'unknown';
