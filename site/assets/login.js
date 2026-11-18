@@ -35,8 +35,9 @@ if (link) {
       return;
     }
     set('hoplove_me', '1');
-    // The Worker's owner key, unless a longer one was already set with ?key=.
-    if (!get('hoplove_key')) set('hoplove_key', pw.trim().toLowerCase());
+    // The login password is also the Worker's owner key (HOPLOVE_KEY), so logging in
+    // always refreshes the saved key; after a password change, logging in is enough.
+    set('hoplove_key', pw.trim().toLowerCase());
     location.reload();
   });
 }
