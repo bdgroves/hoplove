@@ -8,7 +8,7 @@
 // (or saved through the Worker with his key). A visitor who "logs in" just
 // sees forms whose saves get ignored.
 
-const HASH = '39a6f4b7c4c7b046f7c35834b69956164d05f03d171d7a450438391e6bc8b154'; // sha-256 of the password
+const HASH = '59eace9c11e09559021061d2f8dd79c8d7b7a63b96e912f16f2b9a6889d071b2'; // sha-256 of the password
 
 const get = (k) => { try { return localStorage.getItem(k); } catch { return null; } };
 const set = (k, v) => { try { v == null ? localStorage.removeItem(k) : localStorage.setItem(k, v); } catch { /* private mode */ } };
