@@ -5,14 +5,8 @@ brewery:
   state: WA
   url: https://www.fremontbrewing.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-11-16'
+retrieved: '2026-11-19'
 beers:
-  - slug: field-to-ferment
-    name: Field to Ferment
-    url: https://www.fremontbrewing.com/
-    hops_as_written: Fresh Centennial
-    hops:
-      - { hop: centennial, name: Centennial, fresh: true, as_written: Fresh Centennial }
   - slug: fresh-hop-lager
     name: Fresh Hop Lager
     url: https://www.fremontbrewing.com/

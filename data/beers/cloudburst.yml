@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://cloudburstbrew.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-11-16'
+retrieved: '2026-11-19'
 beers:
   - slug: the-white-lotus-theme-song
     name: (The White Lotus Theme Song)
@@ -1940,6 +1940,15 @@ beers:
       - { hop: zappa, name: Zappa, as_written: Zappa }
       - { hop: citra, name: Citra, as_written: Citra }
       - { hop: mosaic, name: Mosaic, as_written: Mosaic }
+  - slug: paloma-drift-ipa
+    name: Paloma Drift IPA
+    url: https://www.cloudburstbrew.com/beer/paloma-drift-ipa/
+    abv: 6.8
+    hops_as_written: ' Paloma Drift IPA IPA | 6.8% ABV | 54 IBU This IPA is an ode to citrus. Like, ALL of the citrus. We start the serenade with notes of key lime and meyer lemon, thanks to some choice Motueka hops. Then we move into some sharper, bitter lemon pith and white grapefruit, along with a touch of blood orange, thanks to multiple lots of Cascade. And finally, some tangerine and mandarin from…you know thi...'
+    hops:
+      - { hop: motueka, name: Motueka, as_written: Motueka }
+      - { hop: cascade, name: Cascade, as_written: Cascade }
+      - { hop: citra, name: Citra, as_written: Citra }
   - slug: paradise-meadows-ipa
     name: Paradise Meadows IPA
     url: https://www.cloudburstbrew.com/beer/paradise-meadows-ipa/

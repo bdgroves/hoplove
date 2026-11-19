@@ -5,7 +5,7 @@ brewery:
   state: WA
   url: https://georgetownbeer.com/
 generated_by: tools/ingest/beers.py from the brewery's own beer pages -- do not edit by hand
-retrieved: '2026-11-16'
+retrieved: '2026-11-19'
 beers:
   - slug: 0-69
     name: 0-69
@@ -843,6 +843,13 @@ beers:
     hops:
       - { hop: mosaic, name: Mosaic, as_written: Mosaic }
       - { hop: summit, name: Summit, as_written: Summit }
+  - slug: dijons-last-stand
+    name: Dijon's Last Stand
+    url: https://georgetownbeer.com/products/dijons-last-stand
+    abv: 8.2
+    hops_as_written: Sterling
+    hops:
+      - { hop: sterling, name: Sterling, as_written: Sterling }
   - slug: dogtown
     name: DogTown
     url: https://georgetownbeer.com/products/dogtown
@@ -1074,3 +1081,13 @@ beers:
     hops:
       - { hop: columbus, name: Columbus, as_written: Columbus }
       - { hop: citra, name: Citra, as_written: Citra }
+  - slug: thomas-the-dank-engine
+    name: Thomas the Dank Engine
+    url: https://georgetownbeer.com/products/thomas-the-dank-engine
+    abv: 6.9
+    hops_as_written: Columbus, Strata, Cascade, Mosaic
+    hops:
+      - { hop: columbus, name: Columbus, as_written: Columbus }
+      - { hop: strata, name: Strata, as_written: Strata }
+      - { hop: cascade, name: Cascade, as_written: Cascade }
+      - { hop: mosaic, name: Mosaic, as_written: Mosaic }
