@@ -1,5 +1,12 @@
 source: Untappd, via https://brooksgroves.com/beers.json (tools/ingest/untappd.py) -- do not edit by hand
 checkins:
+  - id: 1616161869
+    date: '2026-11-19'
+    beer: Fortress Imperial Hazy IPA
+    brewery: Icicle Brewing Company
+    venue: W Seattle
+    comment: This one ok in the English pint size and amazing after a long day of calculating big data stuff. 📊🍺🤙
+    link: https://untappd.com/user/bdgroves/checkin/1616161869
   - id: 1615572912
     date: '2026-11-15'
     beer: Cabin Fever
